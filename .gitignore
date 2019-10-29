@@ -1,7 +1,3 @@
-/astralsorcery/
-/logs/
-/mods/
-/saves/
 /botaniavars.dat
 /crafttweaker.log
 /knownkeys.txt
@@ -9,6 +5,12 @@
 /patchouli_data.json
 /usercache.json
 /usernamecache.json
+/astralsorcery/
+/config/splash.properties
+/config/jei/worldSettings.cfg
+/logs/
+/mods/
+/saves/
 
 # Curse
 /minecraftinstance.json
