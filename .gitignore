@@ -1,0 +1,14 @@
+/astralsorcery/
+/logs/
+/mods/
+/saves/
+/botaniavars.dat
+/crafttweaker.log
+/knownkeys.txt
+/options.txt
+/patchouli_data.json
+/usercache.json
+/usernamecache.json
+
+# Curse
+/minecraftinstance.json
