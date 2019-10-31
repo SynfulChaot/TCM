@@ -9,7 +9,7 @@ key_key.sneak:42:NONE
 key_key.sprint:29:NONE
 key_key.drop:16:NONE
 key_key.inventory:18:NONE
-key_key.chat:20:NONE
+key_key.chat:28:NONE
 key_key.playerlist:15:NONE
 key_key.pickItem:-98:NONE
 key_key.command:53:NONE
