@@ -11,6 +11,7 @@
 /logs/
 /mods/
 /saves/
+/.mixin.out/
 
 # Curse
 /minecraftinstance.json
