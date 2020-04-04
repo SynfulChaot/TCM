@@ -1,0 +1,139 @@
+{
+	"populate": {
+		"marble": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "astralsorcery:blockmarble",
+					"properties": {
+						"marbletype": "raw"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 4,
+			"min-height": 12,
+			"max-height": 60,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"chalk": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "earthworks:block_chalk",
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 3,
+			"min-height": 48,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"slate-blue": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "earthworks:block_slate",
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"slate-purple": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "earthworks:block_slate_purple",
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"slate-green": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "earthworks:block_slate_green",
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"jasper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quark:jasper",
+					"properties": {
+						"variant": "stone_jasper"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
