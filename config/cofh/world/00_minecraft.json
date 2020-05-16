@@ -36,10 +36,9 @@
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -83,10 +82,9 @@
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -109,10 +107,9 @@
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -135,10 +132,9 @@
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -380,10 +376,9 @@
 				]
 			},
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
