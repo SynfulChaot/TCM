@@ -173,27 +173,6 @@
 			}
 		},
 
-		"quartz_overworld": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "thaumcraft:ore_quartz",
-				"material": "minecraft:stone",
-				"cluster-size": 1
-			},
-			"cluster-count": 16,
-			"min-height": 0,
-			"max-height": 64,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0,
-					7
-				]
-			}
-		},
-
 		"cinnabar": {
 			"distribution": "uniform",
 			"generator": {
@@ -231,6 +210,47 @@
 				"restriction": "whitelist",
 				"value": [
 					0,
+					7
+				]
+			}
+		},
+
+		"quartz_overworld": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "thaumcraft:ore_quartz",
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 16,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7
+				]
+			}
+		},
+
+		"emerald_twilightforest": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "emerald_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 2,
+			"min-height": 4,
+			"max-height": 28,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
 					7
 				]
 			}
