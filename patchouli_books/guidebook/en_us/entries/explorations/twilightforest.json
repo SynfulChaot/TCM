@@ -1,0 +1,61 @@
+{
+    "name": "Getting to the Twilight Forest",
+    "icon": "minecraft:grass",
+    "category": "explorations",
+    "pages": [
+		{
+			"type": "text",
+			"text": "<insert description here>"
+		},
+		{
+        	"type": "multiblock",
+        	"name": "A Twilight Portal",
+        	"multiblock": {
+				"pattern": [
+					[ " FF ", "F  F", "F  F", " FF " ],
+					[ " GG ", "G0WG", "GWWG", " GG " ]
+				],
+				"mapping": {
+					" ": "ANY",
+					"F": "minecraft:red_flower[type=houstonia]",
+					"G": "minecraft:grass",
+					"W": "minecraft:water",
+					"0": "minecraft:water"
+				},
+				"symmetrical": true,
+				"offset"     : [0, 1, 0],
+				"view_offset": [0, 0, 0]
+    		},
+			"text": "You can use any kind of flower here.  Make it pretty!",
+			"enable_visualize": false
+		},
+		{
+			"type": "spotlight",
+			"title": "Activate it!",
+			"item": "minecraft:diamond",
+			"text": "Toss a Diamond in the pool and you'll open a portal to the Twilight Forest.  Don't get lost!"
+		},
+		{
+        	"type": "multiblock",
+        	"name": "A Finished Twilight Portal",
+        	"multiblock": {
+				"pattern": [
+					[ " FF ", "F  F", "F  F", " FF " ],
+					[ " GG ", "G0PG", "GPPG", " GG " ]
+				],
+				"mapping": {
+					" ": "ANY",
+					"F": "minecraft:red_flower[type=houstonia]",
+					"G": "minecraft:grass",
+					"P": "twilightforest:twilight_portal",
+					"0": "twilightforest:twilight_portal"
+				},
+				"symmetrical": true,
+				"offset"     : [0, 1, 0],
+				"view_offset": [0, 0, 0]
+    		},
+			"text": "You can use any kind of flower here.  Make it pretty!",
+			"enable_visualize": false
+		}
+    ]
+}

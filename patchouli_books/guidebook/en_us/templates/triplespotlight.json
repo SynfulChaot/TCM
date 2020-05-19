@@ -1,0 +1,11 @@
+{
+            "include": [
+                {
+                    "template": "PageSpotlight",
+                    "as": "spotlightt1",
+                    "using": {
+                        "item": "#item1"
+                    }
+                }
+            ]
+}

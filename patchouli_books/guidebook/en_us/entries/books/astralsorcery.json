@@ -1,0 +1,16 @@
+{
+    "name": "Astral Sorcery",
+    "icon": "astralsorcery:itemjournal",
+    "category": "books",
+    "pages": [
+        {
+            "type": "text",
+            "text": "<insert description here>"
+        },
+        {
+            "type": "crafting",
+            "recipe": "astralsorcery:shaped/journal",
+            "recipe2": "astralsorcery:shaped/cc_parchment"
+        }
+    ]
+}

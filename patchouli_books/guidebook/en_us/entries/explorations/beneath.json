@@ -1,0 +1,16 @@
+{
+    "name": "Getting to the Beneath",
+    "icon": "beneath:teleporterbeneath",
+    "category": "explorations",
+    "pages": [
+		{
+			"type": "text",
+			"text": "The Beneath is a dimension ..."
+		},
+		{
+            "type": "crafting",
+			"recipe": "crafttweaker:teleporterbeneath",
+			"text": "The portal to the Beneath must be crafted with a Fortune-enchanted Golden Pickaxe surrounded by Obsidian.  Once you have done so simply place it into the world and interact with it.$(br2)Good luck!"
+        }
+    ]
+}

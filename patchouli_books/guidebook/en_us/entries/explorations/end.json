@@ -1,0 +1,62 @@
+{
+    "name": "Getting to the End",
+    "icon": "minecraft:end_stone",
+    "category": "explorations",
+    "pages": [
+		{
+			"type": "text",
+			"text": "<insert description here>"
+		},
+		{
+            "type": "crafting",
+			"recipe": "minecraft:ender_eye",
+			"text": ""
+        },
+		{
+        	"type": "multiblock",
+        	"name": "An End Portal",
+        	"multiblock": {
+				"pattern": [ [
+					"  NNN  ",
+					" W   E ",
+					" W 0 E ",
+					" W   E ",
+					"  SSS  "
+				] ],
+				"mapping": {
+					" ": "ANY",
+					"N": "minecraft:end_portal_frame[facing=south]",
+					"S": "minecraft:end_portal_frame[facing=north]",
+					"E": "minecraft:end_portal_frame[facing=west]",
+					"W": "minecraft:end_portal_frame[facing=east]"
+				},
+				"symmetrical": true
+    		},
+			"enable_visualize": false
+		},
+		{
+        	"type": "multiblock",
+        	"name": "A Finished End Portal",
+        	"multiblock": {
+				"pattern": [ [
+					"  NNN  ",
+					" WPPPE ",
+					" WP0PE ",
+					" WPPPE ",
+					"  SSS  "
+				] ],
+				"mapping": {
+					" ": "ANY",
+					"0": "minecraft:end_portal",
+					"P": "minecraft:end_portal",
+					"N": "minecraft:end_portal_frame[eye=true,facing=south]",
+					"S": "minecraft:end_portal_frame[eye=true,facing=north]",
+					"E": "minecraft:end_portal_frame[eye=true,facing=west]",
+					"W": "minecraft:end_portal_frame[eye=true,facing=east]"
+				},
+				"symmetrical": true
+    		},
+			"enable_visualize": false
+		}
+    ]
+}

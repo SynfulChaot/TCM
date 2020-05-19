@@ -1,0 +1,16 @@
+{
+    "name": "Moving your stuff",
+    "icon": "packingtape:tape",
+    "category": "items",
+    "pages": [
+        {
+            "type": "text",
+            "text": "When moving stuff around you might find there are a few things that can't be moved without losing their contents."
+        },
+        {
+            "type": "crafting",
+            "recipe": "packingtape:packingtape",
+            "text": "Packing Tape can be used to move most blocks from one place to another, contents included.  Just make sure you carry enough paper with you to wrap your block properly."
+        }
+    ]
+}

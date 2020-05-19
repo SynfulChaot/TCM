@@ -1,0 +1,12 @@
+{
+    "name": "Seasons",
+    "icon": "sereneseasons:ss_icon",
+    "category": "explorations",
+    "sortnum": -2,
+    "pages": [
+		{
+			"type": "text",
+			"text": "<insert description here>"
+		}
+    ]
+}

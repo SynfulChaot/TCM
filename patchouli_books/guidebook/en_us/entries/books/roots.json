@@ -1,0 +1,16 @@
+{
+    "name": "Roots",
+    "icon": "rootsclassic:runedtablet",
+    "category": "books",
+    "pages": [
+        {
+            "type": "text",
+            "text": "<insert description here>"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rootsclassic:item.runedtablet",
+            "text": "Like Seeds, Old Root can be found by breaking tall grass."
+        }
+    ]
+}

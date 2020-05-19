@@ -1,0 +1,17 @@
+{
+    "name": "Seeing where you are",
+    "icon": "antiqueatlas:antique_atlas",
+    "category": "items",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Exploring is always easier when you can tell when you are, but maps are just not useful enough as you have to need to keep them in your hand to view them."
+        },
+        {
+            "type": "crafting",
+            "recipe": "antiqueatlas:atlas_blank",
+            "title": "Antique Atlas",
+            "text": "The Antique Atlas, once opened and somewhere in your hotbar, will appear in the corner of your screen so you can explore with both hands free."
+        }
+    ]
+}

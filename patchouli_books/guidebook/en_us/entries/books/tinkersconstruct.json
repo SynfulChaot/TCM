@@ -1,0 +1,16 @@
+{
+    "name": "Tinkers' Construct",
+    "icon": "tconstruct:book",
+    "category": "books",
+    "pages": [
+        {
+            "type": "text",
+            "text": "<insert description here>"
+        },
+        {
+            "type": "crafting",
+            "recipe": "tconstruct:common/book",
+            "recipe2": "tconstruct:tools/pattern"
+        }
+    ]
+}

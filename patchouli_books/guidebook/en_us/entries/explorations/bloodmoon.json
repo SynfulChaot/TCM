@@ -1,0 +1,12 @@
+{
+    "name": "Blood Moons",
+    "icon": "tconstruct:edible:3",
+    "category": "explorations",
+    "sortnum": -1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "<insert description here>"
+        }
+    ]
+}

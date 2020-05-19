@@ -1,0 +1,15 @@
+{
+    "name": "Immersive Engineering",
+    "icon": "immersiveengineering:tool:3",
+    "category": "books",
+    "pages": [
+        {
+            "type": "text",
+            "text": "<insert description here>"
+        },
+        {
+            "type": "crafting",
+            "recipe": "immersiveengineering:tool/manual"
+        }
+    ]
+}

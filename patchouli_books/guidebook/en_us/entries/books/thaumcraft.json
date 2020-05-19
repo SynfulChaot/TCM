@@ -1,0 +1,40 @@
+{
+    "name": "Thaumcraft",
+    "icon": "thaumcraft:thaumonomicon",
+    "category": "books",
+    "pages": [
+        {
+            "type": "text",
+            "text": "<insert description here>"
+        },
+        {
+			"type": "spotlight",
+            "item": "thaumcraft:thaumonomicon",
+            "text": "The Thaumonicon cannot be simply crafted ... one must first discover the method for doing so.  While you're out mining you may run across clusters of brightly-coloured crystals growing out of the nearby stone.  When you harvest these crystals for the first time you may get a strange message suggesting that rest will inspire you ..."
+        },
+        {
+			"type": "spotlight",
+            "item": "thaumcraft:crystal_aer"
+        },
+        {
+			"type": "spotlight",
+            "item": "thaumcraft:crystal_ignis"
+        },
+        {
+			"type": "spotlight",
+            "item": "thaumcraft:crystal_aqua"
+        },
+        {
+			"type": "spotlight",
+            "item": "thaumcraft:crystal_terra"
+        },
+        {
+			"type": "spotlight",
+            "item": "thaumcraft:crystal_aer"
+        },
+        {
+			"type": "spotlight",
+            "item": "thaumcraft:crystal_perditio"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Getting to the Nether",
+    "icon": "minecraft:nether_brick",
+    "category": "explorations",
+    "pages": [
+        {
+			"type": "text",
+			"text": "<insert description here>"
+		},
+        {
+            "type": "multiblock",
+            "name": "Nether Portal!",
+            "text": "This portal frame can be any size but this is the minimum size required.",
+            "enable_visualize": false,
+            "multiblock": {
+                "pattern": [
+                    [ " OO " ],
+                    [ "OPPO" ],
+                    [ "OPPO" ],
+                    [ "OPPO" ],
+                    [ " O0 " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "minecraft:obsidian",
+                    "O": "minecraft:obsidian",
+                    "P": "AIR"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            }
+        }, 
+        {
+            "type": "spotlight",
+            "title": "Light it up!",
+            "text": "Just set a top face of one of two bottom obsidian blocks on fire and BOOM! you got yourself a ticket to hell!",
+            "item": "minecraft:flint_and_steel"
+        },
+		{
+			"type": "multiblock",
+			"name": "The Result!",
+			"enable_visualize": false,
+			"multiblock": {
+				"pattern": [
+					[ " OO " ],
+					[ "OPPO" ],
+					[ "OPPO" ],
+					[ "OPPO" ],
+					[ " O0 " ]
+				],
+				"mapping": {
+					" ": "ANY",
+					"0": "minecraft:obsidian",
+					"O": "minecraft:obsidian",
+					"P": "minecraft:portal[axis=z]"
+			},
+			"symmetrical": true,
+			"offset"     : [0, 0, 0],
+			"view_offset": [0, 0, 0]
+			}
+		}
+	]
+}

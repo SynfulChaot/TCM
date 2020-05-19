@@ -1,0 +1,11 @@
+{
+    "components": [
+        {
+            "type": "item",
+            "item": "#item",
+            "framed": true,
+            "x": 5,
+            "y": 5
+        }
+    ]
+}

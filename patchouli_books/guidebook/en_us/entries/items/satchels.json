@@ -1,0 +1,36 @@
+{
+    "name": "Carrying more stuff",
+    "icon": "vanillasatchels:satchel",
+    "category": "items",
+    "pages": [
+        {
+            "type": "text",
+            "text": "As your travels continue you just might find that 36 items just isn't enough ... especially if you spend much time mining."
+        },
+        {
+            "type": "crafting",
+            "recipe": "vanillasatchels:satchel",
+            "text": "Satchels can carry up to 9 items and can be configured to automatically stash certain items as you pick them up.$(br2)The satchel can be upgraded several times, gaining an additional capacity of 9 with each upgrade."
+        },
+        {
+            "type": "crafting",
+            "recipe": "vanillasatchels:satchel_1",
+            "recipe2": "vanillasatchels:satchel_2"
+        },
+        {
+            "type": "crafting",
+            "recipe": "vanillasatchels:satchel_3",
+            "recipe2": "vanillasatchels:satchel_4"
+        },
+        {
+            "type": "spotlight",
+            "title": "Dyeing",
+            "text": "Satchels have an additional feature ... the ability to dye them whatever colour you like.  Two colours, actually.$(br2)All you need to do is place your satchel in a crafting table with a dye both above and below it.",
+            "item": "vanillasatchels:satchel{Color1:11691749,Color0:5000268}"
+        },
+        {
+            "type": "empty",
+            "draw_filler": false
+        }
+    ]
+}

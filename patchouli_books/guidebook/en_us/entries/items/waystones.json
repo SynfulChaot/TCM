@@ -1,0 +1,36 @@
+{
+    "name": "Getting around quickly",
+    "icon": "waystones:warp_stone",
+    "category": "items",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Sometimes it can be inconvenient to travel long distances by foot, especially if you've been somewhere before."
+        },
+        {
+            "type": "crafting",
+            "recipe": "waystones:waystone",
+            "text": "Waystones, once crafted and placed in the world, are beacons to which you can instantly travel.  Once you attune to a waystone, irregardless of who crafted it, it is added to your network."
+        },
+        {
+            "type": "crafting",
+            "recipe": "waystones:warp_stone",
+            "text": "Not just a component in the creation of a waystone, Warp Stones can be used to quickly return to any waystone to which you have attuned.$(br2)There's just one catch: it can only be used once every$(br)   twenty minutes."
+        },
+        {
+            "type": "crafting",
+            "recipe": "waystones:return_scroll",
+            "text": "If you're in a bit more of a hurry, a return scroll can be used to instantly return to the last waystone to which you've attuned.$(br2) $(br)One-use item"
+        },
+        {
+            "type": "crafting",
+            "recipe": "waystones:bound_scroll",
+            "text": "An alternate version of the Return Scroll, the Bound Scroll will instead return you to the waystone to which its bound.$(br2) $(br2)One-use item"
+        },
+        {
+            "type": "crafting",
+            "recipe": "waystones:warp_scroll",
+            "text": "Like the Warp Stone, the Warp Scroll will instantly return to you to any waystone to which you have attuned.$(br2) $(br2)One-use item"
+        }
+    ]
+}

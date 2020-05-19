@@ -1,0 +1,15 @@
+{
+    "name": "The C'ube Mysterium",
+    "icon": "patchouli:guide_book{'patchouli:book':'patchouli:guidebook'}",
+    "category": "books",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Wait a minute, isn't this just this book you're reading right now?$(br2)Yes, yes it is."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:guidebook"
+        }
+    ]
+}
