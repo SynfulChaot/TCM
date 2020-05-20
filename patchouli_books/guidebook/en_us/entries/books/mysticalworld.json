@@ -1,6 +1,6 @@
 {
-    "name": "Tinkers' Construct",
-    "icon": "tconstruct:book",
+    "name": "Mystical World",
+    "icon": "patchouli:guide_book{'patchouli:book':'mysticalworld:world_guide'}",
     "category": "books",
     "pages": [
         {
@@ -9,8 +9,8 @@
         },
         {
             "type": "crafting",
-            "recipe": "tconstruct:common/book",
-            "recipe2": "tconstruct:tools/pattern"
+            "recipe": "mysticalworld:guide",
+            "text": "<insert text here>"
         }
     ]
 }

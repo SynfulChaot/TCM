@@ -1,6 +1,6 @@
 {
     "name": "Roots",
-    "icon": "rootsclassic:runedtablet",
+    "icon": "patchouli:guide_book{'patchouli:book':'roots:roots_guide'}",
     "category": "books",
     "pages": [
         {
@@ -9,7 +9,7 @@
         },
         {
             "type": "crafting",
-            "recipe": "rootsclassic:item.runedtablet",
+            "recipe": "roots:guide",
             "text": "Like Seeds, Old Root can be found by breaking tall grass."
         }
     ]
