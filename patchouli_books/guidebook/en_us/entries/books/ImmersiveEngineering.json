@@ -5,11 +5,12 @@
     "pages": [
         {
             "type": "text",
-            "text": "<insert description here>"
+            "text": "Immersive Engineering is a tech mod built around the concept of retrofuturistic generation and transfer of energy.$(br2)Generate power from waterwheels or create diesel from plants! Craft yourself a revolver, a flamethrower, or even a railgun!$(br2)Automate EVERYTHING!"
         },
         {
             "type": "crafting",
-            "recipe": "immersiveengineering:tool/manual"
+            "recipe": "immersiveengineering:tool/manual",
+            "text": "The Engineer's Manual will serve as your guide for setting up all the new machines and functions this mod has to offer.$(br2)It can be crafted with a book and a lever."
         }
     ]
 }
