@@ -5,11 +5,12 @@
     "pages": [
         {
             "type": "text",
-            "text": "<insert description here>"
+            "text": "Botania is a tech mod themed around natural magic. The main concept is to create magical flowers and devices utilizing the power of the earth, in the form of Mana."
         },
         {
             "type": "crafting",
-            "recipe": "botania:lexicon"
+            "recipe": "botania:lexicon",
+            "text": "The Lexica Botania is the repository of all knowledge for all botanical matters.$(br2)It can be crafted with a book and any sapling."
         }
     ]
 }
