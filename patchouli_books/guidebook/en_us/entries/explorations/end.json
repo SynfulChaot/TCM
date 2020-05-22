@@ -1,7 +1,7 @@
 {
     "name": "Getting to the End",
     "icon": "minecraft:end_stone",
-    "category": "explorations",
+    "category": "patchouli:explorations",
     "pages": [
 		{
 			"type": "text",

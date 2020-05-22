@@ -1,7 +1,7 @@
 {
     "name": "Getting around quickly",
     "icon": "waystones:warp_stone",
-    "category": "items",
+    "category": "patchouli:items",
     "pages": [
         {
             "type": "text",

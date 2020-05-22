@@ -1,7 +1,7 @@
 {
     "name": "Roots",
     "icon": "patchouli:guide_book{'patchouli:book':'roots:roots_guide'}",
-    "category": "books",
+    "category": "patchouli:books",
     "pages": [
         {
             "type": "text",

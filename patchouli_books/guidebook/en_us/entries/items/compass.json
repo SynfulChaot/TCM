@@ -1,7 +1,7 @@
 {
     "name": "Finding out more",
-    "icon": "naturescompass:naturescompass",
-    "category": "items",
+    "icon": "minecraft:compass",
+    "category": "patchouli:items",
     "pages": [
         {
             "type": "text",
@@ -13,14 +13,15 @@
             "text": "When in the Overworld, this compass will always point towards the origin.$(br2)When in the Nether, this compass will always point towards the Nether Portal from which you entered."
         },
         {
-            "type": "crafting",
-            "recipe": "inspirations:tools/north_compass",
-            "text": "Unlike the normal compass, this one does exactly what you expect a compass to do ... tell you which direction is north."
+			"type": "spotlight",
+			"title": "Bound Compass",
+			"item": "charm:bound_compass",
+			"text": "This compass will always point towards the beacon it's bound to.$(br2)A bound compass can be acquired by right clicking an active beacon with a compass."
         },
         {
             "type": "crafting",
-            "recipe": "naturescompass:natures_compass",
-            "text": "A unique compass indeed, this one will always point you in the direction of the nearest specified biome."
+            "recipe": "inspirations:tools/north_compass",
+            "text": "Unlike the normal compass, this one does exactly what you expect a compass to do ... tell you which direction is north."
         },
         {
             "type": "crafting",
@@ -31,15 +32,6 @@
             "type": "crafting",
             "recipe": "sereneseasons:season_clock",
             "text": "This handy 'clock' lets you know not what time it is but what season it is.  Useful for farming."
-        },
-        {
-            "type": "crafting",
-            "recipe": "inspirations:tools/barometer",
-            "text": "The barometer tells you your approximate altitude.  The higher the fluid level, the lower altitude you're at."
-        },
-        {
-            "type": "empty",
-            "draw_filler": false
         }
     ]
 }

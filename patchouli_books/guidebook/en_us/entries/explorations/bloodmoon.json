@@ -1,7 +1,7 @@
 {
     "name": "Blood Moons",
     "icon": "tconstruct:edible:3",
-    "category": "explorations",
+    "category": "patchouli:explorations",
     "sortnum": -1,
     "pages": [
         {

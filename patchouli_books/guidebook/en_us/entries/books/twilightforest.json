@@ -1,7 +1,7 @@
 {
     "name": "Twilight Forest",
     "icon": "patchouli:guide_book{'patchouli:book':'twilightforest:guide'}",
-    "category": "books",
+    "category": "patchouli:books",
     "pages": [
         {
             "type": "text",

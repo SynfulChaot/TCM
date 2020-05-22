@@ -1,12 +1,11 @@
 {
     "name": "Seasons",
     "icon": "sereneseasons:ss_icon",
-    "category": "explorations",
-    "sortnum": -2,
+    "category": "patchouli:explorations",
     "pages": [
-		{
-			"type": "text",
-			"text": "<insert description here>"
-		}
+        {
+            "type": "text",
+            "text": "<insert description here>"
+        }
     ]
 }

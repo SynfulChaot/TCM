@@ -1,7 +1,7 @@
 {
     "name": "Getting to the Twilight Forest",
     "icon": "minecraft:grass",
-    "category": "explorations",
+    "category": "patchouli:explorations",
     "pages": [
 		{
 			"type": "text",

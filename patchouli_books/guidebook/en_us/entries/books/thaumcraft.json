@@ -1,7 +1,7 @@
 {
     "name": "Thaumcraft",
     "icon": "thaumcraft:thaumonomicon",
-    "category": "books",
+    "category": "patchouli:books",
     "pages": [
         {
             "type": "text",

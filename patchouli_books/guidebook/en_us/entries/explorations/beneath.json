@@ -1,7 +1,7 @@
 {
     "name": "Getting to the Beneath",
     "icon": "beneath:teleporterbeneath",
-    "category": "explorations",
+    "category": "patchouli:explorations",
     "pages": [
 		{
 			"type": "text",

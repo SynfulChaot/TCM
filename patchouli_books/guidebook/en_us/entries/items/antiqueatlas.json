@@ -1,7 +1,7 @@
 {
     "name": "Seeing where you are",
     "icon": "antiqueatlas:antique_atlas",
-    "category": "items",
+    "category": "patchouli:items",
     "pages": [
         {
             "type": "text",

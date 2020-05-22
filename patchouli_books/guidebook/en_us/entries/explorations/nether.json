@@ -1,7 +1,7 @@
 {
     "name": "Getting to the Nether",
     "icon": "minecraft:nether_brick",
-    "category": "explorations",
+    "category": "patchouli:explorations",
     "pages": [
         {
 			"type": "text",

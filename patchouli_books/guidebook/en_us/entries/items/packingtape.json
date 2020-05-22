@@ -1,7 +1,7 @@
 {
     "name": "Moving your stuff",
     "icon": "packingtape:tape",
-    "category": "items",
+    "category": "patchouli:items",
     "pages": [
         {
             "type": "text",
