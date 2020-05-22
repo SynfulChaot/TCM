@@ -5,12 +5,22 @@
     "pages": [
         {
             "type": "text",
-            "text": "<insert description here>"
+            "text": "Roots is a mod about discovering the natural, wild magic of the world. There are points where the Fey world can bleed over into our world, and these can be taken advantage of for crafting, for rituals, for spells, and maybe even more! Discover forgotten herbs, rituals, and spells that bring tremendous power and utility."
         },
         {
             "type": "crafting",
             "recipe": "roots:guide",
-            "text": "Like Seeds, Old Root can be found by breaking tall grass."
+            "text": "The art of druidism takes many forms. This book is a compilation of all known information on the different ways the natural world can be interacted with, and how to come to a mutually beneficial relationship with it."
+        },
+        {
+            "type": "spotlight",
+            "title": "Wildroot",
+            "text": "Wildroot is most commonly found while breaking grass in grasslands and fields.",
+            "item": "roots:wildroot"
+        },
+        {
+            "type": "empty",
+            "draw_filler": false
         }
     ]
 }
