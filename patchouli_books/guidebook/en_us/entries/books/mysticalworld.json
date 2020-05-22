@@ -5,12 +5,24 @@
     "pages": [
         {
             "type": "text",
-            "text": "<insert description here>"
+            "text": "Mystical World does just that, make the world just a bit more mystical. Expect to see some new wild creatures as you wander about, as well as some new resources.$(br2)If you want to find out more, get yourself the book!"
         },
         {
             "type": "crafting",
             "recipe": "mysticalworld:guide",
-            "text": "<insert text here>"
+            "text": "It's a very mysterious world out there! This book will grant you some insight into many of the mysterious and mystical things you might come across"
+        },
+        {
+            "type": "spotlight",
+            "title": "Aubergine Seed",
+            "text": "Aubergine seeds can be found throughout the world, wherever there is grass that can be broken.",
+            "item": "mysticalworld:aubergine_seed"
+        },
+        {
+            "type": "spotlight",
+            "title": "Aubergine Crop",
+            "text": "When harvested as a mature crop, aubergines are a tasty, delicious snack that can be used in other cuisine!$(br2)One is also required to craft the Encyclopædia Mysticum.",
+            "item": "mysticalworld:aubergine"
         }
     ]
 }
