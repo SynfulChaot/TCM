@@ -5,12 +5,12 @@
     "pages": [
 		{
 			"type": "text",
-			"text": "The Beneath is a dimension ..."
+			"text": "The Beneath is a pitch-black dimension full of dangerous monsters and infested with silverfish.  For those brave enough to risk it they will find a lucrative amount of ore.$(br2)Just remember that the light is your friend and the dark will hurt you ... literally."
 		},
 		{
             "type": "crafting",
-			"recipe": "crafttweaker:teleporterbeneath",
-			"text": "The portal to the Beneath must be crafted with a Fortune-enchanted Golden Pickaxe surrounded by Obsidian.  Once you have done so simply place it into the world and interact with it.$(br2)Good luck!"
+			"recipe": "beneath:beneath_teleporter",
+			"text": "Good luck!"
         }
     ]
 }
