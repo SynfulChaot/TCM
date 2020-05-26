@@ -82,10 +82,10 @@
 				"block": {
 					"name": "immersiveengineering:ore",
 					"properties": {
-						"type": "copper"
+						"type": "silver"
 					}
 				},
-				"material": "minecraft:silver",
+				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
 			"cluster-count": 4,
