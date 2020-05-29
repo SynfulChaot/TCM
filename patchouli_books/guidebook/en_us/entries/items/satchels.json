@@ -23,14 +23,25 @@
             "recipe2": "vanillasatchels:satchel_4"
         },
         {
+            "type": "crafting",
+            "recipe": "vanillasatchels:satchel_5",
+            "text": "This is a unique type of satchel.  Anything placed within disappears ... permanently.$(br2)Use with caution."
+        },
+        {
             "type": "spotlight",
             "title": "Dyeing",
             "text": "Satchels have an additional feature ... the ability to dye them whatever colour you like.  Two colours, actually.$(br2)All you need to do is place your satchel in a crafting table with a dye both above and below it.",
             "item": "vanillasatchels:satchel{Color1:11691749,Color0:5000268}"
         },
         {
-            "type": "empty",
-            "draw_filler": false
+            "type": "crafting",
+            "recipe": "roots:component_pouch",
+            "text": "A must have for any practicing druid, the Component Pouch can not only carry the herbs needed for your spells but also anything else you can fit within.$(br2)More information can be found within $(l:books/roots)The Druidic Arts$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "immersiveengineering:tool/toolbox",
+            "text": "A must have for the budding engineer, the Toolbox has slots dedicated to your tools of the trade, as well as various components, food, and more.$(br2)More information can be found within the $(l:books/ImmersiveEngineering)Engineer's Manual$(/l)."
         }
     ]
 }
