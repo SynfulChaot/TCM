@@ -1,61 +1,16 @@
 {
-    "name": "Getting to the Twilight Forest",
+    "name": "The Twilight Forest",
     "icon": "minecraft:grass",
     "category": "patchouli:explorations",
     "pages": [
 		{
-			"type": "text",
-			"text": "<insert description here>"
-		},
-		{
-        	"type": "multiblock",
-        	"name": "A Twilight Portal",
-        	"multiblock": {
-				"pattern": [
-					[ " FF ", "F  F", "F  F", " FF " ],
-					[ " GG ", "G0WG", "GWWG", " GG " ]
-				],
-				"mapping": {
-					" ": "ANY",
-					"F": "minecraft:red_flower[type=houstonia]",
-					"G": "minecraft:grass",
-					"W": "minecraft:water",
-					"0": "minecraft:water"
-				},
-				"symmetrical": true,
-				"offset"     : [0, 1, 0],
-				"view_offset": [0, 0, 0]
-    		},
-			"text": "You can use any kind of flower here.  Make it pretty!",
-			"enable_visualize": false
-		},
-		{
-			"type": "spotlight",
-			"title": "Activate it!",
-			"item": "minecraft:diamond",
-			"text": "Toss a Diamond in the pool and you'll open a portal to the Twilight Forest.  Don't get lost!"
-		},
-		{
-        	"type": "multiblock",
-        	"name": "A Finished Twilight Portal",
-        	"multiblock": {
-				"pattern": [
-					[ " FF ", "F  F", "F  F", " FF " ],
-					[ " GG ", "G0PG", "GPPG", " GG " ]
-				],
-				"mapping": {
-					" ": "ANY",
-					"F": "minecraft:red_flower[type=houstonia]",
-					"G": "minecraft:grass",
-					"P": "twilightforest:twilight_portal",
-					"0": "twilightforest:twilight_portal"
-				},
-				"symmetrical": true,
-				"offset"     : [0, 1, 0],
-				"view_offset": [0, 0, 0]
-    		},
-			"text": "You can use any kind of flower here.  Make it pretty!",
-			"enable_visualize": false
-		}
+            "type": "text",
+            "text": "\"Imagine stepping through a portal into a twilight realm, filled with trees as far as they eye can see. Breathtaking vistas and amazing discoveries await you around every corner. But beware! Not all denizens of the forest respond to your intrusion lightly.\"$(br2)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "twilightforest:patchouli_logbook",
+            "text": "The Traveller's Logbook not only contains instructions on how to get $(o)to$() the Twilight Forest but also how to get about once you're there."
+        }
     ]
 }
