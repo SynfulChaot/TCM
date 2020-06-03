@@ -18,3 +18,27 @@ mods.astralsorcery.StarlightInfusion.addInfusion( <thaumcraft:ore_cinnabar>    ,
 mods.astralsorcery.StarlightInfusion.addInfusion( <minecraft:quartz_ore>       , <minecraft:quartz_block>           , false , 0.05 , 200 ); // Quartz
 mods.astralsorcery.StarlightInfusion.addInfusion( <thaumcraft:ore_quartz>      , <minecraft:quartz_block>           , false , 0.05 , 200 ); // Quartz
 mods.astralsorcery.StarlightInfusion.addInfusion( <thaumcraft:ore_amber>       , <thaumcraft:amber_block>           , false , 0.05 , 200 ); // Amber
+
+// Add Mystical World metal block recipes
+furnace.addRecipe( <mysticalworld:copper_block> , <immersiveengineering:storage:0> , 0 );
+furnace.addRecipe( <mysticalworld:silver_block> , <immersiveengineering:storage:3> , 0 );
+recipes.addShapeless( "TCMCopperIngotFromBlock" , <immersiveengineering:metal:0> * 9 , [ <mysticalworld:copper_block> ] );
+recipes.addShapeless( "TCMSilverIngotFromBlock" , <immersiveengineering:metal:3> * 9 , [ <mysticalworld:silver_block> ] );
+
+// Remove Mystical World ore dust recipes
+mods.roots.Mortar.removeRecipe( <mysticalworld:copper_dust> );
+mods.roots.Mortar.removeRecipe( <mysticalworld:silver_dust> );
+
+// Remove duplicate Mystical World copper items
+mods.jei.JEI.hide( <mysticalworld:copper_ore> );
+mods.jei.JEI.hide( <mysticalworld:copper_ingot> );
+mods.jei.JEI.hide( <mysticalworld:copper_nugget> );
+mods.jei.JEI.hide( <mysticalworld:copper_dust_tiny> );
+mods.jei.JEI.hide( <mysticalworld:copper_dust> );
+
+// Remove duplicate Mystical World silver items
+mods.jei.JEI.hide( <mysticalworld:silver_ore> );
+mods.jei.JEI.hide( <mysticalworld:silver_ingot> );
+mods.jei.JEI.hide( <mysticalworld:silver_nugget> );
+mods.jei.JEI.hide( <mysticalworld:silver_dust_tiny> );
+mods.jei.JEI.hide( <mysticalworld:silver_dust> );
