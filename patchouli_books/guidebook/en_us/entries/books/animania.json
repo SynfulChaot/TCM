@@ -5,11 +5,22 @@
     "pages": [
         {
             "type": "text",
-            "text": "<insert description here>"
+            "text": "Animania is all about enhancing the passive critters you encounter on your journey.$(br2)Not only does it enhance the critters you know and (hopefully) love, it adds many more like goats, peafowl, and even hamsters and hedgehogs!"
         },
         {
             "type": "crafting",
-            "recipe": "animania:animania_manual"
+            "recipe": "animania:animania_manual",
+            "text": "The Animania Manual contains everything you need to know about the new critters and what they can do for you.$(br2)It can be crafted with a book, any kind of seed, and some straw."
+        },
+        {
+            "type": "crafting",
+            "recipe": "animania:straw_cutting",
+            "text": "Straw is the favourite sleeping block for most animals.$(br2) $(br2)It is also required to craft the Animania Manual."
+        },
+        {
+            "type": "crafting",
+            "recipe": "animania:carving_knife",
+            "text": "The Carving Knife is used to cut up meats and cheeses ... as well as to cut wheat into straw.$(br2)It also has $(o)other$() uses, but you can read more about those in the Animania Manual."
         }
     ]
 }
