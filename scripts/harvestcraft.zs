@@ -11,3 +11,7 @@ recipes.removeByRecipeName( "harvestcraft:minecraft_leather_leggings" );
 recipes.removeByRecipeName( "harvestcraft:leather_boots" );
 recipes.removeByRecipeName( "harvestcraft:minecraft_leather_boots" );
 mods.jei.JEI.hide( <harvestcraft:wovencottonitem> );
+
+// Enable use of alternate leather items to create hardened leather
+recipes.removeByRecipeName( "harvestcraft:hardenedleatheritem" );
+recipes.addShapeless( "TCMhardenedleatheritem" , <harvestcraft:hardenedleatheritem> , [ <ore:materialPressedwax> , <ore:leather> ] );
