@@ -1,0 +1,77 @@
+{
+    "name": "Soul Shards",
+    "icon": "soulshardsrespawn:soul_cage",
+    "category": "patchouli:mods",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Tired of farming monsters out in the world and wish you could just spawn them in the safety of your own home?$(br2)Soul Shards is a (relatively) simple mod to allow you to do just that!"
+        },
+        {
+			"type": "spotlight",
+			"title": "Soul Shard",
+			"item": "soulshardsrespawn:soul_shard",
+			"text": "This is a Soul Shard, the core of the mod. These can be used to capture the souls of slain creatures."
+        },
+        {
+			"type": "spotlight",
+			"title": "Crafting a Soul Shard",
+			"item": "mysticalworld:amethyst_gem",
+			"text": "This gemstone, an Amethyst, is the catalyst needed to create a Soul Shard.$(br2)Once you have crafted the following platform, just right click with the catalyst on the glowstone in the and it will all be converted into a single, unbound Soul Shard."
+        },
+        {
+            "type": "multiblock",
+            "text": "4x Blocks of Obsidian$(br)4x Blocks of Quartz $(br)1x Block of Glowstone",
+            "enable_visualize": true,
+            "multiblock": {
+                "pattern": [[
+                    "OQO",
+                    "Q0Q",
+                    "OQO"
+                ]],
+                "mapping": {
+                    "0": "minecraft:glowstone",
+                    "O": "minecraft:obsidian",
+                    "Q": "minecraft:quartz_block"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            }
+        },
+        {
+            "type": "text",
+            "text": "Once you have a Soul Shard you must bind it to a particular creature as a single soul shard can only contain the souls of one type of creature.$(br2)In order to bind a soul shard you must kill a creature with the Soul Shard in your offhand or your hotbar.$(br2)The more souls you have in your Soul Shard the higher tier it is."
+        },
+        {
+            "type": "crafting",
+            "recipe": "soulshardsrespawn:soul_cage",
+            "text": "Now that you have a bound Soul Shard you'll need a Soul Cage to place it in.$(br2)A Soul Cage, with an inserted Soul Shard, will act much like a creature spawner. The higher tier shard equipped, though, the quicker it is."
+        },
+        {
+            "type": "crafting",
+            "recipe":  "soulshardsrespawn:corrupted_ingot",
+            "recipe2": "soulshardsrespawn:corrupted_essence"
+        },
+        {
+            "type": "smelting",
+            "recipe": "minecraft:soul_sand",
+            "text": "$(br)You'll need a few Corrupted Ingots to craft a Soul Cage$(br2)Thankfully these are easy enough to obtain. You'll just need some Corrupted Essence and some Vile Dust."
+        },
+        {
+            "type": "crafting",
+            "recipe": "soulshardsrespawn:vile_sword",
+            "text": "You might find the process of collecting souls to be a bit slow for your tastes.$(br2)Equipped with the Vile Sword you'll gain an additional soul for every creature you kill ... of the proper type, of course."
+        },
+        {
+            "type": "spotlight",
+            "title": "Soul Stealer",
+			"item": "minecraft:enchanted_book{ StoredEnchantments: [{lvl: 1, id: 13}] }",
+			"text": "Still not fast enough? With this enchantment your weapon will gain an additional soul per kill ... $(o)per enchantment level.$()$(br2) $(br)Before you ask, yes, this $(o)does$() stack with the Vile Sword's innate effect."
+        },
+        {
+            "type": "text",
+            "text": "Soul Shard Tiers$(br2)Tier 0:    1 soul$(br)Tier 1:   64 souls$(br)Tier 2:  128 souls$(br)Tier 3:  256 souls$(br)Tier 4:  512 souls$(br)Tier 5: 1024 souls$(br2)At Tier 3 a Soul Cage no longer requires your presence.$(br2)At Tier 4 a Soul Cage no longer requires darkness.$(br2)At Tier 5 a Soul Cage can be$(br)   controlled by redstone."
+        }
+    ]
+}
