@@ -35,3 +35,19 @@ recipes.addShaped( "TCMAcaciaVerticalPlankFence" , <earthworks:fence_planks_vert
     [ <quark:vertical_planks:4> , <minecraft:stick> , <quark:vertical_planks:4> ],
     [ <quark:vertical_planks:4> , <minecraft:stick> , <quark:vertical_planks:4> ]
 ]);
+
+// Remove duplicate Timber recipes
+recipes.removeByRecipeName( "earthworks:block_timber_alt" );
+recipes.removeByRecipeName( "earthworks:block_timber_birch_alt" );
+recipes.removeByRecipeName( "earthworks:block_timber_spruce_alt" );
+recipes.removeByRecipeName( "earthworks:block_timber_jungle_alt" );
+recipes.removeByRecipeName( "earthworks:block_timber_acacia_alt" );
+recipes.removeByRecipeName( "earthworks:block_timber_dark_oak_alt" );
+
+// Remove conflicting Wooden Shakes recipes
+recipes.removeByRecipeName( "earthworks:block_wood_shingle0" );
+recipes.removeByRecipeName( "earthworks:block_wood_shingle1" );
+recipes.removeByRecipeName( "earthworks:block_wood_shingle2" );
+recipes.removeByRecipeName( "earthworks:block_wood_shingle3" );
+recipes.removeByRecipeName( "earthworks:block_wood_shingle4" );
+recipes.removeByRecipeName( "earthworks:block_wood_shingle5" );
