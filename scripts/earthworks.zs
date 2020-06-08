@@ -51,3 +51,15 @@ recipes.removeByRecipeName( "earthworks:block_wood_shingle2" );
 recipes.removeByRecipeName( "earthworks:block_wood_shingle3" );
 recipes.removeByRecipeName( "earthworks:block_wood_shingle4" );
 recipes.removeByRecipeName( "earthworks:block_wood_shingle5" );
+
+// Disable Reeds
+mods.jei.JEI.removeAndHide( <earthworks:block_reed>    );
+mods.jei.JEI.removeAndHide( <earthworks:itemslab_reed> );
+mods.jei.JEI.removeAndHide( <earthworks:stair_reed>    );
+mods.jei.JEI.removeAndHide( <earthworks:wall_reed>     );
+
+// Disable (Earthworks) Concrete
+mods.jei.JEI.removeAndHide( <earthworks:block_concrete>    );
+mods.jei.JEI.removeAndHide( <earthworks:itemslab_concrete> );
+mods.jei.JEI.removeAndHide( <earthworks:stair_concrete>    );
+mods.jei.JEI.removeAndHide( <earthworks:wall_concrete>     );
