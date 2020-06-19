@@ -63,3 +63,10 @@ mods.jei.JEI.removeAndHide( <earthworks:block_concrete>    );
 mods.jei.JEI.removeAndHide( <earthworks:itemslab_concrete> );
 mods.jei.JEI.removeAndHide( <earthworks:stair_concrete>    );
 mods.jei.JEI.removeAndHide( <earthworks:wall_concrete>     );
+
+// Alter Cinder Block recipes to use Minecraft Concrete
+recipes.removeByRecipeName( "earthworks:block_cinder" );
+recipes.addShaped( "TCMCinderBlock" , <earthworks:block_cinder> * 4 , [
+    [ <minecraft:concrete:8> , <minecraft:concrete:8> ],
+    [ <minecraft:concrete:8> , <minecraft:concrete:8> ]
+]);
