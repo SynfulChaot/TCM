@@ -70,3 +70,8 @@ recipes.addShaped( "TCMCinderBlock" , <earthworks:block_cinder> * 4 , [
     [ <minecraft:concrete:8> , <minecraft:concrete:8> ],
     [ <minecraft:concrete:8> , <minecraft:concrete:8> ]
 ]);
+
+// Add convenience recipe for Chalk Dust
+recipes.addShapeless( "TCMChalk" , <earthworks:item_chalk> * 4 , [
+    <earthworks:block_chalk>
+]);
