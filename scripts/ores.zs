@@ -42,3 +42,7 @@ mods.jei.JEI.hide( <mysticalworld:silver_ingot> );
 mods.jei.JEI.hide( <mysticalworld:silver_nugget> );
 mods.jei.JEI.hide( <mysticalworld:silver_dust_tiny> );
 mods.jei.JEI.hide( <mysticalworld:silver_dust> );
+
+// Add OreDict entry for overworld Quartz
+val stoneQuartz = <ore:oreStoneQuartz>;
+stoneQuartz.add( <thaumcraft:ore_quartz> );
