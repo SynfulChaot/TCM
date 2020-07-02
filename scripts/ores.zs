@@ -46,3 +46,7 @@ mods.jei.JEI.hide( <mysticalworld:silver_dust> );
 // Add OreDict entry for overworld Quartz
 val stoneQuartz = <ore:oreStoneQuartz>;
 stoneQuartz.add( <thaumcraft:ore_quartz> );
+
+// Botania Orechid additions
+mods.botania.Orechid.addOre( <ore:oreAmethyst>    , 1265 );
+mods.botania.Orechid.addOre( <ore:oreStoneQuartz> , 3975 );
