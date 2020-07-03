@@ -50,3 +50,10 @@ stoneQuartz.add( <thaumcraft:ore_quartz> );
 // Botania Orechid additions
 mods.botania.Orechid.addOre( <ore:oreAmethyst>    , 1265 );
 mods.botania.Orechid.addOre( <ore:oreStoneQuartz> , 3975 );
+
+// Immersive Engineering Excavator additions
+mods.immersiveengineering.Excavator.removeMineral( "Platinum" );
+mods.immersiveengineering.Excavator.removeMineral( "Quartzite" );
+mods.immersiveengineering.Excavator.addMineral( "Quartzite" , 5 , 0.3 , [ "oreStoneQuartz" , "oreAmethyst" ] , [ 0.95 , 0.05 ] );
+mods.immersiveengineering.Excavator.removeMineral( "Silt" );
+mods.immersiveengineering.Excavator.addMineral( "Silt" , 25 , 0.05 , [ "blockClay" , "sand" , "gravel" , "oreAquamarine" ] , [ 0.5 , 0.295 , 0.2 , 0.005 ] );
