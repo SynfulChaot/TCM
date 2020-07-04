@@ -23,16 +23,16 @@ recipes.addShapedMirrored( "TCMJasper" , <quark:jasper:0> * 4 , [
 
 // Add crafting recipes for Earthstone stone blocks
 recipes.addShapedMirrored( "TCMSlateBlue" , <earthworks:block_slate> * 4 , [
-    [ <minecraft:stone> , <minecraft:clay>  ],
-    [ <minecraft:clay>  , <minecraft:stone> ]
+    [ <minecraft:stone>   , <minecraft:clay>    ],
+    [ <minecraft:clay>    , <minecraft:stone>   ]
 ]);
 
-//recipes.addShapedMirrored( "TCMSlateGreen" , <earthworks:block_slate_green> * 4 , [
-//    [ <minecraft:stone> , <minecraft:clay>  ],
-//    [ <minecraft:clay>  , <minecraft:stone> ]
-//]);
+recipes.addShapedMirrored( "TCMSlateGreen" , <earthworks:block_slate_green> * 4 , [
+    [ <minecraft:stone:3> , <minecraft:clay>    ],
+    [ <minecraft:clay>    , <minecraft:stone:3> ]
+]);
 
-//recipes.addShapedMirrored( "TCMSlatePurple" , <earthworks:block_slate_purple> * 4 , [
-//    [ <minecraft:stone> , <minecraft:clay>  ],
-//    [ <minecraft:clay>  , <minecraft:stone> ]
-//]);
+recipes.addShapedMirrored( "TCMSlatePurple" , <earthworks:block_slate_purple> * 4 , [
+    [ <minecraft:stone:5> , <minecraft:clay>    ],
+    [ <minecraft:clay>    , <minecraft:stone:5> ]
+]);
