@@ -43,6 +43,14 @@ mods.jei.JEI.hide( <mysticalworld:silver_nugget> );
 mods.jei.JEI.hide( <mysticalworld:silver_dust_tiny> );
 mods.jei.JEI.hide( <mysticalworld:silver_dust> );
 
+// Add OreDict entry for Chalk
+val oreChalk = <ore:blockChalk>;
+oreChalk.add( <earthworks:block_chalk> );
+
+// Add OreDict entry for Flint
+val oreFlint = <ore:flint>;
+oreFlint.add( <minecraft:flint> );
+
 // Add OreDict entry for overworld Quartz
 val stoneQuartz = <ore:oreStoneQuartz>;
 stoneQuartz.add( <thaumcraft:ore_quartz> );
@@ -52,6 +60,9 @@ mods.botania.Orechid.addOre( <ore:oreAmethyst>    , 1265 );
 mods.botania.Orechid.addOre( <ore:oreStoneQuartz> , 3975 );
 
 // Immersive Engineering Excavator additions
+mods.immersiveengineering.Excavator.addMineral( "Chalk" , 20 , 0.05 , [ "blockChalk" , "flint" , "bone" ] , [ 0.8 , 0.15 , 0.05 ] );
+mods.immersiveengineering.Excavator.removeMineral( "Coal" );
+mods.immersiveengineering.Excavator.addMineral( "Coal" , 25 , 0.1 , [ "oreCoal" , "oreAmber" , "oreDiamond" , "oreEmerald" ] , [ 0.95 , 0.02 , 0.015 , 0.015 ] );
 mods.immersiveengineering.Excavator.removeMineral( "Platinum" );
 mods.immersiveengineering.Excavator.removeMineral( "Quartzite" );
 mods.immersiveengineering.Excavator.addMineral( "Quartzite" , 5 , 0.3 , [ "oreStoneQuartz" , "oreAmethyst" ] , [ 0.95 , 0.05 ] );
