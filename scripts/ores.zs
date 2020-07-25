@@ -68,3 +68,11 @@ mods.immersiveengineering.Excavator.removeMineral( "Quartzite" );
 mods.immersiveengineering.Excavator.addMineral( "Quartzite" , 5 , 0.3 , [ "oreStoneQuartz" , "oreAmethyst" ] , [ 0.95 , 0.05 ] );
 mods.immersiveengineering.Excavator.removeMineral( "Silt" );
 mods.immersiveengineering.Excavator.addMineral( "Silt" , 25 , 0.05 , [ "blockClay" , "sand" , "gravel" , "oreAquamarine" ] , [ 0.5 , 0.295 , 0.2 , 0.005 ] );
+
+// Remove duplicate Metal Nugget recipes
+recipes.removeByRecipeName( "thaumcraft:ironnuggetconvert" );
+mods.jei.JEI.removeAndHide( <immersiveengineering:metal:29> );
+mods.jei.JEI.hide(          <thaumcraft:nugget:0> );
+mods.jei.JEI.removeAndHide( <thaumcraft:nugget:1> );
+mods.jei.JEI.removeAndHide( <thaumcraft:nugget:3> );
+mods.jei.JEI.removeAndHide( <thaumcraft:nugget:4> );
