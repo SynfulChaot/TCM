@@ -1,0 +1,61 @@
+{
+    "name": "Fairy Lights",
+    "icon": "fairylights:light:21",
+    "category": "patchouli:mods",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Want to spruce up your home with some decorative hanging lights? If so, you're in luck!"
+        },
+        {
+            "type": "crafting",
+            "recipe": "fairylights:fairy_lights",
+            "text": "Hanging lights are simple to craft. You just need some iron, some string, and ... well ... some lights.$(br2)A single string of lights can have anywhere between 1 and 6 different kinds of lights on it."
+        },
+        {
+            "type": "crafting",
+            "recipe":  "fairylights:fairy",
+            "recipe2": "fairylights:paper"
+        },
+        {
+            "type": "crafting",
+            "recipe":  "fairylights:orb",
+            "recipe2": "fairylights:flower"
+        },
+        {
+            "type": "crafting",
+            "recipe":  "fairylights:ornate",
+            "recipe2": "fairylights:oil"
+        },
+        {
+            "type": "crafting",
+            "recipe":  "fairylights:jack_o_lantern",
+            "recipe2": "fairylights:skull"
+        },
+        {
+            "type": "crafting",
+            "recipe":  "fairylights:ghost",
+            "recipe2": "fairylights:spider"
+        },
+        {
+            "type": "crafting",
+            "recipe":  "fairylights:witch",
+            "recipe2": "fairylights:snowflake"
+        },
+        {
+            "type": "crafting",
+            "recipe":  "fairylights:icicle",
+            "recipe2": "fairylights:meteor"
+        },
+        {
+            "type": "text",
+            "title": "Garlands",
+            "text": "Garland"
+        },
+        {
+            "type": "crafting",
+            "recipe":  "fairylights:vine_garland",
+            "recipe2": "fairylights:tinsel_garland"
+        }
+    ]
+}

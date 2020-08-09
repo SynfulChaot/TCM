@@ -1,0 +1,26 @@
+{
+    "name": "Earthworks",
+    "icon": "earthworks:plaster_square_x",
+    "category": "patchouli:mods",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Taking cues from the Stone Age, Bronze Age, and Iron Age, Earthworks adds some of the first materials mankind used to craft. Materials like wattle and daub, wicker, rammed earth, and adobe bricks. These are crude materials, fashioned out of what was at hand, and easily accessible, but prove to be as strong as stone when fashioned properly. Utilizing these in an early build will provide some$(br)   excellent shelters."
+        },
+        {
+            "type": "crafting",
+            "recipe": "earthworks:block_dry_stone",
+            "text": "Dry Fitted Stone is exactly what it sounds like, having a rough texture if you want a more rustic look.$(br2)It has an additional benefit in that it has blast resistance nearly as good as Obsidian."
+        },
+        {
+            "type": "crafting",
+            "recipe": "earthworks:block_timber",
+            "text": "Timber is a darker variant of wooden logs, and is used for several other Earthworks blocks as well.$(br2)You can craft Timber with each vanilla wood type."
+        },
+        {
+            "type": "crafting",
+            "recipe": "earthworks:block_wood_shingle0_alt",
+            "text": "Wooden Shakes are similar to planks, but with a more distinct texture that is well suited for building roofs.$(br2)Like Timber, it can be crafted with each vanilla wood type."
+        }
+    ]
+}

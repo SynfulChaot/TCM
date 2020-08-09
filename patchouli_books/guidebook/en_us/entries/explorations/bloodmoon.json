@@ -1,8 +1,7 @@
 {
     "name": "Blood Moons",
-    "icon": "tconstruct:edible:3",
+    "icon": "animania:hamster_ball_colored:1",
     "category": "patchouli:explorations",
-    "sortnum": -1,
     "pages": [
         {
             "type": "text",

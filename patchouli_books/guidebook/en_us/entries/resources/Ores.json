@@ -1,0 +1,47 @@
+{
+    "name": "Ores",
+    "icon": "minecraft:gold_ore",
+    "category": "patchouli:resources",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "minecraft:iron_ore",
+			"text": "Iron is one of the most common metals you will find when mining."
+        },
+        {
+			"type": "spotlight",
+			"item": "minecraft:gold_ore",
+			"text": "Gold"
+        },
+        {
+			"type": "spotlight",
+			"item": "immersiveengineering:ore:0",
+			"text": "Copper ore is primarily used by Immersive Engineering, though you may find it has some uses outside of that as well."
+        },
+        {
+			"type": "spotlight",
+			"item": "immersiveengineering:ore:1",
+			"text": "Bauxite/Aluminum"
+        },
+        {
+			"type": "spotlight",
+			"item": "immersiveengineering:ore:2",
+			"text": "Lead"
+        },
+        {
+			"type": "spotlight",
+			"item": "immersiveengineering:ore:3",
+			"text": "Silver"
+        },
+        {
+			"type": "spotlight",
+			"item": "immersiveengineering:ore:4",
+			"text": "Nickel"
+        },
+        {
+			"type": "spotlight",
+			"item": "immersiveengineering:ore:5",
+			"text": "Uranium is a heavy metal well known for its radioactivity.$(br2)For obvious reasons you cannot build armour nor weapons out of Uranium.$(br2)You need at least an Iron Pickaxe to mine Uranium."
+        }
+    ]
+}

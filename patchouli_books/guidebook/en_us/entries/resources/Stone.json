@@ -1,0 +1,87 @@
+{
+    "name": "Stone",
+    "icon": "minecraft:stone",
+    "category": "patchouli:resources",
+    "pages": [
+        {
+			"type": "spotlight",
+			"item": "minecraft:stone",
+			"text": "Stone is the most common ... well ... $(o)stone$() you will encounter when mining.  There isn't much special about it.$(br2)"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:cobblestone",
+			"text": "Cobblestone is what you get when you break Stone.$(br2)Cobblestone can also be found where water meets lava as the very act of those two fluids meeting usually causes it to spontaneously form."
+        },
+		{
+			"type": "spotlight",
+			"item": "minecraft:stone:3",
+			"text": "Diorite is another type of stone you will commonly encounter."
+        },
+        {
+            "type": "crafting",
+			"recipe":  "minecraft:diorite",
+			"recipe2": "minecraft:polished_diorite"
+        },
+        {
+			"type": "spotlight",
+			"item": "minecraft:stone:5",
+			"text": "Andesite is another type of stone you will commonly encounter."
+		},
+		{
+            "type": "crafting",
+			"recipe":  "minecraft:andesite",
+			"recipe2": "minecraft:polished_andesite"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:stone:1",
+			"text": "Granite is another type of stone you will commonly encounter."
+        },
+        {
+            "type": "crafting",
+            "recipe":  "minecraft:granite",
+            "recipe2": "minecraft:polished_granite"
+        },
+		{
+			"type": "spotlight",
+			"item": "earthworks:block_slate",
+			"text": "Slate"
+        },
+        {
+            "type": "crafting",
+            "recipe":  "crafttweaker:tcmslateblue",
+            "recipe2": "earthworks:block_slate_slab"
+        },
+		{
+			"type": "spotlight",
+			"item": "earthworks:block_slate_green",
+			"text": "Slate"
+        },
+        {
+            "type": "crafting",
+            "recipe":  "crafttweaker:tcmslategreen",
+            "recipe2": "earthworks:block_slate_slab_green"
+        },
+		{
+			"type": "spotlight",
+			"item": "earthworks:block_slate_purple",
+			"text": "Slate"
+        },
+        {
+            "type": "crafting",
+            "recipe":  "crafttweaker:tcmslatebluepurple",
+            "recipe2": "earthworks:block_slate_slab_purple"
+        },
+		{
+			"type": "spotlight",
+			"item": "quark:jasper",
+			"text": "Jasper"
+        },
+        {
+            "type": "crafting",
+            "recipe":  "crafttweaker:tcmjasper",
+            "recipe2": "quark:jasper"
+        }
+    ]
+}
