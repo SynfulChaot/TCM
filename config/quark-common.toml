@@ -528,8 +528,8 @@
 
 [world]
 	"Big Dungeon" = true
-	"Big Stone Clusters" = true
-	Biotite = true
+	"Big Stone Clusters" = false
+	Biotite = false
 	"Blossom Trees" = true
 	"Cave Roots" = true
 	"Chorus Vegetation" = true
@@ -1156,8 +1156,8 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Marble" = true
-		"Enable Limestone" = true
+		"Enable Marble" = false
+		"Enable Limestone" = false
 		"Enable Jasper" = true
 		"Enable Slate" = true
 		"Enable Voidstone" = true
