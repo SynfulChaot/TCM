@@ -1,17 +1,17 @@
-/botaniavars.dat
-/crafttweaker.log
-/knownkeys.txt
-/options.txt
-/patchouli_data.json
-/usercache.json
-/usernamecache.json
-/astralsorcery/
-/config/splash.properties
-/config/jei/worldSettings.cfg
+/.mixin.out/
+/crash-reports/
 /logs/
 /mods/
+/natives/
 /saves/
-/.mixin.out/
+/botaniavars.dat
+/crafttweaker.log
+/options.txt
+/patchouli_data.json
+/realms_persistence.json
+/usercache.json
+/usernamecache.json
 
 # Curse
+/config.json
 /minecraftinstance.json
