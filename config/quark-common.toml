@@ -1175,7 +1175,7 @@
 				"Min Height" = 0
 				#
 				#Allowed values: [0,255]
-				"Max Height" = 256
+				"Max Height" = 79
 				#
 				#Allowed values: [0,)
 				"Cluster Size" = 33
@@ -1195,7 +1195,7 @@
 				"Min Height" = 0
 				#
 				#Allowed values: [0,255]
-				"Max Height" = 256
+				"Max Height" = 79
 				#
 				#Allowed values: [0,)
 				"Cluster Size" = 33
@@ -1215,7 +1215,7 @@
 				"Min Height" = 0
 				#
 				#Allowed values: [0,255]
-				"Max Height" = 256
+				"Max Height" = 79
 				#
 				#Allowed values: [0,)
 				"Cluster Size" = 33
@@ -1235,7 +1235,7 @@
 				"Min Height" = 0
 				#
 				#Allowed values: [0,255]
-				"Max Height" = 256
+				"Max Height" = 79
 				#
 				#Allowed values: [0,)
 				"Cluster Size" = 33
