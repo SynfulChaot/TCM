@@ -17,7 +17,7 @@
 	leadOreMinY = 0
 	#Maximum Y value for lead ore veins
 	#Range: 1 ~ 255
-	leadOreMaxY = 41
+	leadOreMaxY = 36
 	#Maximum number of blocks per lead ore vein
 	#Range: 1 ~ 255
 	leadOreVeinSize = 6
