@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Use Anti Overlap" = true
 	#
@@ -49,7 +49,7 @@
 [automation]
 	"Chain Linkage" = true
 	"Chains Connect Blocks" = true
-	Chute = true
+	Chute = false
 	"Color Slime" = true
 	"Dispensers Place Blocks" = true
 	"Ender Watcher" = true
@@ -132,8 +132,8 @@
 	"Stained Planks" = true
 	Stools = true
 	"Sturdy Stone" = true
-	"Tallow And Candles" = true
-	Thatch = true
+	"Tallow And Candles" = false
+	Thatch = false
 	"Tie Leads To Fences" = true
 	Turf = true
 	"Variant Bookshelves" = true
@@ -235,14 +235,14 @@
 [management]
 	"Chests In Boats" = true
 	"Easy Transfering" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Right Click Armor" = true
 	"Shulker Box Right Click" = true
 
 	[management.easy_transfering]
-		"Enable Shift Lock" = true
+		"Enable Shift Lock" = false
 
 	[management.inventory_sorting]
 		"Enable Player Inventory" = true
@@ -261,10 +261,10 @@
 	Camera = true
 	"Color Runes" = true
 	"Pathfinder Maps" = true
-	Pickarang = true
+	Pickarang = false
 	"Seed Pouch" = true
-	"Slime In A Bucket" = true
-	Trowel = true
+	"Slime In A Bucket" = false
+	Trowel = false
 
 	[tools.ancient_tomes]
 		#
@@ -281,10 +281,10 @@
 		"Woodland Mansion Weight" = 15
 		#
 		#Set to 0 to not generate in Nether Fortresses
-		"Nether Fortress Weight" = 0
+		"Nether Fortress Weight" = 5
 		#
 		#Set to 0 to not generate in Underwater Ruins
-		"Underwater Ruin Weight" = 0
+		"Underwater Ruin Weight" = 15
 		#
 		#Set to 0 to not generate in Monster Boxes
 		"Monster Box Weight" = 5
@@ -303,7 +303,7 @@
 		"Jungle Temple Weight" = 8
 		"Desert Temple Weight" = 8
 		"Item Quality" = 0
-		"Apply Cost" = 15
+		"Apply Cost" = 5
 
 	[tools.pathfinder_maps]
 		#
@@ -375,7 +375,7 @@
 	"Dragon Scales" = true
 	Emotes = true
 	"Enhanced Ladders" = true
-	"Glass Shard" = true
+	"Glass Shard" = false
 	"Hoe Harvesting" = true
 	"Improved Sleeping" = true
 	"Infinity Bucket" = true
@@ -437,10 +437,10 @@
 		"Enable Afk" = true
 		#
 		#Allowed values: (0,)
-		"Afk Time" = 2400
+		"Afk Time" = 6000
 		#
 		#Allowed values: (0,1]
-		"Percent Req" = 1.0
+		"Percent Req" = 0.65
 
 	[tweaks.infinity_bucket]
 		Cost = 10
@@ -1074,7 +1074,7 @@
 	[world.fairy_rings]
 		"Forest Chance" = 0.00625
 		"Plains Chance" = 0.0025
-		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore"]
+		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore", "mysticalworld:amethyst_ore"]
 
 		[world.fairy_rings.dimensions]
 			"Is Blacklist" = false
@@ -1727,10 +1727,10 @@
 	Crabs = true
 	Forgotten = true
 	Foxhound = true
-	Frogs = true
+	Frogs = false
 	Stonelings = true
 	Toretoise = true
-	Wraith = true
+	Wraith = false
 
 	[mobs.crabs]
 		"Enable Brewing" = true
@@ -1899,7 +1899,7 @@
 				"Is Blacklist" = false
 
 [client]
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 	"Back Button Keybind" = true
 	"Chest Searching" = true
 	"Greener Grass" = true
