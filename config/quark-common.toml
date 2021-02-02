@@ -230,7 +230,7 @@
 
 	[building.variant_ladders]
 		"Change Names" = true
-		"Enable Iron Ladder" = true
+		"Enable Iron Ladder" = false
 
 [management]
 	"Chests In Boats" = true
@@ -303,7 +303,7 @@
 		"Jungle Temple Weight" = 8
 		"Desert Temple Weight" = 8
 		"Item Quality" = 0
-		"Apply Cost" = 5
+		"Apply Cost" = 0
 
 	[tools.pathfinder_maps]
 		#
