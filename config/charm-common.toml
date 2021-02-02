@@ -1,33 +1,33 @@
 #Tools with the Acquisition enchantment automatically pick up drops.
-"Acquisition enabled" = true
+"Acquisition enabled" = false
 #Removes minimum and maximum XP costs on the anvil. Anvils are also less likely to break.
 "AnvilImprovements enabled" = true
 #Lightweight armor is invisible and does not increase mob awareness when drinking Potion of Invisibility.
 "ArmorInvisibility enabled" = true
 #A map storage.
-"Atlas enabled" = true
+"Atlas enabled" = false
 #Refills your hotbar from your inventory.
-"AutoRestock enabled" = true
+"AutoRestock enabled" = false
 #Unlocks all vanilla recipes.
-"AutomaticRecipeUnlock enabled" = true
+"AutomaticRecipeUnlock enabled" = false
 #Right-click a bat with a bucket to capture it. Right-click again to release it and locate entities around you.
-"BatBuckets enabled" = true
+"BatBuckets enabled" = false
 #Passive and friendly mobs will heal themselves within range of a beacon with the regeneration effect.
 "BeaconsHealMobs enabled" = true
 #Beekeepers are villagers that trade beekeeping items. Their job site is the beehive.
-"Beekeepers enabled" = true
+"Beekeepers enabled" = false
 #Ender pearl storage. Eating a chorus fruit will teleport you to the nearest ender pearl block.
 "BlockOfEnderPearls enabled" = true
 #A storage block for gunpowder. It obeys gravity and dissolves in lava.
-"BlockOfGunpowder enabled" = true
+"BlockOfGunpowder enabled" = false
 #A storage block for sugar. It obeys gravity and dissolves in water.
 "BlockOfSugar enabled" = true
 #Bookshelves that can hold up to 9 stacks of books and maps.
-"Bookcases enabled" = true
+"Bookcases enabled" = false
 #Campfires no longer damage mobs.
-"CampfiresNoDamage enabled" = true
+"CampfiresNoDamage enabled" = false
 #Candles are made from beeswax and have a lower ambient light than torches.
-"Candles enabled" = true
+"Candles enabled" = false
 #Cave spiders have a chance to drop cobwebs.
 "CaveSpidersDropCobwebs enabled" = true
 #Chickens randomly drop feathers.
@@ -39,54 +39,54 @@
 #A smaller storage solution with the benefit of being transportable.
 "Crates enabled" = true
 #Combine a tool or armor with a netherite nugget on an anvil to reduce its repair cost.
-"DecreaseRepairCost enabled" = true
+"DecreaseRepairCost enabled" = false
 #Right-clicking dirt with a shovel turns it into grass path.
-"DirtToPath enabled" = true
+"DirtToPath enabled" = false
 #Endermites drop endermite powder that can be used to locate an End City.
 "EndermitePowder enabled" = true
 #Extends the lifetime of netherite-based items before they despawn.
-"ExtendNetherite enabled" = true
+"ExtendNetherite enabled" = false
 #Extract enchantments from any enchanted item into an empty book using the grindstone.
 "ExtractEnchantments enabled" = true
 #A player wearing feather falling enchanted boots will not trample crops.
 "FeatherFallingCrops enabled" = true
 #Glowballs can be thrown to produce a light source where they impact.
-"Glowballs enabled" = true
+"Glowballs enabled" = false
 #Gold variant of vanilla iron bars.
-"GoldBars enabled" = true
+"GoldBars enabled" = false
 #Gold version of the vanilla chain.
 "GoldChains enabled" = true
 #Gold version of the vanilla lanterns.
 "GoldLanterns enabled" = true
 #Right-click with a hoe to quickly harvest and replant a fully-grown crop.
-"HoeHarvesting enabled" = true
+"HoeHarvesting enabled" = false
 #Husks spawn anywhere within their biome and have a chance to drop sand.
 "HuskImprovements enabled" = true
 #Button to automatically tidy inventories.
-"InventoryTidying enabled" = true
+"InventoryTidying enabled" = false
 #A functional block that speeds up cooking of clay, bricks and terracotta.
-"Kilns enabled" = true
+"Kilns enabled" = false
 #Lumberjacks are villagers that trade wooden items. Their job site is the woodcutter.
 "Lumberjacks enabled" = true
 #Adds decoration and more ores to mineshafts.
-"MineshaftImprovements enabled" = true
+"MineshaftImprovements enabled" = false
 #Mooblooms are cow-like mobs that come in a variety of flower types. They spawn flowers where they walk and can be milked for suspicious stew.
-"Mooblooms enabled" = true
+"Mooblooms enabled" = false
 #Villages can spawn in swamps and jungles.
 "MoreVillageBiomes enabled" = true
 #Playing a record in a jukebox stops background music from playing at the same.
 #Creative music tracks may also play in survival mode.
 "MusicImprovements enabled" = true
 #Netherite nuggets can be combined to create a netherite ingot.
-"NetheriteNuggets enabled" = true
+"NetheriteNuggets enabled" = false
 #Parrots stay on your shoulder when jumping and falling. Crouch to make them dismount.
 "ParrotsStayOnShoulder enabled" = true
 #Right-clicking on a grass path block with a hoe turns it back into dirt.
-"PathToDirt enabled" = true
+"PathToDirt enabled" = false
 #Allows crafting from inventory if the player has a crafting table in their inventory.
-"PortableCrafting enabled" = true
+"PortableCrafting enabled" = false
 #Allows access to chest contents if the player has an Ender Chest in their inventory.
-"PortableEnderChest enabled" = true
+"PortableEnderChest enabled" = false
 #Raid horns are sometimes dropped from raid leaders and can be used to call off or start raids.
 "RaidHorns enabled" = true
 #A lantern that emits light when a redstone signal is received.
@@ -94,15 +94,15 @@
 #A block that acts like sand but is powered like a block of redstone.
 "RedstoneSand enabled" = true
 #Decorative block made by smelting obsidian.
-"RefinedObsidian enabled" = true
+"RefinedObsidian enabled" = false
 #When any action would cause a villager to become a nitwit, it becomes an unemployed villager instead.
 "RemoveNitwits enabled" = true
 #Removes the potion enchantment glint so you can see what the potion color is.
 "RemovePotionGlint enabled" = true
 #Shows the contents of a Shulker Box on hover-over.
-"ShulkerBoxTooltips enabled" = true
+"ShulkerBoxTooltips enabled" = false
 #Allows the night to pass when a specified number of players are asleep.
-"SleepImprovements enabled" = true
+"SleepImprovements enabled" = false
 #Smelt glowstone to get smooth glowstone.
 "SmoothGlowstone enabled" = true
 #Increases snow layers in cold biomes during thunderstorms.
@@ -118,21 +118,21 @@
 #Tamed animals do not take direct damage from players.
 "TamedAnimalsNoDamage enabled" = true
 #When applied, this enchantment lets you change the color of the enchanted glint using dye on an anvil. Requires Core 'Enchantment glint override' to be true.
-"Tinted enabled" = true
+"Tinted enabled" = false
 #As long as a Totem of Undying is in your inventory, it will be consumed to protect you from death.
 "UseTotemFromInventory enabled" = true
 #Barrels available in all types of vanilla wood.
 "VariantBarrels enabled" = true
 #Bookshelves available in all types of vanilla wood.
-"VariantBookshelves enabled" = true
+"VariantBookshelves enabled" = false
 #Chests available in all types of vanilla wood.
-"VariantChests enabled" = true
+"VariantChests enabled" = false
 #Ladders available in all types of vanilla wood.
-"VariantLadders enabled" = true
+"VariantLadders enabled" = false
 #Mobs may spawn with different textures.
 "VariantMobTextures enabled" = true
 #Villagers are attracted when the player holds a block of emeralds.
-"VillagersFollowEmeraldBlocks enabled" = true
+"VillagersFollowEmeraldBlocks enabled" = false
 #Wandering traders only appear near signal campfires and sell maps to biomes and structures.
 "WanderingTraderImprovements enabled" = true
 #A witch has a chance to drop a Potion of Luck when killed by a player.
@@ -168,9 +168,9 @@
 	#A chorus fruit will teleport you to an ender pearl block within this range (in blocks).
 	"Chorus teleport range" = 8
 	#If true, a silverfish has a chance to be converted into an endermite when it is next to an ender pearl block.
-	"Convert silverfish to endermite" = true
+	"Convert silverfish to endermite" = false
 	#If true, eating a chorus fruit while in range of an ender pearl block will teleport you to it.
-	"Chorus fruit teleport" = true
+	"Chorus fruit teleport" = false
 
 [Bookcases]
 	#Additional items that may be placed in bookcases.
@@ -328,7 +328,7 @@
 
 [StrayImprovements]
 	#Maximum blue ice dropped when stray is killed.
-	"Maximum drops" = 2
+	"Maximum drops" = 1
 	#If true, strays drop blue ice when killed.
 	"Drop blue ice when killed" = true
 	#If true, strays can spawn anywhere within their biome rather than just the surface.
@@ -354,21 +354,21 @@
 	#If true, wolves may spawn with different textures.
 	"Variant wolves" = true
 	#If true, chickens may spawn with different textures. This is disabled if Quark is present.
-	"Variant chickens" = true
+	"Variant chickens" = false
 	#If true, pigs may spawn with different textures. This is disabled if Quark is present.
-	"Variant pigs" = true
+	"Variant pigs" = false
 	#If true, snow golems may spawn with different derp faces.
-	"Variant snow golems" = true
+	"Variant snow golems" = false
 	#If true, all animals have a chance to spawn as a rare variant.
 	"Rare variants" = true
 	#Approximately 1 in X chance of a mob spawning as a rare variant.
-	"Rarity of rare variants" = 1000
+	"Rarity of rare variants" = 100
 	#If true, squids may spawn with different textures.
 	"Variant squids" = true
 	#If true, cows may spawn with different textures. This is disabled if Quark is present.
-	"Variant cows" = true
+	"Variant cows" = false
 	#If true, sheep face and 'shorn' textures match their wool color. This is disabled if Quark is present.
-	"Variant sheep" = true
+	"Variant sheep" = false
 	#Some animal textures are disabled if Quark is present. Set true to force enable them.
 	Override = false
 
