@@ -47,7 +47,7 @@
 #Extends the lifetime of netherite-based items before they despawn.
 "ExtendNetherite enabled" = false
 #Extract enchantments from any enchanted item into an empty book using the grindstone.
-"ExtractEnchantments enabled" = true
+"ExtractEnchantments enabled" = false
 #A player wearing feather falling enchanted boots will not trample crops.
 "FeatherFallingCrops enabled" = false
 #Glowballs can be thrown to produce a light source where they impact.
