@@ -12,6 +12,14 @@
 /usercache.json
 /usernamecache.json
 
+# Unused Forgery/Fabrication mod config files
+config/fabrication/block_logo.ini
+config/fabrication/block_logo.png
+config/fabrication/classic_block_drops.ini
+config/fabrication/dimensional_tools.ini
+config/fabrication/gear_components.ini
+config/fabrication/item_despawn.ini
+
 # Curse
 /config.json
 /minecraftinstance.json
