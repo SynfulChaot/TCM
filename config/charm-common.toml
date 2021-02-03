@@ -49,7 +49,7 @@
 #Extract enchantments from any enchanted item into an empty book using the grindstone.
 "ExtractEnchantments enabled" = true
 #A player wearing feather falling enchanted boots will not trample crops.
-"FeatherFallingCrops enabled" = true
+"FeatherFallingCrops enabled" = false
 #Glowballs can be thrown to produce a light source where they impact.
 "Glowballs enabled" = false
 #Gold variant of vanilla iron bars.
