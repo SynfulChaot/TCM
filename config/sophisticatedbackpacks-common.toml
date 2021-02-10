@@ -2,13 +2,13 @@
 #Common Settings
 [common]
 	#Disable / enable any items here (disables their recipes)
-	enabledItems = ["advanced_compacting_upgrade:true", "advanced_deposit_upgrade:true", "advanced_magnet_upgrade:true", "advanced_pickup_upgrade:true", "advanced_restock_upgrade:true", "advanced_void_upgrade:true", "auto_smelting_upgrade:true", "backpack:true", "compacting_upgrade:true", "crafting_upgrade:true", "deposit_upgrade:true", "everlasting_upgrade:true", "feeding_upgrade:true", "filter_upgrade:true", "gold_backpack:true", "inception_upgrade:true", "iron_backpack:true", "magnet_upgrade:true", "pickup_upgrade:true", "refill_upgrade:true", "restock_upgrade:true", "smelting_upgrade:true", "upgrade_base:true", "void_upgrade:true"]
+	enabledItems = ["advanced_compacting_upgrade:false", "advanced_deposit_upgrade:true", "advanced_filter_upgrade:true", "advanced_magnet_upgrade:false", "advanced_pickup_upgrade:true", "advanced_restock_upgrade:true", "advanced_void_upgrade:false", "auto_smelting_upgrade:false", "backpack:true", "compacting_upgrade:false", "crafting_upgrade:false", "deposit_upgrade:true", "diamond_backpack:true", "everlasting_upgrade:true", "feeding_upgrade:false", "filter_upgrade:true", "gold_backpack:true", "inception_upgrade:false", "iron_backpack:true", "magnet_upgrade:false", "pickup_upgrade:true", "refill_upgrade:false", "restock_upgrade:true", "smelting_upgrade:false", "upgrade_base:true", "void_upgrade:false"]
 
 	#Leather Backpack Settings
 	[common.leatherBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 27
+		inventorySlotCount = 18
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
 		upgradeSlotCount = 1
@@ -17,28 +17,28 @@
 	[common.ironBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 54
+		inventorySlotCount = 27
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 1
 
 	#Gold Backpack Settings
 	[common.goldBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 81
+		inventorySlotCount = 36
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 2
 
 	#Diamond Backpack Settings
 	[common.diamondBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 108
+		inventorySlotCount = 45
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 5
+		upgradeSlotCount = 3
 
 	#Compacting Upgrade Settings
 	[common.compactingUpgrade]
@@ -62,10 +62,10 @@
 	[common.depositUpgrade]
 		#Number of Deposit Upgrade's filter slots
 		#Range: 1 ~ 20
-		filterSlots = 9
+		filterSlots = 8
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
-		slotsInRow = 3
+		slotsInRow = 4
 
 	#Advanced Deposit Upgrade Settings
 	[common.advancedDepositUpgrade]
@@ -89,10 +89,10 @@
 	[common.filterUpgrade]
 		#Number of Filter Upgrade's filter slots
 		#Range: 1 ~ 20
-		filterSlots = 9
+		filterSlots = 8
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
-		slotsInRow = 3
+		slotsInRow = 4
 
 	#Advanced Filter Upgrade Settings
 	[common.advancedFilterUpgrade]
@@ -131,10 +131,10 @@
 	[common.pickupUpgrade]
 		#Number of Pickup Upgrade's filter slots
 		#Range: 1 ~ 20
-		filterSlots = 9
+		filterSlots = 8
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
-		slotsInRow = 3
+		slotsInRow = 4
 
 	#Advanced Pickup Upgrade Settings
 	[common.advancedPickupUpgrade]
@@ -158,10 +158,10 @@
 	[common.restockUpgrade]
 		#Number of Restock Upgrade's filter slots
 		#Range: 1 ~ 20
-		filterSlots = 9
+		filterSlots = 8
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
-		slotsInRow = 3
+		slotsInRow = 4
 
 	#Advanced Restock Upgrade Settings
 	[common.advancedRestockUpgrade]
