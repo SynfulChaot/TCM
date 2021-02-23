@@ -37,7 +37,7 @@
 #Coral Squids spawn near coral in warm oceans.
 "CoralSquids enabled" = true
 #A smaller storage solution with the benefit of being transportable.
-"Crates enabled" = true
+"Crates enabled" = false
 #Combine a tool or armor with a netherite nugget on an anvil to reduce its repair cost.
 "DecreaseRepairCost enabled" = false
 #Right-clicking dirt with a shovel turns it into grass path.
