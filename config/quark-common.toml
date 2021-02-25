@@ -105,7 +105,7 @@
 		"Enable Inductor" = true
 
 [building]
-	"Bamboo Mat" = true
+	"Bamboo Mat" = false
 	"Burn Vines" = true
 	"Cobblestone Bricks" = true
 	"Compressed Blocks" = true
