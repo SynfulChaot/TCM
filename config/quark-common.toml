@@ -52,7 +52,7 @@
 	Chute = false
 	"Color Slime" = true
 	"Dispensers Place Blocks" = true
-	"Ender Watcher" = true
+	"Ender Watcher" = false
 	"Endermites Form Shulkers" = true
 	"Feeding Trough" = true
 	Gravisand = true
