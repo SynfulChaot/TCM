@@ -8,11 +8,12 @@ fittedCarpets = true
 waterlogHoppers = true
 
 [enchantments]
+	#If true, axes can receive available weapon enchantments at the enchantment table
+	axeTable = false
 	#If true, shields can now be enchanted with enchantments such as protection, fire aspect, knockback, and thorns. This requires replacing these enchantments.
 	moreShield = false
 	#If true, shields can be enchanted in an enchantment table. Does not support modded shields as it requires a registry substitution
 	shieldTable = false
 	#If true, axes will be able to be enchanted with weapon enchants such as looting, fire aspect, and knockback
 	axeWeapon = false
-#If true, axes can receive available weapon enchantments at the enchantment table
-	axeTable = false
+
