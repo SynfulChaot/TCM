@@ -22,7 +22,7 @@
 [entities]
 
 	[entities.plantain_spider]
-		"Plantain Spider spawning in Jungles" = true
-		"Plantain Spider spawn from Banana Bundles" = true
-		"Plantain Spiders give Slipping" = true
+		"Plantain Spider spawning in Jungles" = false
+		"Plantain Spider spawn from Banana Bundles" = false
+		"Plantain Spiders give Slipping" = false
 
