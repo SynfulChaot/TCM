@@ -20,17 +20,17 @@
         {
             "type": "crafting",
             "recipe": "immersiveengineering:crafting/toolbox",
-            "text": "A must have for the budding engineer, the Toolbox has slots dedicated to your tools of the trade, as well as various components, food, and more.$(br2)More information can be found within the Engineer's Manual."
+            "text": "A must have for the budding engineer, the Toolbox has slots dedicated to your tools of the trade, as well as various components, food, and more.$(br2)More information can be found within the $(l:mods/immersiveengineering)Engineer's Manual$(/l)."
         },
         {
             "type": "crafting",
             "recipe": "botania:flower_bag",
-            "text": "Tired of Mystical Flowers filling up your inventory?  This handy pouch will hold them all so you don't have to.$(br2) $(br2)More information can be found$(br)  within the Lexica Botania."
+            "text": "Tired of Mystical Flowers filling up your inventory?  This handy pouch will hold them all so you don't have to.$(br2) $(br2)More information can be found$(br)  within the $(l:mods/botania)Lexica Botania$(/l)."
         },
         {
             "type": "crafting",
             "recipe": "botania:bauble_box",
-            "text": "A handy case for those that like switching out their Trinkets with regularity.$(br) $(br2) $(br2)More information can be found within the Lexica Botania."
+            "text": "A handy case for those that like switching out their Trinkets with regularity.$(br) $(br2) $(br2)More information can be found within the $(l:mods/botania)Lexica Botania$(/l)."
         },
         {
             "type": "crafting",
