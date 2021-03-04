@@ -9,7 +9,7 @@
         },
         {
             "type": "crafting",
-            "recipe": "antiqueatlas:atlas_blank",
+            "recipe": "antiqueatlas:empty_atlas",
             "title": "Antique Atlas",
             "text": "The Antique Atlas, once opened and somewhere in your hotbar, will appear in the corner of your screen so you can explore with both hands free."
         }
