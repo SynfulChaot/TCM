@@ -1,6 +1,6 @@
 {
 	"name": "Mods",
-	"description": "<insert description here>",
-	"icon": "soulshardsrespawn:soul_cage",
-	"sortnum": 4
+	"icon": "eidolon:worktable",
+	"sortnum": "100",
+	"description": "The mods contained in the pack and what all they can do for you."
 }
