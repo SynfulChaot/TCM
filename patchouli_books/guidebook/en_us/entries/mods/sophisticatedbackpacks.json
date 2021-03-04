@@ -1,0 +1,108 @@
+{
+    "name": "Sophisticated Backpacks",
+    "icon": "sophisticatedbackpacks:iron_backpack",
+    "category": "patchouli:mods",
+    "pages": [
+        {
+            "type": "text",
+            "text": "As your travels continue you just might find that 36 items just isn't enough ... especially if you spend much time mining."
+        },
+        {
+            "type": "spotlight",
+            "item": "sophisticatedbackpacks:backpack",
+            "text": "Backpacks can carry up to 18 items and can be expanded several times, gaining an additional capacity of 9 with each expansion.$(br2)They can be enhanced further with specific upgrades, each adding new capabilities to your backpack."
+        },
+        {
+            "type": "crafting",
+            "recipe": "sophisticatedbackpacks:backpack",
+            "text": "The basic backpack.  It can carry up to 18 items."
+        },
+        {
+            "type": "crafting",
+            "recipe": "sophisticatedbackpacks:iron_backpack",
+            "text": "A slightly larger pack.  It can carry up to 27 items as well as accepting a single upgrade."
+        },
+        {
+            "type": "crafting",
+            "recipe": "sophisticatedbackpacks:gold_backpack",
+            "text": "An $(o)even$() larger pack.  It can carry up to 36 items as well as accepting two upgrades."
+        },
+        {
+            "type": "crafting",
+            "recipe": "sophisticatedbackpacks:diamond_backpack",
+            "text": "The largest and most versatile pack.  It can carry up to 45 items as well as accepting three upgrades."
+        },
+        {
+            "type": "spotlight",
+            "title": "Dyeing",
+            "item": "sophisticatedbackpacks:iron_backpack{borderColor:10329495,clothColor:1908001}",
+            "text": "Backpacks have an additional feature ... the ability to dye them whatever colour you like.$(br)Two colours, actually.$(br2)All you need to do is place your backpack in a crafting table with a dye to the left and right.$(br2)Or just a single dye, if that$(br)   is your desire."
+        },
+        {
+            "type": "spotlight",
+            "title": "Placing",
+            "item": "sophisticatedbackpacks:iron_backpack",
+            "text": "Backpacks can also be placed on the ground (and picked back up) with a shift right-click and can be accessed as if it was a chest.$(br2)Just like chests they can be accessed via hoppers or pipes."
+        },
+        {
+            "type": "spotlight",
+            "title": "Upgrades",
+            "item": "sophisticatedbackpacks:upgrade_base",
+            "text": "Upgrades can unlock the full potential of your pack, allowing you to automate input and output ... amongst other things."
+        },
+        {
+            "type": "crafting",
+            "recipe": "sophisticatedbackpacks:upgrade_base",
+            "text": "The base upgrade.  It does nothing on its own, but it's required for all other upgrades."
+        },
+        {
+            "type": "crafting",
+            "recipe": "sophisticatedbackpacks:pickup_upgrade",
+            "text": "This upgrade allows your pack to fill itself as you pick up items.  It can be filtered to only grab the specified items, or anything $(o)but$() the specified items.$(br2)Up to eight items can be$(br)   specified."
+        },
+        {
+            "type": "crafting",
+            "title": "Adv. Pickup Upgrade",
+            "recipe": "sophisticatedbackpacks:advanced_pickup_upgrade",
+            "text": "An advanced version of the Pickup Upgrade, this one can also filter by tags and/or mod as well as match durability or NBT.$(br) $(br2)Up to sixteen items can be specified."
+        },
+        {
+            "type": "crafting",
+            "recipe": "sophisticatedbackpacks:deposit_upgrade",
+            "text": "This upgrade allows you to deposit items directly into a chest if you shift right-click the backpack against it.  It can be filtered the same as the Pickup Upgrade.$(br2)Up to eight items can be$(br)   specified."
+        },
+        {
+            "type": "crafting",
+            "title": "Adv. Deposit Upgrade",
+            "recipe": "sophisticatedbackpacks:advanced_deposit_upgrade",
+            "text": "An advanced version of the Deposit Upgrade, this one can also filter by tags and/or mod as well as match durability or NBT.$(br) $(br2)Up to sixteen items can be specified."
+        },
+        {
+            "type": "crafting",
+            "recipe": "sophisticatedbackpacks:restock_upgrade",
+            "text": "This upgrade allows you to restock items from a chest if you shift right-click the backpack against it.  It can be filtered the same as the Pickup Upgrade.$(br2)Up to eight items can be$(br)   specified."
+        },
+        {
+            "type": "crafting",
+            "title": "Adv. Restock Upgrade",
+            "recipe": "sophisticatedbackpacks:advanced_restock_upgrade",
+            "text": "An advanced version of the Restock Upgrade, this one can also filter by tags and/or mod as well as match durability or NBT.$(br) $(br2)Up to sixteen items can be specified."
+        },
+        {
+            "type": "crafting",
+            "recipe": "sophisticatedbackpacks:filter_upgrade",
+            "text": "This upgrade allows you to filter items piped/hoppered into or out of the backpack when it is placed on the ground.  Filtering is the same as the Pickup Upgrade.$(br2)Up to eight items can be$(br)   specified."
+        },
+        {
+            "type": "crafting",
+            "title": "Adv. Filter Upgrade",
+            "recipe": "sophisticatedbackpacks:advanced_filter_upgrade",
+            "text": "An advanced version of the Filter Upgrade, this one can also filter by tags and/or mod as well as match durability or NBT.$(br) $(br2)Up to sixteen items can be specified."
+        },
+        {
+            "type": "crafting",
+            "recipe": "sophisticatedbackpacks:everlasting_upgrade",
+            "text": "A $(o)very$() unique upgrade, this one makes your backpack $(o)truly$() indestructible.  It not only becomes immune to damage but it also cannot fall into the void or despawn."
+        }
+    ]
+}

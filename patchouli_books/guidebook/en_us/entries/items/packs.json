@@ -10,7 +10,7 @@
         {
             "type": "crafting",
             "recipe": "sophisticatedbackpacks:backpack",
-            "text": "Backpacks can carry up to 18 items and can not only be expanded to carry more items but also upgraded with additional useful features."
+            "text": "Backpacks can carry up to 18 items and can not only be expanded to carry more items but also upgraded with additional useful features.$(br) $(br2)More information can be found in $(l:mods/sophisticatedbackpacks)this chapter$(/l)."
         },
         {
             "type": "crafting",
