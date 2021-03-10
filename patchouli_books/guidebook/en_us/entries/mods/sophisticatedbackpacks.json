@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "As your travels continue you just might find that 36 items just isn't enough ... especially if you spend much time mining."
+            "text": "Backpacks with sophistication."
         },
         {
             "type": "spotlight",
@@ -30,19 +30,28 @@
         {
             "type": "crafting",
             "recipe": "sophisticatedbackpacks:diamond_backpack",
-            "text": "The largest and most versatile pack.  It can carry up to 45 items as well as accepting three upgrades."
+            "text": "The largest pack available from materials you can find in the Overworld.  It can carry up to 45 items as well as accepting three upgrades."
         },
         {
-            "type": "spotlight",
-            "title": "Dyeing",
-            "item": "sophisticatedbackpacks:iron_backpack{borderColor:10329495,clothColor:1908001}",
-            "text": "Backpacks have an additional feature ... the ability to dye them whatever colour you like.$(br)Two colours, actually.$(br2)All you need to do is place your backpack in a crafting table with a dye to the left and right.$(br2)Or just a single dye, if that$(br)   is your desire."
+            "type": "smithing",
+            "recipe": "sophisticatedbackpacks:netherite_backpack",
+            "text": "The largest and most versatile pack ... as well as the most expensive.  It can carry up to 54 items as well as accepting four upgrades."
         },
         {
             "type": "spotlight",
             "title": "Placing",
             "item": "sophisticatedbackpacks:iron_backpack",
             "text": "Backpacks can also be placed on the ground (and picked back up) with a shift right-click and can be accessed as if it was a chest.$(br2)Just like chests they can be accessed via hoppers or pipes."
+        },
+        {
+            "type": "spotlight",
+            "title": "Dyeing",
+            "item": "sophisticatedbackpacks:iron_backpack{borderColor:10329495,clothColor:1908001}",
+            "text": "Backpacks have an additional feature ... the ability to dye them whatever colour (or colours) you like.$(br2)All you need to do is place your backpack in a crafting table with some dye like you would leather armour."
+        },
+        {
+            "type": "text",
+            "text": "Dyes to the left of the backpack colour the cloth whilst dyes to the right colour the trim.  Dyes placed above and below affect both.$(br2)You can even dye a pack that has already been dyed to blend the colours further.$(br2)If you'd like to remove the dye then just wash it off in a cauldron filled with water."
         },
         {
             "type": "spotlight",
