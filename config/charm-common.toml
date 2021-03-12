@@ -67,7 +67,7 @@
 #A functional block that speeds up cooking of clay, bricks and terracotta.
 "Kilns enabled" = false
 #Lumberjacks are villagers that trade wooden items. Their job site is the woodcutter.
-"Lumberjacks enabled" = true
+"Lumberjacks enabled" = false
 #Adds decoration and more ores to mineshafts.
 "MineshaftImprovements enabled" = false
 #Mooblooms are cow-like mobs that come in a variety of flower types. They spawn flowers where they walk and can be milked for suspicious stew.
@@ -138,7 +138,7 @@
 #A witch has a chance to drop a Potion of Luck when killed by a player.
 "WitchesDropLuck enabled" = true
 #A functional block that adds more efficient recipes for crafting wooden stairs and slabs.
-"Woodcutters enabled" = true
+"Woodcutters enabled" = false
 
 [AnvilImprovements]
 	#If true, removes the maximum cost of 40 XP when working items on the anvil.
