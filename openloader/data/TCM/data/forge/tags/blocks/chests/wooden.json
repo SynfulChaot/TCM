@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [ ],
+    "remove": [
+        "atmospheric:aspen_chest",
+        "atmospheric:aspen_trapped_chest",
+        "atmospheric:grimwood_chest",
+        "atmospheric:grimwood_trapped_chest",
+        "atmospheric:kousa_chest",
+        "atmospheric:kousa_trapped_chest"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [ ],
+    "remove": [
+        "atmospheric:aspen_trapdoor",
+        "atmospheric:grimwood_trapdoor",
+        "atmospheric:kousa_trapdoor"
+    ]
+}
