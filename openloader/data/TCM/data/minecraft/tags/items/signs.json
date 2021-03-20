@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [ ],
+  "remove": [
+      "atmospheric:aspen_sign",
+      "atmospheric:grimwood_sign",
+      "atmospheric:kousa_sign"
+  ]
+}

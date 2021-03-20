@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [ ],
+    "remove": [
+        "atmospheric:grimwood",
+        "atmospheric:grimwood_log",
+        "atmospheric:stripped_grimwood",
+        "atmospheric:stripped_grimwood_log"
+    ]
+}

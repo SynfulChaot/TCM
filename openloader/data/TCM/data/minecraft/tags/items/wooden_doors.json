@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [ ],
+    "remove": [
+        "atmospheric:aspen_door",
+        "atmospheric:grimwood_door",
+        "atmospheric:kousa_door"
+    ]
+}

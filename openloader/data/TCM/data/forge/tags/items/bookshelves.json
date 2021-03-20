@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [ ],
+    "remove": [
+        "atmospheric:aspen_bookshelf",
+        "atmospheric:grimwood_bookshelf",
+        "atmospheric:kousa_bookshelf"
+    ]
+}

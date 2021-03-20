@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [ ],
+    "remove": [
+        "atmospheric:aspen_stairs",
+        "atmospheric:grimwood_stairs",
+        "atmospheric:kousa_stairs"
+    ]
+}

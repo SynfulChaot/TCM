@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [ ],
+    "remove": [
+        "atmospheric:aspen_leaves",
+        "atmospheric:grimwood_leaves",
+        "atmospheric:kousa_leaves"
+    ]
+}

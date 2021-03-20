@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [ ],
+    "remove": [
+        "atmospheric:aspen_sapling",
+        "atmospheric:grimwood_sapling",
+        "atmospheric:kousa_sapling"
+    ]
+}
