@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [ ],
+    "remove": [
+        "atmospheric:ivory_travertine_wall",
+        "atmospheric:peach_travertine_wall",
+        "atmospheric:persimmon_travertine_wall",
+        "atmospheric:saffron_travertine_wall"
+    ]
+}
