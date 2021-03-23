@@ -1,0 +1,15 @@
+{
+  "type": "environmental:baking",
+  "ingredient": {
+    "item": "ceramics:unfired_faucet"
+  },
+  "result": "ceramics:porcelain_faucet",
+  "experience": 0.3,
+  "cookingtime": 100,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ceramics"
+    }
+  ]
+}
