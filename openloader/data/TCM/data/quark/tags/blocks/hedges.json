@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [ ],
+    "remove": [
+        "atmospheric:aspen_hedge",
+        "atmospheric:grimwood_hedge",
+        "atmospheric:kousa_hedge"
+    ]
+}
