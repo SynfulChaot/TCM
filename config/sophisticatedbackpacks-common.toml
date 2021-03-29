@@ -2,9 +2,12 @@
 #Common Settings
 [common]
 	#Disable / enable any items here (disables their recipes)
-	enabledItems = ["advanced_compacting_upgrade:false", "advanced_deposit_upgrade:true", "advanced_filter_upgrade:true", "advanced_magnet_upgrade:false", "advanced_pickup_upgrade:true", "advanced_restock_upgrade:true", "advanced_void_upgrade:false", "auto_smelting_upgrade:false", "backpack:true", "compacting_upgrade:false", "crafting_upgrade:false", "deposit_upgrade:true", "diamond_backpack:true", "everlasting_upgrade:true", "feeding_upgrade:false", "filter_upgrade:true", "gold_backpack:true", "inception_upgrade:false", "iron_backpack:true", "magnet_upgrade:false", "pickup_upgrade:true", "refill_upgrade:false", "restock_upgrade:true", "smelting_upgrade:false", "stonecutter_upgrade:false", "upgrade_base:true", "void_upgrade:false"]
+	enabledItems = ["advanced_compacting_upgrade:false", "advanced_deposit_upgrade:true", "advanced_filter_upgrade:true", "advanced_magnet_upgrade:false", "advanced_pickup_upgrade:true", "advanced_restock_upgrade:true", "advanced_void_upgrade:false", "auto_smelting_upgrade:false", "backpack:true", "compacting_upgrade:false", "crafting_upgrade:false", "deposit_upgrade:true", "diamond_backpack:true", "everlasting_upgrade:true", "feeding_upgrade:false", "filter_upgrade:true", "gold_backpack:true", "inception_upgrade:false", "iron_backpack:true", "jukebox_upgrade:false", "magnet_upgrade:false", "pickup_upgrade:true", "refill_upgrade:false", "restock_upgrade:true", "smelting_upgrade:false", "stack_upgrade_tier_1:false", "stack_upgrade_tier_2:false", "stack_upgrade_tier_3:false", "stack_upgrade_tier_4:false", "stonecutter_upgrade:false", "upgrade_base:true", "void_upgrade:false"]
 	#Turns on/off loot added to various vanilla chest loot tables
 	chestLootEnabled = false
+	#Shift clicking will first move the stack into open tab and only then to player's inventory or to backpack (based on where shift clicking from backpack or from player's inventory).
+	#Setting this to false will move stacks to backpack/inventory first.
+	shiftClickIntoOpenTabFirst = false
 
 	#Leather Backpack Settings
 	[common.leatherBackpack]
@@ -253,4 +256,8 @@
 		equipWithArmor = true
 		#Map of entities that can spawn with backpack and related loot tables (if adding a loot is enabled) in format of "EntityRegistryName|LootTableName"
 		entityLootTableList = ["minecraft:piglin|minecraft:chests/bastion_bridge", "minecraft:witch|minecraft:chests/buried_treasure", "minecraft:pillager|minecraft:chests/pillager_outpost", "minecraft:zombie|minecraft:chests/simple_dungeon", "minecraft:vindicator|minecraft:chests/woodland_mansion", "minecraft:zombie_villager|minecraft:chests/village/village_armorer", "minecraft:zombified_piglin|minecraft:chests/bastion_other", "minecraft:stray|minecraft:chests/igloo_chest", "minecraft:creeper|minecraft:chests/desert_pyramid", "minecraft:evoker|minecraft:chests/woodland_mansion", "minecraft:enderman|minecraft:chests/end_city_treasure", "minecraft:skeleton|minecraft:chests/simple_dungeon", "minecraft:vex|minecraft:chests/woodland_mansion", "minecraft:wither_skeleton|minecraft:chests/nether_bridge", "minecraft:drowned|minecraft:chests/shipwreck_treasure", "minecraft:husk|minecraft:chests/desert_pyramid", "minecraft:piglin_brute|minecraft:chests/bastion_treasure"]
+		#List of music discs that are not supposed to be played by entities
+		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
+		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
+		playJukebox = true
 
