@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [ ],
-    "remove": [
-        "atmospheric:aspen_fence_gate",
-        "atmospheric:grimwood_fence_gate",
-        "atmospheric:kousa_fence_gate"
-    ]
-}

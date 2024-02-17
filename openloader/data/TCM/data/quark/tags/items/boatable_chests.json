@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [ ],
-    "remove": [
-        "atmospheric:aspen_chest",
-        "atmospheric:grimwood_chest",
-        "atmospheric:kousa_chest"
-    ]
-}

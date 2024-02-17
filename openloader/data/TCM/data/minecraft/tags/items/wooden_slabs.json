@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [ ],
-    "remove": [
-        "atmospheric:aspen_slab",
-        "atmospheric:grimwood_slab",
-        "atmospheric:kousa_slab"
-    ]
-}

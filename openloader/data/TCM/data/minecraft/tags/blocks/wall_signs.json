@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [ ],
-    "remove": [
-        "atmospheric:aspen_wall_sign",
-        "atmospheric:grimwood_wall_sign",
-        "atmospheric:kousa_wall_sign"
-    ]
-}

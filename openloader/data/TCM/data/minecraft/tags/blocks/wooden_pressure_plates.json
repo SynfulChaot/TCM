@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [ ],
-    "remove": [
-        "atmospheric:aspen_pressure_plate",
-        "atmospheric:grimwood_pressure_plate",
-        "atmospheric:kousa_pressure_plate"
-    ]
-}

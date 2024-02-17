@@ -1,5 +1,6 @@
 /.mixin.out/
 /crash-reports/
+/downloads/
 /logs/
 /mods/
 /natives/
@@ -20,6 +21,6 @@ config/fabrication/dimensional_tools.ini
 config/fabrication/gear_components.ini
 config/fabrication/item_despawn.ini
 
-# Curse
-/config.json
-/minecraftinstance.json
+# Modrinth
+/profile.json
+
