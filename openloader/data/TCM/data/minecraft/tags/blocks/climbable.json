@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "charm:gold_chain",
-        "minecraft:chain",
-        "minecraft:iron_bars",
-        "quark:gold_bars"
-    ]
-}

@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [ ],
-    "remove": [
-        "atmospheric:aspen_boat",
-        "atmospheric:grimwood_boat",
-        "atmospheric:kousa_boat"
-    ]
-}
