@@ -1,0 +1,72 @@
+
+[General]
+	#Should seeds appear in some chests?
+	seedsInChests = true
+
+["Wild Grass Drops"]
+	#Relative weight of wheat seeds in grass drops
+	#Range: 0 ~ 100
+	relWeightWheatSeeds = 10
+	#Should ashenwheat seeds drop from breaking grass?
+	DropAshSeeds = true
+	#Relative weight of ashenwheat seeds in grass drops
+	#Range: 0 ~ 100
+	relWeightAshSeeds = 8
+	#Should scintilla wheat seeds drop from breaking grass?
+	DropScintillaSeeds = false
+	#Relative weight of scintilla wheat seeds in grass drops
+	#Range: 0 ~ 100
+	relWeightScintillaSeeds = 3
+	#Should ossidroot seeds drop from breaking grass?
+	DropOssidSeeds = true
+	#Relative weight of ossidroot seeds in grass drops
+	#Range: 0 ~ 100
+	relWeightOssidSeeds = 5
+	#Should thundergrass seeds drop from breaking grass?
+	DropThunderSeeds = true
+	#Relative weight of thundergrass seeds in grass drops
+	#Range: 0 ~ 100
+	relWeightThunderSeeds = 4
+
+["Crop Growth Rates"]
+	#Ashenwheat growth rate (wheat = 1.0)
+	#Range: 0.01 ~ 100.0
+	growthRateAshenwheat = 0.96
+	#Scintilla growth rate (wheat = 1.0)
+	#Range: 0.01 ~ 100.0
+	growthRateScintillaWheat = 0.79
+	#Ossid root growth rate (wheat = 1.0)
+	#Range: 0.01 ~ 100.0
+	growthRateOssidRoot = 0.89
+	#Thundergrass growth rate (wheat = 1.0)
+	#Range: 0.01 ~ 100.0
+	growthRateThunderGrass = 0.5
+	#Thundergrass neighbor tolerance (wheat = 1.0), aka f_min
+	#Range: 0.1 ~ 6.0
+	neighborFactorThunderGrass = 5.0
+
+["Wuppy29's Peaceful Pack"]
+
+	["Wuppy29's Peaceful Pack".Flax]
+		#Enable flax recipes
+		enableFlaxRecipes = true
+		#Should flax seed drop from breaking grass?
+		dropFlaxSeed = false
+		#Relative weight of flax seeds in grass drops
+		#Range: 0 ~ 100
+		relWeightFlaxSeeds = 4
+
+	["Wuppy29's Peaceful Pack"."Rotten Plant"]
+		#Should rotten seed drop from breaking grass?
+		dropRottenSeeds = false
+		#Relative weight of rotten seeds in grass drops
+		#Range: 0 ~ 100
+		relWeightRottenSeeds = 1
+
+	["Wuppy29's Peaceful Pack"."Spider Eyes"]
+		#Enable spider eyes dropping from cobwebs
+		enableSpiderEyeDrops = true
+		#Chance that spider eyes will drop from cobwebs
+		#Range: 0.0 ~ 1.0
+		spiderEyeDropChance = 0.5
+

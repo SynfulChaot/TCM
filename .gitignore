@@ -5,6 +5,7 @@
 /mods/
 /natives/
 /saves/
+/.qmenu_opened.marker
 /botaniavars.dat
 /crafttweaker.log
 /options.txt
@@ -23,4 +24,3 @@ config/fabrication/item_despawn.ini
 
 # Modrinth
 /profile.json
-
