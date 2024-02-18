@@ -24,3 +24,6 @@ config/fabrication/item_despawn.ini
 
 # Modrinth
 /profile.json
+
+# World configuration configs
+/config/worldstripper/*
