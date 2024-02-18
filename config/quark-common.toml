@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -24,7 +24,7 @@
 	#This will have various knock-on effects but might make the Weald more common, or appear closer to modded biomes. Who knows?
 	"Terrablender Modify Vanilla Anyway" = false
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
-	"Enable Onboarding" = true
+	"Enable Onboarding" = false
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
 
@@ -51,7 +51,7 @@
 	"Iron Rod" = true
 	"Metal Buttons" = true
 	"Obsidian Plate" = true
-	"Pistons Move Tile Entities" = true
+	"Pistons Move Tile Entities" = false
 	"Redstone Randomizer" = true
 
 	[automation.crafter]
@@ -183,12 +183,12 @@
 
 	[building.japanese_palette]
 		"Enable Paper Blocks" = true
-		"Enable Bamboo Mats" = true
+		"Enable Bamboo Mats" = false
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - immersive_weathering
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -222,8 +222,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - environmental
 		# - goated
+		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -272,10 +272,10 @@
 		"Enable Pillar" = true
 
 [management]
-	"Automatic Tool Restock" = true
+	"Automatic Tool Restock" = false
 	"Easy Transfering" = true
 	"Expanded Item Interactions" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
@@ -334,12 +334,12 @@
 	"Endermosh Music Disc" = true
 	"Parrot Eggs" = true
 	"Pathfinder Maps" = true
-	Pickarang = true
+	Pickarang = false
 	"Seed Pouch" = true
 	"Skull Pikes" = true
 	"Slime In A Bucket" = true
 	"Torch Arrow" = true
-	Trowel = true
+	Trowel = false
 
 	[tools.abacus]
 
@@ -503,11 +503,11 @@
 	"Coral On Cactus" = true
 	"Diamond Repair" = true
 	"Double Door Opening" = true
-	"Dragon Scales" = true
+	"Dragon Scales" = false
 	"Dyeable Item Frames" = true
 	Emotes = true
 	"Enhanced Ladders" = true
-	"Glass Shard" = true
+	"Glass Shard" = false
 	"Gold Tools Have Fortune" = true
 	"Grab Chickens" = true
 	"Hoe Harvesting" = true
@@ -519,27 +519,27 @@
 	"More Note Block Sounds" = true
 	"No Durability On Cosmetics" = true
 	"Pat The Dogs" = true
-	"Pig Litters" = true
-	"Poison Potato Usage" = true
+	"Pig Litters" = false
+	"Poison Potato Usage" = false
 	"Reacharound Placing" = true
 	"Renewable Spore Blossoms" = true
-	"Replace Scaffolding" = true
+	"Replace Scaffolding" = false
 	"Safer Creatures" = true
-	"Shulker Packing" = true
+	"Shulker Packing" = false
 	"Simple Harvest" = true
 	"Slabs To Blocks" = true
 	"Slimes To Magma Cubes" = true
 	"Snow Golem Player Heads" = true
 	"Utility Recipes" = true
 	"Vexes Die With Their Masters" = true
-	"Villagers Follow Emeralds" = true
+	"Villagers Follow Emeralds" = false
 	"Zombie Villagers On Normal" = true
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
 		"Ignored Recipes" = []
 		"Force Limited Crafting" = false
-		"Disable Recipe Book" = false
+		"Disable Recipe Book" = true
 		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
 		"Filter Recipe Advancements" = true
 
@@ -736,7 +736,7 @@
 [world]
 	"Ancient Wood" = true
 	"Azalea Wood" = true
-	"Big Stone Clusters" = true
+	"Big Stone Clusters" = false
 	"Blossom Trees" = true
 	"Chorus Vegetation" = true
 	Corundum = true
@@ -1312,7 +1312,7 @@
 	Forgotten = true
 	Foxhound = true
 	Shiba = true
-	Stonelings = true
+	Stonelings = false
 	Toretoise = true
 	Wraith = true
 
@@ -1519,13 +1519,13 @@
 	Camera = true
 	"Chest Searching" = true
 	"Elytra Indicator" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Improved Tooltips" = true
-	"Long Range Pick Block" = true
-	"Microcrafting Helper" = true
+	"Long Range Pick Block" = false
+	"Microcrafting Helper" = false
 	"Soul Candles" = true
-	"Usage Ticker" = true
-	"Uses For Curses" = true
+	"Usage Ticker" = false
+	"Uses For Curses" = false
 	"Variant Animal Textures" = true
 	"Wool Shuts Up Minecarts" = true
 
@@ -1774,12 +1774,12 @@
 		"Reroll Even If Not Out Of Stock" = false
 
 [oddities]
-	Backpack = true
-	Crate = true
-	Magnets = true
-	"Matrix Enchanting" = true
+	Backpack = false
+	Crate = false
+	Magnets = false
+	"Matrix Enchanting" = false
 	Pipes = true
-	"Tiny Potato" = true
+	"Tiny Potato" = false
 	"Totem Of Holding" = true
 
 	[oddities.backpack]
@@ -1864,7 +1864,7 @@
 		"Max Pipe Items" = 16
 		#When items eject or are absorbed by pipes, should they make sounds?
 		"Do Pipes Whoosh" = true
-		"Enable Encased Pipes" = true
+		"Enable Encased Pipes" = false
 		"Render Pipe Items" = true
 		"Emit Vibrations" = true
 
@@ -1879,7 +1879,7 @@
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
-		"Dark Souls Mode" = true
+		"Dark Souls Mode" = false
 		#Totem will always spawn if the player killer is themselves.
 		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
