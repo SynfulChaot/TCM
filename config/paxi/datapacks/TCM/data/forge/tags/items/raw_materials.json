@@ -1,0 +1,22 @@
+{
+    "replace": true,
+    "values": [
+        "blue_skies:raw_aquite",
+        "blue_skies:raw_charoite",
+        "blue_skies:raw_falsite",
+        "blue_skies:raw_horizonite",
+        "blue_skies:raw_ventium",
+        "twilightforest:armor_shard_cluster",
+        "twilightforest:raw_ironwood",
+        "#forge:raw_materials/aluminum",
+        "#forge:raw_materials/copper",
+        "#forge:raw_materials/gold",
+        "#forge:raw_materials/iron",
+        "#forge:raw_materials/lead",
+        "#forge:raw_materials/nickel",
+        "#forge:raw_materials/silver",
+        "#forge:raw_materials/tin",
+        "#forge:raw_materials/uranium",
+        "#forge:raw_materials/zinc"
+    ]
+}

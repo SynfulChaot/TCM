@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "X": {
+            "tag": "forge:nuggets/lead"
+        }
+    },
+    "pattern": [
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+    "result": {
+        "item": "embers:lead_ingot"
+    }
+}
