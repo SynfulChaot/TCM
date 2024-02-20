@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "X": {
+            "tag": "forge:raw_materials/lead"
+        }
+    },
+    "pattern": [
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+    "result": {
+        "item": "embers:raw_lead_block"
+    }
+}
