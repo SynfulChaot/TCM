@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "s": {
+            "tag": "forge:storage_blocks/silver"
+        }
+    },
+    "pattern": [
+        "sss"
+    ],
+    "result": {
+        "count": 6,
+        "item": "immersiveengineering:slab_storage_silver"
+    },
+    "show_notification": true
+}
