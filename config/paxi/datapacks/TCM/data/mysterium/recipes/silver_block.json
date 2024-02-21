@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "X": {
+            "tag": "forge:ingots/silver"
+        }
+    },
+    "pattern": [
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+    "result": {
+        "item": "embers:silver_block"
+    }
+}

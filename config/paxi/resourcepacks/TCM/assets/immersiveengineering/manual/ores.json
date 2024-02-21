@@ -28,10 +28,10 @@
     },
     "silver": {
         "items": [
-            { "item": "immersiveengineering:ore_silver" },
-            { "item": "immersiveengineering:deepslate_ore_silver" },
-            { "item": "immersiveengineering:raw_silver" },
-            { "item": "immersiveengineering:ingot_silver" }
+            { "item": "eidolon:silver_ore" },
+            { "item": "eidolon:deep_silver_ore" },
+            { "item": "eidolon:raw_silver" },
+            { "item": "eidolon:silver_ingot" }
         ],
         "type": "item_display"
     },

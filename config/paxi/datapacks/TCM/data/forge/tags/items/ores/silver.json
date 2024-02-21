@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "values": [
+        "embers:silver_ore",
+        "embers:deepslate_silver_ore"
+    ]
+}

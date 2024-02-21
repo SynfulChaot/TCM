@@ -1,0 +1,29 @@
+{
+    "type": "eidolon:worktable",
+    "key": {
+        "a": {
+            "item": "eidolon:enchanted_ash"
+        },
+        "b": {
+            "item": "eidolon:imbued_bones"
+        },
+        "h": {
+            "item": "eidolon:holy_symbol"
+        },
+        "l": {
+            "item": "eidolon:lesser_soul_gem"
+        },
+        "s": {
+            "tag": "forge:ingots/silver"
+        }
+    },
+    "pattern": [
+        "bsb",
+        "s s",
+        "s s"
+    ],
+    "reagents": "hlal",
+    "result": {
+        "item": "eidolon:bonelord_greaves"
+    }
+}
