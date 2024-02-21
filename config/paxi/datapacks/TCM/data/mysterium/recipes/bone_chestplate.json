@@ -1,0 +1,32 @@
+{
+    "type": "eidolon:worktable",
+    "key": {
+        "b": {
+            "item": "eidolon:imbued_bones"
+        },
+        "h": {
+            "item": "eidolon:holy_symbol"
+        },
+        "l": {
+            "item": "eidolon:lesser_soul_gem"
+        },
+        "s": {
+            "tag": "forge:ingots/silver"
+        },
+        "t": {
+            "item": "eidolon:tattered_cloth"
+        },
+        "w": {
+            "item": "eidolon:wraith_heart"
+        }
+    },
+    "pattern": [
+        "s s",
+        "bwb",
+        "sbs"
+    ],
+    "reagents": "htlt",
+    "result": {
+        "item": "eidolon:bonelord_chestplate"
+    }
+}
