@@ -1,0 +1,13 @@
+{
+    "type": "railcraft:blasting",
+    "cookingTime": 600,
+    "experience": 0.0,
+    "ingredient": {
+        "item": "immersiveengineering:armor_steel_boots"
+    },
+    "result": {
+        "count": 3,
+        "item": "railcraft:steel_ingot"
+    },
+    "slagOutput": 0
+}

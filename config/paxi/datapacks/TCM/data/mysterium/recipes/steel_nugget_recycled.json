@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:blasting",
+    "cookingtime": 100,
+    "experience": 0.1,
+    "ingredient": [
+        {
+            "item": "immersiveengineering:armor_steel_helmet"
+        },
+        {
+            "item": "immersiveengineering:armor_steel_chestplate"
+        },
+        {
+            "item": "immersiveengineering:armor_steel_leggings"
+        },
+        {
+            "item": "immersiveengineering:armor_steel_boots"
+        },
+        {
+            "item": "immersiveengineering:pickaxe_steel"
+        },
+        {
+            "item": "immersiveengineering:shovel_steel"
+        },
+        {
+            "item": "immersiveengineering:axe_steel"
+        },
+        {
+            "item": "immersiveengineering:hoe_steel"
+        },
+        {
+            "item": "immersiveengineering:sword_steel"
+        }
+    ],
+    "result": "railcraft:steel_nugget"
+}
