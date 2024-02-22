@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "#forge:nuggets/arcane_gold",
+        "#forge:nuggets/brass",
+        "#forge:nuggets/bronze",
+        "#forge:nuggets/deorum",
+        "#forge:nuggets/invar",
+        "#forge:nuggets/pewter",
+        "#forge:nuggets/tin",
+        "#forge:nuggets/zinc"
+    ]
+}
