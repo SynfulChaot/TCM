@@ -1,0 +1,12 @@
+{
+    "type": "railcraft:blasting",
+    "cookingTime": 200,
+    "experience": 0.0,
+    "ingredient": {
+        "item": "immersiveengineering:sword_steel"
+    },
+    "result": {
+        "item": "railcraft:steel_ingot"
+    },
+    "slagOutput": 0
+}
