@@ -1,1 +1,1 @@
-{ }
+{ "conditions": [ { "type": "forge:false" } ] }
