@@ -1,0 +1,17 @@
+{
+    "replace": true,
+    "values": [
+        "#forge:gears/brass",
+        "#forge:gears/bronze",
+        "#forge:gears/copper",
+        "#forge:gears/gold",
+        "#forge:gears/invar",
+        "#forge:gears/iron",
+        "#forge:gears/lead",
+        "#forge:gears/nickel",
+        "#forge:gears/silver",
+        "#forge:gears/steel",
+        "#forge:gears/tin",
+        "#forge:gears/zinc"
+    ]
+}
