@@ -396,10 +396,10 @@
 		air_exposure = 0.25
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 9
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		min_y = -48
+		min_y = -64
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 32
