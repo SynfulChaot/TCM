@@ -373,13 +373,13 @@
 		air_exposure = 0.0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 8
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = -32
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 80
+		max_y = 64
 		#The number of veins attempted to be generated per chunk
 		#Range: > 0
 		attempts_per_chunk = 12
