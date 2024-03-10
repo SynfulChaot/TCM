@@ -1,0 +1,18 @@
+{
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/lead"
+        },
+        {
+            "tag": "forge:ingots/lead"
+        },
+        {
+            "item": "immersiveengineering:hammer"
+        }
+    ],
+    "result": {
+        "item": "embers:lead_plate"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

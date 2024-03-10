@@ -1,0 +1,11 @@
+{
+    "energy": 2400,
+    "input": {
+        "tag": "forge:ingots/copper"
+    },
+    "mold": "immersiveengineering:mold_plate",
+    "result": {
+        "item": "embers:copper_plate"
+    },
+    "type": "immersiveengineering:metal_press"
+}
