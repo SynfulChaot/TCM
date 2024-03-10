@@ -1,0 +1,17 @@
+{
+  "type": "railcraft:rolling",
+  "key": {
+    "a": {
+      "tag": "forge:ingots/aluminum"
+    }
+  },
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "processTime": 100,
+  "result": {
+    "count": 4,
+    "item": "immersiveengineering:plate_aluminum"
+  }
+}

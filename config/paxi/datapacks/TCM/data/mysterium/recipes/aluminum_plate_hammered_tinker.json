@@ -1,0 +1,18 @@
+{
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/aluminum"
+        },
+        {
+            "tag": "forge:ingots/aluminum"
+        },
+        {
+            "tag": "embers:tinker_hammer"
+        }
+    ],
+    "result": {
+        "item": "immersiveengineering:plate_aluminum"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

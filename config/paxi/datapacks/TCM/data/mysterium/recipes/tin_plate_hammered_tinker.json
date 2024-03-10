@@ -1,0 +1,18 @@
+{
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/tin"
+        },
+        {
+            "tag": "forge:ingots/tin"
+        },
+        {
+            "tag": "embers:tinker_hammer"
+        }
+    ],
+    "result": {
+        "item": "railcraft:tin_plate"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

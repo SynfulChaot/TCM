@@ -1,0 +1,18 @@
+{
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/nickel"
+        },
+        {
+            "tag": "forge:ingots/nickel"
+        },
+        {
+            "item": "immersiveengineering:hammer"
+        }
+    ],
+    "result": {
+        "item": "immersiveengineering:plate_nickel"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

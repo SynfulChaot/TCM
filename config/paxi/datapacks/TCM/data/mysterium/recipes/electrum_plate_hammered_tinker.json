@@ -1,0 +1,18 @@
+{
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/electrum"
+        },
+        {
+            "tag": "forge:ingots/electrum"
+        },
+        {
+            "tag": "embers:tinker_hammer"
+        }
+    ],
+    "result": {
+        "item": "immersiveengineering:plate_electrum"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

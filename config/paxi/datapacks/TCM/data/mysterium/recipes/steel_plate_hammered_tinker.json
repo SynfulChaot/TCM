@@ -1,0 +1,18 @@
+{
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/steel"
+        },
+        {
+            "tag": "forge:ingots/steel"
+        },
+        {
+            "tag": "embers:tinker_hammer"
+        }
+    ],
+    "result": {
+        "item": "immersiveengineering:plate_steel"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

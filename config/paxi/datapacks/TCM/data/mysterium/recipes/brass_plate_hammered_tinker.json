@@ -1,0 +1,18 @@
+{
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/brass"
+        },
+        {
+            "tag": "forge:ingots/brass"
+        },
+        {
+            "tag": "embers:tinker_hammer"
+        }
+    ],
+    "result": {
+        "item": "railcraft:brass_plate"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

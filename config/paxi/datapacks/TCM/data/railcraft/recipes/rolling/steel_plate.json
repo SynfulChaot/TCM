@@ -1,0 +1,17 @@
+{
+    "key": {
+        "a": {
+            "tag": "forge:ingots/steel"
+        }
+    },
+    "pattern": [
+        "aa",
+        "aa"
+    ],
+    "processTime": 100,
+    "result": {
+        "count": 4,
+        "item": "immersiveengineering:plate_steel"
+    },
+    "type": "railcraft:rolling"
+}

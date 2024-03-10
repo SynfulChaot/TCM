@@ -1,0 +1,18 @@
+{
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/invar"
+        },
+        {
+            "tag": "forge:ingots/invar"
+        },
+        {
+            "tag": "embers:tinker_hammer"
+        }
+    ],
+    "result": {
+        "item": "railcraft:invar_plate"
+    },
+    "type": "minecraft:crafting_shapeless"
+}
