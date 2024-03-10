@@ -1,1 +1,17 @@
-{ "conditions": [ { "type": "forge:false" } ] }
+{
+    "key": {
+        "a": {
+            "tag": "forge:ingots/iron"
+        }
+    },
+    "pattern": [
+        "aa",
+        "aa"
+    ],
+    "processTime": 100,
+    "result": {
+        "count": 4,
+        "item": "embers:iron_plate"
+    },
+    "type": "railcraft:rolling"
+}

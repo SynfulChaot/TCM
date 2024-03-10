@@ -1,1 +1,11 @@
-{ "conditions": [ { "type": "forge:false" } ] }
+{
+    "energy": 2400,
+    "input": {
+        "tag": "forge:ingots/iron"
+    },
+    "mold": "immersiveengineering:mold_plate",
+    "result": {
+        "item": "embers:iron_plate"
+    },
+    "type": "immersiveengineering:metal_press"
+}
