@@ -1,0 +1,17 @@
+{
+    "key": {
+        "a": {
+            "tag": "forge:ingots/copper"
+        }
+    },
+    "pattern": [
+        "aa",
+        "aa"
+    ],
+    "processTime": 100,
+    "result": {
+        "count": 4,
+        "item": "embers:copper_plate"
+    },
+    "type": "railcraft:rolling"
+}

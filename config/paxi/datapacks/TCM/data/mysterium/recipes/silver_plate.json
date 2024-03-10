@@ -1,0 +1,18 @@
+{
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/silver"
+        },
+        {
+            "tag": "forge:ingots/silver"
+        },
+        {
+            "item": "immersiveengineering:hammer"
+        }
+    ],
+    "result": {
+        "item": "embers:silver_plate"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

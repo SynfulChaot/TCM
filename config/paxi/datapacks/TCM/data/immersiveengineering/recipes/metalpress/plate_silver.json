@@ -1,0 +1,11 @@
+{
+    "energy": 2400,
+    "input": {
+        "tag": "forge:ingots/silver"
+    },
+    "mold": "immersiveengineering:mold_plate",
+    "result": {
+        "item": "embers:silver_plate"
+    },
+    "type": "immersiveengineering:metal_press"
+}

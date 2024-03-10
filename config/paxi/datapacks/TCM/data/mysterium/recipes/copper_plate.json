@@ -1,0 +1,18 @@
+{
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/copper"
+        },
+        {
+            "tag": "forge:ingots/copper"
+        },
+        {
+            "item": "immersiveengineering:hammer"
+        }
+    ],
+    "result": {
+        "item": "embers:copper_plate"
+    },
+    "type": "minecraft:crafting_shapeless"
+}
