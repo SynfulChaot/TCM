@@ -1,0 +1,18 @@
+{
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/constantan"
+        },
+        {
+            "tag": "forge:ingots/constantan"
+        },
+        {
+            "tag": "embers:tinker_hammer"
+        }
+    ],
+    "result": {
+        "item": "immersiveengineering:plate_constantan"
+    },
+    "type": "minecraft:crafting_shapeless"
+}
