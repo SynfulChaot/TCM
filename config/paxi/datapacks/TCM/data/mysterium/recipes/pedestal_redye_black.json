@@ -1,0 +1,30 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [{ 
+                "type": "reliquary:pedestal_enabled"
+            }],
+            "recipe": {
+                "type": "minecraft:crafting_shaped",
+                "category": "misc",
+                "key": {
+                    "D": {
+                        "item": "minecraft:black_dye"
+                    },
+                    "P": {
+                        "tag": "reliquary:pedestals"
+                    }
+                },
+                "pattern": [
+                    "D",
+                    "P"
+                ],
+                "result": {
+                    "item": "reliquary:pedestals/black_pedestal"
+                },
+                "show_notification": true
+            }
+        }
+    ]
+}

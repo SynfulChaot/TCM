@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        "reliquary:pedestals/white_pedestal",
+        "reliquary:pedestals/orange_pedestal",
+        "reliquary:pedestals/magenta_pedestal",
+        "reliquary:pedestals/light_blue_pedestal",
+        "reliquary:pedestals/yellow_pedestal",
+        "reliquary:pedestals/lime_pedestal",
+        "reliquary:pedestals/pink_pedestal",
+        "reliquary:pedestals/gray_pedestal",
+        "reliquary:pedestals/light_gray_pedestal",
+        "reliquary:pedestals/cyan_pedestal",
+        "reliquary:pedestals/purple_pedestal",
+        "reliquary:pedestals/blue_pedestal",
+        "reliquary:pedestals/brown_pedestal",
+        "reliquary:pedestals/green_pedestal",
+        "reliquary:pedestals/red_pedestal",
+        "reliquary:pedestals/black_pedestal"
+    ]
+}
