@@ -1,0 +1,142 @@
+
+[general]
+	#Puts all the added items into a new Every Compat tab instead of their own mod tabs. Be warned that if disabled it could cause some issue with some mods that have custom tabs
+	creative_tab = true
+	#Makes dynamic assets that are generated depend on loaded resource packs. Turn off to make them just use vanilla assets
+	assets_depend_on_loaded_packs = true
+	#Creates a debug folder inside your instance directory where all the dynamically generated resources will be saved
+	save_debug_resources = false
+	#Sends a packet to verify all dependencies mod versions are the same on connect. DIsable if it causes issues
+	mod_version_check_packet = true
+	#Don't touch unless you are told to
+	debug_packet = false
+
+	[general.tooltips]
+		#Enabled tooltips showing which mod an EC item is from
+		mod_origin_enabled = true
+		#Enabled tooltips showing which block type an EC item is made from
+		block_type_enabled = true
+		#Only show on advanced settings
+		show_on_advanced_tooltips = false
+
+	#Disables certain types
+	[general.types]
+
+		[general.types.wood_type]
+
+			[general.types.wood_type.blue_skies]
+				crystallized = true
+				bluebright = true
+				starlit = true
+				frostbright = true
+				lunar = true
+				dusk = true
+				maple = true
+				comet = true
+
+			[general.types.wood_type.quark]
+				azalea = true
+				ancient = true
+				blossom = true
+
+			[general.types.wood_type.twilightforest]
+				twilight_oak = true
+				canopy = true
+				mangrove = true
+				dark = true
+				time = true
+				transformation = true
+				mining = true
+				sorting = true
+
+			[general.types.wood_type.forbidden_arcanus]
+				aurum = true
+				edelwood = true
+
+			[general.types.wood_type.eidolon]
+				illwood = true
+
+		[general.types.leaves_type]
+
+			[general.types.leaves_type.blue_skies]
+				crystallized = true
+				crescent_fruit = true
+				bluebright = true
+				starlit = true
+				frostbright = true
+				lunar = true
+				dusk = true
+				maple = true
+				comet = true
+
+			[general.types.leaves_type.twilightforest]
+				beanstalk = true
+				thorn = true
+				twilight_oak = true
+				canopy = true
+				mangrove = true
+				dark = true
+				rainbow_oak = true
+				time = true
+				transformation = true
+				mining = true
+				sorting = true
+
+			[general.types.leaves_type.forbidden_arcanus]
+				aurum = true
+				nuggety_aurum = true
+
+			[general.types.leaves_type.eidolon]
+				illwood = true
+
+			[general.types.leaves_type.quark]
+				ancient = true
+				blue_blossom = true
+				lavender_blossom = true
+				orange_blossom = true
+				yellow_blossom = true
+				red_blossom = true
+
+			[general.types.leaves_type.ashenwheat]
+				blaze = true
+
+		[general.types.cake]
+
+			[general.types.cake.blue_skies]
+				comet_berry_pie = true
+
+	#Disables specific entries
+	[general.entries]
+
+		[general.entries.wood_type]
+
+			[general.entries.wood_type.quark]
+				vertical_planks = true
+				post = true
+				trapped_chest = true
+				bookshelf = true
+				chest = true
+				stripped_post = true
+				ladder = true
+				hollow_log = true
+
+			[general.entries.wood_type.twilightforest]
+				hollow_log_horizontal = true
+				hollow_log_vertical = true
+				banister = true
+				hollow_log_climbable = true
+
+			[general.entries.wood_type.farmersdelight]
+				cabinet = true
+
+			[general.entries.wood_type.woodster]
+				bookshelf = false
+				ladder = false
+				chiseled_bookshelf = true
+
+		[general.entries.leaves_type]
+
+			[general.entries.leaves_type.quark]
+				hedge = true
+				leaf_carpet = true
+
