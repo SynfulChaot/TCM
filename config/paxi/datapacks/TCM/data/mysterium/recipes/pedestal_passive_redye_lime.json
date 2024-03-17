@@ -1,0 +1,30 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [{ 
+                "type": "reliquary:pedestal_enabled"
+            }],
+            "recipe": {
+                "type": "minecraft:crafting_shaped",
+                "category": "misc",
+                "key": {
+                    "D": {
+                        "item": "minecraft:lime_dye"
+                    },
+                    "P": {
+                        "tag": "reliquary:passive_pedestals"
+                    }
+                },
+                "pattern": [
+                    "D",
+                    "P"
+                ],
+                "result": {
+                    "item": "reliquary:pedestals/passive/lime_passive_pedestal"
+                },
+                "show_notification": true
+            }
+        }
+    ]
+}
