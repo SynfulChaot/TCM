@@ -56,6 +56,11 @@
 			[general.types.wood_type.eidolon]
 				illwood = true
 
+			[general.types.wood_type.undergarden]
+				smogstem = true
+				wigglewood = true
+				grongle = true
+
 		[general.types.leaves_type]
 
 			[general.types.leaves_type.blue_skies]
@@ -99,6 +104,11 @@
 
 			[general.types.leaves_type.ashenwheat]
 				blaze = true
+
+			[general.types.leaves_type.undergarden]
+				smogstem = true
+				wigglewood = true
+				grongle = true
 
 		[general.types.cake]
 

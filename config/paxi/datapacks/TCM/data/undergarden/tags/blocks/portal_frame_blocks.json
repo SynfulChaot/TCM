@@ -1,0 +1,16 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:stone_bricks",
+        "minecraft:cracked_stone_bricks",
+        "minecraft:mossy_stone_bricks",
+        "minecraft:deepslate_bricks",
+        "minecraft:cracked_deepslate_bricks",
+        "minecraft:deepslate_tiles",
+        "undergarden:depthrock_bricks",
+        "undergarden:cracked_depthrock_bricks",
+        "undergarden:depthrock_tiles",
+        "undergarden:shiverstone_bricks",
+        "undergarden:cracked_shiverstone_bricks"
+    ]
+}
