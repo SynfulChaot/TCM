@@ -139,14 +139,21 @@
 			[general.entries.wood_type.farmersdelight]
 				cabinet = true
 
-			[general.entries.wood_type.woodster]
-				bookshelf = false
-				ladder = false
+			[general.entries.wood_type.woodworks]
+				bookshelf = true
 				chiseled_bookshelf = true
+				trapped_chest = true
+				boards = true
+				chest = true
+				ladder = true
+				beehive = true
 
 		[general.entries.leaves_type]
 
 			[general.entries.leaves_type.quark]
 				hedge = true
 				leaf_carpet = true
+
+			[general.entries.leaves_type.woodworks]
+				leaf_pile = true
 

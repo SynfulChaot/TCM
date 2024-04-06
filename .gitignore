@@ -23,6 +23,9 @@ config/fabrication/dimensional_tools.ini
 config/fabrication/gear_components.ini
 config/fabrication/item_despawn.ini
 
+# Additional Placements backup config files
+config/additionalplacements*.bak
+
 # Modrinth
 /profile.json
 
