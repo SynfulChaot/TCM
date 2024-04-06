@@ -1,0 +1,28 @@
+{
+    "conditions": [
+        {
+            "flag": "seed_pouch",
+            "type": "quark:flag"
+        }
+    ],
+    "key": {
+        "C": {
+            "item": "farmersdelight:canvas"
+        },
+        "S": {
+            "tag": "forge:string"
+        },
+        "X": {
+            "tag": "quark:seed_pouch_holdable"
+        }
+    },
+    "pattern": [
+        " S ",
+        "CXC",
+        " C "
+    ],
+    "result": {
+        "item": "quark:seed_pouch"
+    },
+    "type": "minecraft:crafting_shaped"
+}
