@@ -89,8 +89,10 @@
 	azalea_tea = true
 	baobab_fruit_crate = true
 	basalt_cabinet = true
+	bastion_fruit_crate = true
 	berry_matcha_latte = true
 	blueberry_sack = true
+	bombegranate_crate = true
 	cactus_flesh = true
 	cactus_steak = true
 	cantaloupe = true
@@ -111,6 +113,7 @@
 	deluxe_cheeseburger = true
 	ender_nectar = true
 	field_salad = true
+	frostaya_crate = true
 	glow_jelly_bottle = true
 	green_apple_crate = true
 	green_tea_leaf = true
@@ -123,6 +126,8 @@
 	matcha_ice_cream = true
 	matcha_ice_cream_block = true
 	matcha_latte = true
+	matcha_milkshake = true
+	mendosteen_crate = true
 	mini_melon = true
 	nightshade_berry_sack = true
 	nut_butter_and_jelly_sandwich = true
@@ -135,6 +140,7 @@
 	salmonberry_gummy = true
 	salmonberry_ice_cream = true
 	salmonberry_ice_cream_block = true
+	salmonberry_milkshake = true
 	salmonberry_pie = true
 	salmonberry_pips = true
 	salmonberry_sack = true
@@ -148,7 +154,7 @@
 	#Allow cooking milk from nuts
 	nut_milk = true
 	#Allow cooking honey from honey and clovers
-	clover_honey = true
+	clover_honey = false
 	#Give items that are sliced off of blocks directly to player's inventory instead of dropping
 	give_sliced_directly = false
 	#Allow sliced melons to be juiced in-world (right click)

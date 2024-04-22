@@ -1,0 +1,36 @@
+{
+    "conditions": [
+        {
+            "condition": "delightful:mod_loaded",
+            "modid": "crabbersdelight"
+        },
+        {
+            "chance": 0.0,
+            "condition": "minecraft:random_chance_with_looting",
+            "looting_multiplier": 0.0
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "killer_player",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "tag": "forge:tools/scavenging"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "#delightful:drops_crab_legs"
+            }
+        }
+    ],
+    "item": "quark:crab_leg",
+    "maxAmount": 0,
+    "minAmount": 0,
+    "type": "delightful:add_item",
+    "unique": true
+}
