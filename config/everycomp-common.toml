@@ -142,9 +142,9 @@
 			[general.entries.wood_type.woodworks]
 				bookshelf = true
 				chiseled_bookshelf = true
-				trapped_chest = true
+				trapped_chest = false
 				boards = true
-				chest = true
+				chest = false
 				ladder = true
 				beehive = true
 
