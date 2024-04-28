@@ -731,7 +731,7 @@
 		#Can you craft a boat around a chest to directly make a chest boat?
 		"Enable Chest Boats" = true
 		#Can you craft four chests at once using logs?
-		"Logs To Chests" = true
+		"Logs To Chests" = false
 		#Can Coral be crafted into dye?
 		"Coral To Dye" = true
 		#Can cookies, paper, and bread be crafted in a 2x2 crafting table?
