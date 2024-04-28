@@ -1,19 +1,25 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "enderstorage:create_recipe",
     "key": {
-        "E": {
-            "item": "minecraft:ender_eye"
+        "B": {
+            "item": "minecraft:blaze_powder"
         },
         "C": {
             "item": "farmersdelight:canvas"
+        },
+        "P": {
+            "tag": "forge:ender_pearls"
+        },
+        "W": {
+            "tag": "forge:wool"
         }
     },
     "pattern": [
-        " C ",
-        "CEC",
-        " C "
+        "BCB",
+        "CPC",
+        "BWB"
     ],
     "result": {
-        "item": "enderchests:ender_pouch"
+        "item": "enderstorage:ender_pouch"
     }
 }
