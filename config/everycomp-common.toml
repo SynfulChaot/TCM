@@ -124,7 +124,7 @@
 				vertical_planks = true
 				post = true
 				trapped_chest = true
-				bookshelf = true
+				bookshelf = false
 				chest = true
 				stripped_post = true
 				ladder = true

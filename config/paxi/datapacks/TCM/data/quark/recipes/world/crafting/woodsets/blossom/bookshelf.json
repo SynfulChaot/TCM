@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "XXX",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "quark:blossom_planks"
+        },
+        "X": {
+            "item": "minecraft:book"
+        }
+    },
+    "result": {
+        "item": "quark:blossom_bookshelf",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "quark:flag",
+            "flag": "blossom_trees"
+        }
+    ]
+} 
