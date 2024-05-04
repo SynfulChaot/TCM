@@ -3,7 +3,7 @@
 	Sawmill = true
 	"Wooden boards" = true
 	"Wooden bookshelves" = true
-	"Wooden ladders" = true
+	"Wooden ladders" = false
 	"Wooden beehives" = true
 	"Wooden chests" = false
 	"Leaf piles" = true

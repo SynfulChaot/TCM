@@ -145,7 +145,7 @@
 				trapped_chest = false
 				boards = true
 				chest = false
-				ladder = true
+				ladder = false
 				beehive = true
 
 			[general.entries.wood_type.storagedrawers]
