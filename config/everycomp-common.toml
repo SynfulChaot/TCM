@@ -115,6 +115,14 @@
 			[general.types.cake.blue_skies]
 				comet_berry_pie = true
 
+			[general.types.cake.neapolitan]
+				vanilla_cake = true
+				chocolate_cake = true
+				strawberry_cake = true
+				banana_cake = true
+				mint_cake = true
+				adzuki_cake = true
+
 	#Disables specific entries
 	[general.entries]
 

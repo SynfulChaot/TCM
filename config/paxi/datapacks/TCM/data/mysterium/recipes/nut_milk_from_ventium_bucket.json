@@ -1,0 +1,22 @@
+{
+    "container": {
+        "item": "blue_skies:ventium_bucket"
+    },
+    "cookingtime": 200,
+    "experience": 0.35,
+    "ingredients": [
+        {
+            "tag": "forge:nuts"
+        },
+        {
+            "tag": "forge:nuts"
+        },
+        {
+            "tag": "forge:sugar"
+        }
+    ],
+    "result": {
+        "item": "blue_skies:ventium_milk_bucket"
+    },
+    "type": "farmersdelight:cooking"
+}

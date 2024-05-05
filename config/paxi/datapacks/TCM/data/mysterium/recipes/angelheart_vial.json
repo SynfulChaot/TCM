@@ -1,0 +1,27 @@
+{
+    "category": "misc",
+    "key": {
+        "B": {
+            "tag": "forge:buckets/milk"
+        },
+        "C": {
+            "item": "reliquary:infernal_claw"
+        },
+        "F": {
+            "item": "reliquary:fertile_essence"
+        },
+        "G": {
+            "tag": "forge:glass_panes"
+        }
+    },
+    "pattern": [
+        "GBG",
+        "GCG",
+        "FGF"
+    ],
+    "result": {
+        "item": "reliquary:angelheart_vial"
+    },
+    "show_notification": true,
+    "type": "minecraft:crafting_shaped"
+}
