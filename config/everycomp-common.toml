@@ -157,6 +157,9 @@
 				half_drawers_2 = true
 				full_drawers_1 = true
 
+			[general.entries.wood_type.vct]
+				crafting_table = true
+
 		[general.entries.leaves_type]
 
 			[general.entries.leaves_type.quark]
