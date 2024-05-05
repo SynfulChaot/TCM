@@ -161,8 +161,8 @@
 
 			[general.entries.leaves_type.quark]
 				hedge = true
-				leaf_carpet = true
+				leaf_carpet = false
 
 			[general.entries.leaves_type.woodworks]
-				leaf_pile = true
+				leaf_pile = false
 

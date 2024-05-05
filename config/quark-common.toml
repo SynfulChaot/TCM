@@ -119,7 +119,7 @@
 	"Hollow Logs" = true
 	"Industrial Palette" = true
 	"Japanese Palette" = true
-	"Leaf Carpet" = true
+	"Leaf Carpet" = false
 	Midori = true
 	"More Brick Types" = true
 	"More Mud Blocks" = true
@@ -197,7 +197,7 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-				# - immersive_weathering
+		# - immersive_weathering
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
