@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "reliquary:empty_potion_vial"
+        },
+        {
+            "tag": "forge:buckets/water"
+        },
+        {
+            "tag": "forge:dusts/glowstone"
+        },
+        {
+            "tag": "forge:gunpowder"
+        },
+        {
+            "tag": "forge:crops/nether_wart"
+        }
+    ],
+    "result": {
+        "item": "reliquary:glowing_water"
+    }
+}

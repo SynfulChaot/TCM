@@ -1,6 +1,6 @@
 {
     "container": {
-        "item": "blue_skies:ventium_bucket"
+        "item": "blue_skies:ventium_water_bucket"
     },
     "cookingtime": 200,
     "experience": 0.35,

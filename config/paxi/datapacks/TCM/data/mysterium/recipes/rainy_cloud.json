@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "b": {
+            "tag": "forge:buckets/water"
+        },
+        "c": {
+            "item": "twilightforest:fluffy_cloud"
+        }
+    },
+    "pattern": [
+        "ccc",
+        "cbc",
+        "ccc"
+    ],
+    "result": {
+        "count": 8,
+        "item": "twilightforest:rainy_cloud"
+    },
+    "show_notification": true
+}
