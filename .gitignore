@@ -31,3 +31,8 @@ config/additionalplacements*.bak
 
 # World configuration configs
 /config/worldstripper/*
+
+# KubeJS
+/kubejs/README.txt
+/local/kubejs/
+rhino.local.properties
