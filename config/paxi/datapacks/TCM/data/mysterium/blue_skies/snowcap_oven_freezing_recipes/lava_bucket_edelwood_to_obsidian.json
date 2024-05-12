@@ -1,0 +1,6 @@
+{
+    "count": 1,
+    "fuel_amount": 20000,
+    "input": "forbidden_arcanus:edelwood_lava_bucket",
+    "output": "minecraft:obsidian"
+}

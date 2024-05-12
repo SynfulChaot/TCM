@@ -1,0 +1,15 @@
+{
+    "type": "immersiveengineering:bottling_machine",
+    "fluid": {
+        "amount": 1000,
+        "tag": "minecraft:lava"
+    },
+    "input": {
+        "item": "blue_skies:ventium_bucket"
+    },
+    "results": [
+        {
+            "item": "blue_skies:ventium_lava_bucket"
+        }
+    ]
+}
