@@ -65,8 +65,8 @@
 
 [misc]
 	composter_dirt = true
-	grass_over_mycelium = true
-	mycelium_over_grass = true
+	grass_over_mycelium = false
+	mycelium_over_grass = false
 	generic_bark = ""
 	leggings_prevents_thorn_damage = true
 
