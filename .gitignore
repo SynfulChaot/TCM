@@ -26,6 +26,9 @@ config/fabrication/item_despawn.ini
 # Additional Placements backup config files
 config/additionalplacements*.bak
 
+# Every Compat timestamp'd config
+/config/everycomp-hazardous.properties
+
 # Modrinth
 /profile.json
 
