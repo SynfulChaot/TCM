@@ -1,13 +1,13 @@
 #Early window height
-earlyWindowHeight = 900
+earlyWindowHeight = 1050
 #Early window framebuffer scale
 earlyWindowFBScale = 1
 #Enable forge global version checking
-versionCheck = true
+versionCheck = false
 #Early window provider
 earlyWindowProvider = "fmlearlywindow"
 #Early window width
-earlyWindowWidth = 1600
+earlyWindowWidth = 1680
 #Early window starts maximized
 earlyWindowMaximized = false
 #Default config path for servers
