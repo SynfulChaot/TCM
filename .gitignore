@@ -23,7 +23,8 @@ config/fabrication/dimensional_tools.ini
 config/fabrication/gear_components.ini
 config/fabrication/item_despawn.ini
 
-# Additional Placements backup config files
+# Backup config files
+config/eidolon/*.bak
 config/additionalplacements*.bak
 
 # Every Compat timestamp'd config
