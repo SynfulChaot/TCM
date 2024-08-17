@@ -1,9 +1,7 @@
 {
     "replace": false,
     "values": [
-        "eidolon:codex",
         "embers:ancient_codex",
-        "immersiveengineering:manual",
         "railcraft:routing_table_book",
         "rootsclassic:runic_tablet"
     ]
