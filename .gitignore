@@ -4,7 +4,9 @@
 /logs/
 /mods/
 /natives/
+/resourcepacks/
 /saves/
+/shaderpacks/
 /botaniavars.dat
 /crafttweaker.log
 /options.txt
@@ -24,3 +26,5 @@ config/fabrication/item_despawn.ini
 # Modrinth
 /profile.json
 
+# Prism Launcher
+/icon.png
