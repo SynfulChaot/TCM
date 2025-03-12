@@ -22,6 +22,7 @@
 			shale = true
 			myalite = true
 			permafrost = true
+			shingles = true
 
 		[types.stone_type.blue_skies]
 			taratite = true
@@ -29,9 +30,17 @@
 			brumble = true
 			umber = true
 			cinderstone = true
+			blinding_stone = true
+			nature_stone = true
+			poison_stone = true
+			aquatic_stone = true
+			life_stone = true
+			turquoise_stone = true
+			lunar_stone = true
 
 		[types.stone_type.botania]
 			livingrock = true
+			shimmerrock = true
 
 		[types.stone_type.undergarden]
 			depthrock = true
@@ -69,6 +78,9 @@
 		[types.cake.createaddition]
 			chocolate_cake = true
 			honey_cake = true
+
+		[types.cake.veggiesdelight]
+			carrot_cake = true
 
 	[types.wood_type]
 
@@ -241,4 +253,58 @@
 		[entries.leaves_type.quark]
 			hedge = true
 			leaf_carpet = true
+
+	[entries.stone_type]
+
+		[entries.stone_type.stoneworks]
+			tile_stairs = true
+			plate_slab = true
+			shingle_wall = true
+			paver_stairs = true
+			paver_wall = true
+			shingles = true
+			plate_wall = true
+			plates = true
+			tile_wall = true
+			cracked_tiles = true
+			shingle_stairs = true
+			pavers = true
+			tiles = true
+			tile_slab = true
+			plate_stairs = true
+			pillar = true
+			shingle_slab = true
+			paver_slab = true
+
+		[entries.stone_type.create]
+			small_brick_wall = true
+			cut_wall = true
+			small_bricks = true
+			cut = true
+			polished_cut = true
+			small_brick_slab = true
+			layered = true
+			cut_brick_wall = true
+			pillar = true
+			cut_stairs = true
+			cut_brick_stairs = true
+			cut_brick_slab = true
+			polished_cut_slab = true
+			small_brick_stairs = true
+			cut_bricks = true
+			polished_cut_stairs = true
+			polished_cut_wall = true
+			cut_slab = true
+
+		[entries.stone_type.quark]
+			polished_vertical_slab = true
+			pillar = true
+			vertical_slab = true
+
+	[entries.mud_type]
+
+		[entries.mud_type.quark]
+			carved_bricks = true
+			pillar = true
+			brick_lattice = true
 
