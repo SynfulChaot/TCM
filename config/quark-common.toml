@@ -1172,7 +1172,7 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Limestone" = true
+		"Enable Limestone" = false
 		"Enable Jasper" = true
 		"Enable Shale" = true
 		"Enable Myalite" = true
@@ -1221,7 +1221,7 @@
 				"Cluster Size" = 64
 				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
 				#Allowed values: [0,)
-				"Cluster Count" = 2.0
+				"Cluster Count" = 1.0
 
 			[world.new_stone_types.jasper.oregen_upper]
 				#Allowed values: [-64,320]
@@ -1249,7 +1249,7 @@
 				"Cluster Size" = 64
 				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
 				#Allowed values: [0,)
-				"Cluster Count" = 2.0
+				"Cluster Count" = 1.0
 
 			[world.new_stone_types.shale.oregen_upper]
 				#Allowed values: [-64,320]
