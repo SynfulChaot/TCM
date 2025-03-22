@@ -1,0 +1,28 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:bowl"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        [
+            {
+                "item": "minecraft:brown_mushroom"
+            },
+            {
+                "item": "minecraft:red_mushroom"
+            }
+        ],
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "forbidden_arcanus:bat_wing"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "item": "forbidden_arcanus:bat_soup"
+    }
+}
