@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jeed"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "malum:gluttony"
+  },
+  "providers": [
+    {
+      "item": "malum:belt_of_the_starved"
+    }
+  ]
+}
