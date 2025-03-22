@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "tag": "forge:rods/wooden"
+        },
+        "X": {
+            "item": "forbidden_arcanus:fungyss_planks"
+        }
+    },
+    "pattern": [
+        "#X#",
+        "#X#"
+    ],
+    "result": {
+        "item": "forbidden_arcanus:fungyss_fence_gate"
+    },
+    "show_notification": true
+}
