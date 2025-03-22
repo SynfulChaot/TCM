@@ -246,7 +246,7 @@
 			chest = true
 			stripped_post = true
 			ladder = true
-			vertical_slab = true
+			vertical_slab = false
 
 	[entries.leaves_type]
 
@@ -297,9 +297,9 @@
 			cut_slab = true
 
 		[entries.stone_type.quark]
-			polished_vertical_slab = true
+			polished_vertical_slab = false
 			pillar = true
-			vertical_slab = true
+			vertical_slab = false
 
 	[entries.mud_type]
 
