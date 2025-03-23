@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        [
+            {
+                "item": "rusticdelight:stuffed_bell_pepper_green"
+            },
+            {
+                "item": "rusticdelight:stuffed_bell_pepper_yellow"
+            },
+            {
+                "item": "rusticdelight:stuffed_bell_pepper_red"
+            }
+        ],
+        [
+            {
+                "item": "rusticdelight:stuffed_bell_pepper_green"
+            },
+            {
+                "item": "rusticdelight:stuffed_bell_pepper_yellow"
+            },
+            {
+                "item": "rusticdelight:stuffed_bell_pepper_red"
+            }
+        ],
+        [
+            {
+                "item": "rusticdelight:stuffed_bell_pepper_green"
+            },
+            {
+                "item": "rusticdelight:stuffed_bell_pepper_yellow"
+            },
+            {
+                "item": "rusticdelight:stuffed_bell_pepper_red"
+            }
+        ],
+        {
+            "item": "minecraft:bowl"
+        }
+    ],
+    "result":{
+        "item":"veggiesdelight:stuffed_bellpeppers"
+    }
+}

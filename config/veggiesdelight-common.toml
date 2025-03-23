@@ -1,9 +1,9 @@
 
 ["Villager Settings"]
 	#Enable Veggies Delight villager trades
-	enableVillagerTrades = true
+	enableVillagerTrades = false
 	#Enable Veggies Delight Wandering Trader trades
-	enableWanderingTrades = true
+	enableWanderingTrades = false
 
 ["Village Settings"]
 	#Enable Veggies Delight village structures

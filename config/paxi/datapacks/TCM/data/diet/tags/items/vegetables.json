@@ -1,0 +1,10 @@
+{
+    "replace": true,
+    "values": [
+        "collectorsreap:crab_miso",
+        "veggiesdelight:cauliflower",
+        "veggiesdelight:dandelion_leaf",
+        "veggiesdelight:garlic",
+        "veggiesdelight:sweet_potato"
+    ]
+}

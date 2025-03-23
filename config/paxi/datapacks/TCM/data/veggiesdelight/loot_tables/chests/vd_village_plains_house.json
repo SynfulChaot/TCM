@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "veggiesdelight:sweet_potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "veggiesdelight:garlic",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+            }
+        }
+    ]
+}
