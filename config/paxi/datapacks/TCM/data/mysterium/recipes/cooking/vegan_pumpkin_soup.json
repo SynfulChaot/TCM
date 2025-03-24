@@ -1,0 +1,28 @@
+{
+    "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "item": "farmersdelight:pumpkin_slice"
+        },
+        {
+            "tag": "forge:salad_ingredients"
+        },
+        {
+            "item": "vegandelight:smoked_tofu_slices"
+        },
+        [
+            {
+                "item": "vegandelight:soymilk_bottle"
+            },
+            {
+                "item": "vegandelight:soymilk_bucket"
+            }
+        ]
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "item": "farmersdelight:pumpkin_soup"
+    }
+}

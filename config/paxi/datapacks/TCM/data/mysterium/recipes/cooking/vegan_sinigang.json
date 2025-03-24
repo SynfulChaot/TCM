@@ -1,0 +1,50 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "delightful:enabled",
+                    "value": "sinigang"
+                }
+            ],
+            "recipe": {
+                "type": "farmersdelight:cooking",
+                "container": {
+                    "item": "minecraft:bowl"
+                },
+                "cookingtime": 200,
+                "experience": 1.0,
+                "ingredients": [
+                    {
+                        "item": "vegandelight:smoked_tofu_slices"
+                    },
+                    [
+                        {
+                            "item": "vegandelight:tofish"
+                        },
+                        {
+                            "item": "vegandelight:smoked_tofish"
+                        }
+                    ],
+                    {
+                        "tag": "forge:grain/rice"
+                    },
+                    {
+                        "tag": "forge:vegetables/tomato"
+                    },
+                    {
+                        "tag": "forge:fruits"
+                    },
+                    {
+                        "tag": "forge:vegetables/onion"
+                    }
+                ],
+                "recipe_book_tab": "meals",
+                "result": {
+                    "item": "delightful:sinigang"
+                }
+            }
+        }
+    ]
+}

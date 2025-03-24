@@ -9,9 +9,14 @@
         {
             "tag": "forge:crops/pepper"
         },
-        {
-            "tag": "forge:cooked_chicken"
-        },
+        [
+            {
+                "tag": "forge:cooked_chicken"
+            },
+            {
+                "item": "vegandelight:cooked_tofu_slices"
+            }
+        ],
         {
             "item": "farmersdelight:tomato"
         }
