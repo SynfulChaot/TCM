@@ -238,7 +238,7 @@
 	bunting = true
 	sconce = true
 	sconce_lever = true
-	pancake = true
+	pancake = false
 	checker_block = true
 	raked_gravel = true
 	feather_block = true
