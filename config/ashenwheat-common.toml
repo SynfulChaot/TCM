@@ -49,24 +49,24 @@
 
 	["Wuppy29's Peaceful Pack".Flax]
 		#Enable flax recipes
-		enableFlaxRecipes = true
+		enableFlaxRecipes = false
 		#Should flax seed drop from breaking grass?
 		dropFlaxSeed = false
 		#Relative weight of flax seeds in grass drops
 		#Range: 0 ~ 100
-		relWeightFlaxSeeds = 4
+		relWeightFlaxSeeds = 0
 
 	["Wuppy29's Peaceful Pack"."Rotten Plant"]
 		#Should rotten seed drop from breaking grass?
 		dropRottenSeeds = false
 		#Relative weight of rotten seeds in grass drops
 		#Range: 0 ~ 100
-		relWeightRottenSeeds = 1
+		relWeightRottenSeeds = 0
 
 	["Wuppy29's Peaceful Pack"."Spider Eyes"]
 		#Enable spider eyes dropping from cobwebs
-		enableSpiderEyeDrops = true
+		enableSpiderEyeDrops = false
 		#Chance that spider eyes will drop from cobwebs
 		#Range: 0.0 ~ 1.0
-		spiderEyeDropChance = 0.5
+		spiderEyeDropChance = 0
 
