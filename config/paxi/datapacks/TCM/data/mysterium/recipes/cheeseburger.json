@@ -1,0 +1,55 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "delightful:enabled",
+                    "value": "cheeseburger"
+                },
+                {
+                    "type": "forge:tag_empty",
+                    "tag": "forge:cheese"
+                }
+            ],
+            "recipe": {
+                "type": "minecraft:crafting_shapeless",
+                "category": "misc",
+                "ingredients": [
+                {
+                    "tag": "forge:bread"
+                },
+                [
+                    {
+                        "item": "farmersdelight:beef_patty"
+                    },
+                    {
+                        "item": "vegandelight:tofu_patty"
+                    },
+                    {
+                        "item": "veggiesdelight:cooked_cauliflower_patty"
+                    },
+                    {
+                        "item": "collectorsreap:baked_portobello_cap"
+                    }
+                ],
+                {
+                    "tag": "forge:milk"
+                },
+                {
+                    "tag": "forge:salad_ingredients"
+                },
+                {
+                    "tag": "forge:vegetables/tomato"
+                },
+                {
+                    "tag": "forge:vegetables/onion"
+                }
+                ],
+                "result": {
+                    "item": "delightful:cheeseburger"
+                }
+            }
+        }
+    ]
+}

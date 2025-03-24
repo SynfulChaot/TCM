@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:bread"
+        },
+        [
+            {
+                "item": "farmersdelight:beef_patty"
+            },
+            {
+                "item": "vegandelight:tofu_patty"
+            },
+            {
+                "item": "veggiesdelight:cooked_cauliflower_patty"
+            },
+            {
+                "item": "collectorsreap:baked_portobello_cap"
+            }
+        ],
+        {
+            "tag": "forge:cooked_bacon"
+        },
+        {
+            "tag": "forge:salad_ingredients"
+        },
+        {
+            "tag": "forge:vegetables/tomato"
+        },
+        {
+            "tag": "forge:vegetables/onion"
+        },
+        {
+            "tag": "forge:cooked_eggs"
+        }
+    ],
+    "result": {
+        "item": "moredelight:loaded_hamburger"
+    }
+}
