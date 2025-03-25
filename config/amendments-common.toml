@@ -22,7 +22,7 @@
 	potion_recipes_per_layer = 2
 	#Allows mixin potions in cauldrons
 	#Allowed Values: OFF, ONLY_BOILING, ON
-	potions_mixing = "ON"
+	potions_mixing = "OFF"
 	#Max amount of effects allowed in a mixed potion
 	#Range: 1 ~ 64
 	potion_mixing_limit = 8
