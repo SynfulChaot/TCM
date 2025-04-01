@@ -1,0 +1,37 @@
+{
+    "type": "farmersdelight:cooking",
+    "recipe_book_tab": "drinks",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "type": "forge:partial_nbt",
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:water\"}"
+        },
+        {
+            "tag": "forge:tea_leaves/green"
+        },
+        {
+            "tag": "forge:tea_leaves/green"
+        },
+        {
+            "item": "minecraft:honey_bottle"
+        },
+        {
+            "item": "minecraft:apple"
+        },
+        {
+            "tag": "forge:ice_cubes"
+        }
+    ],
+    "container": {
+        "item": "simplytea:cup"
+    },
+    "result": {
+        "item": "simplytea:cup_tea_iced",
+        "nbt": {
+            "with_honey": 1
+        }
+    }
+}

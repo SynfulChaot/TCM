@@ -1,0 +1,37 @@
+{
+    "type": "farmersdelight:cooking",
+    "recipe_book_tab": "drinks",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        [
+            {
+                "tag": "forge:bottles/milk"
+            },
+            {
+                "tag": "forge:milk/milk_bottle"
+            }
+        ],
+        {
+            "tag": "forge:tea_leaves/black"
+        },
+        {
+            "tag": "forge:tea_leaves/black"
+        },
+        {
+            "item": "minecraft:honey_bottle"
+        },
+        {
+            "item": "simplytea:tea_stick"
+        }
+    ],
+    "container": {
+        "item": "simplytea:cup"
+    },
+    "result": {
+        "item": "simplytea:cup_tea_chai",
+        "nbt": {
+            "with_honey": 1
+        }
+    }
+}
