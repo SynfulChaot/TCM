@@ -123,7 +123,7 @@
 	frostaya_crate = true
 	glow_jam_jar = true
 	green_apple_crate = true
-	green_tea_leaf = true
+	green_tea_leaf = false
 	honey_glazed_walnut = true
 	jam_jar = true
 	lavender_tea = true
