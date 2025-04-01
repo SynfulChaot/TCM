@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:eggs"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "tag": "forge:dough"
+        }
+    ],
+    "results": [
+        {
+            "item": "createaddition:cake_base"
+        }
+    ]
+}
