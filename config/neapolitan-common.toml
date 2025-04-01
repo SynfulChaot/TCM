@@ -3,9 +3,9 @@
 
 	[items.milk_bottles]
 		#If milk can be inserted into cauldrons
-		"Milk Cauldron" = true
+		"Milk Cauldron" = false
 		#If cauldrons are filled with milk dropping from a dripstone
-		"Milk from Dripstone" = true
+		"Milk from Dripstone" = false
 		#If milkable mobs can be milked with empty glass bottles
 		"Milking with Glass Bottles" = false
 		#If milkshakes can be inserted into cauldrons
