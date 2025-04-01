@@ -1,0 +1,17 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "simplytea:teapot"
+        },
+        {
+            "amount": 1000,
+            "fluidTag": "forge:milk"
+        }
+    ],
+    "results": [
+        {
+            "item": "simplytea:teapot_milk"
+        }
+    ]
+}
