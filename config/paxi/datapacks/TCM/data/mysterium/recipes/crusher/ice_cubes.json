@@ -1,0 +1,23 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 2400,
+    "input": {
+        "item": "minecraft:ice"
+    },
+   "result": {
+        "base_ingredient": {
+            "item": "neapolitan:ice_cubes"
+        },
+        "count": 3
+    },
+    "secondaries": [
+        {
+            "chance": 0.25,
+            "output": {
+                "item": "neapolitan:ice_cubes",
+                "count": 3
+            
+            }
+        }
+    ]
+}
