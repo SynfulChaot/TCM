@@ -15,6 +15,11 @@
 /usercache.json
 /usernamecache.json
 
+# KubeJS
+/kubejs/README.txt
+/local/kubejs/
+rhino.local.properties
+
 # Unused Forgery/Fabrication mod config files
 config/fabrication/block_logo.ini
 config/fabrication/block_logo.png
