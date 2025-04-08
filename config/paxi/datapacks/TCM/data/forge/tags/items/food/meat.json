@@ -1,10 +1,10 @@
 {
     "values": [
-        "vegandelight:cooked_smoked_tofu_slices",
-        "vegandelight:cooked_tofu_slices",
-        "vegandelight:tofu_patty",
-        "vegandelight:minced_tofu",
-        "vegandelight:smoked_tofu_slices",
-        "vegandelight:tofu_slices"
+        { "id": "vegandelight:cooked_smoked_tofu_slices" , "required": false },
+        { "id": "vegandelight:cooked_tofu_slices" , "required": false },
+        { "id": "vegandelight:tofu_patty" , "required": false },
+        { "id": "vegandelight:minced_tofu" , "required": false },
+        { "id": "vegandelight:smoked_tofu_slices" , "required": false },
+        { "id": "vegandelight:tofu_slices" , "required": false }
     ]
 }

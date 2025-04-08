@@ -19,20 +19,9 @@
                 {
                     "tag": "forge:bread"
                 },
-                [
-                    {
-                        "item": "farmersdelight:beef_patty"
-                    },
-                    {
-                        "item": "vegandelight:tofu_patty"
-                    },
-                    {
-                        "item": "veggiesdelight:cooked_cauliflower_patty"
-                    },
-                    {
-                        "item": "collectorsreap:baked_portobello_cap"
-                    }
-                ],
+                {
+                    "tag": "mysterium:burger_patty"
+                },
                 {
                     "tag": "forge:milk"
                 },

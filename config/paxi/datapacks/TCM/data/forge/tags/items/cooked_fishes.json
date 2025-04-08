@@ -1,6 +1,6 @@
 {
     "values": [
-        "vegandelight:cooked_tofish",
-        "vegandelight:cooked_smoked_tofish"
+        { "id": "vegandelight:cooked_tofish" , "required": false },
+        { "id": "vegandelight:cooked_smoked_tofish" , "required": false }
     ]
 }

@@ -1,23 +1,36 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "misc",
-    "ingredients": [
+    "type": "forge:conditional",
+    "recipes": [
         {
-            "tag": "forge:bread"
-        },
-        [
-            {
-                "item": "vegandelight:tofu_patty"
-            },
-            {
-                "item": "veggiesdelight:cooked_cauliflower_patty"
-            },
-            {
-                "item": "collectorsreap:baked_portobello_cap"
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vegandelight"
+                }
+            ],
+            "recipe": {
+                "type": "minecraft:crafting_shapeless",
+                "category": "misc",
+                "ingredients": [
+                    {
+                        "tag": "forge:bread"
+                    },
+                    [
+                        {
+                            "item": "vegandelight:tofu_patty"
+                        },
+                        {
+                            "item": "veggiesdelight:cooked_cauliflower_patty"
+                        },
+                        {
+                            "item": "collectorsreap:baked_portobello_cap"
+                        }
+                    ]
+                ],
+                "result": {
+                    "item": "moredelight:simple_hamburger"
+                }
             }
-        ]
-    ],
-    "result": {
-        "item": "moredelight:simple_hamburger"
-    }
+        }
+    ]
 }

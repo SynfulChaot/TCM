@@ -6,6 +6,10 @@
                 {
                     "type": "delightful:enabled",
                     "value": "sinigang"
+                },
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vegandelight"
                 }
             ],
             "recipe": {
