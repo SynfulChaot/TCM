@@ -33,6 +33,13 @@
             "empty_sound": "minecraft:item.bucket.empty",
             "empty": "forbidden_arcanus:edelwood_bucket",
             "capacity": "BUCKET"
+        },
+        {
+            "filled": [
+                "simplytea:teapot_milk"
+            ],
+            "empty": "simplytea:teapot",
+            "capacity": 4
         }
     ],
     "equivalent_fluids": [
