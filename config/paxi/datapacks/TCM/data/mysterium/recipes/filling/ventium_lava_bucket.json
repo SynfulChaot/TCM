@@ -1,0 +1,17 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "blue_skies:ventium_bucket"
+        },
+        {
+            "amount": 1000,
+            "fluid": "minecraft:lava"
+        }
+    ],
+    "results": [
+        {
+            "item": "blue_skies:ventium_lava_bucket"
+        }
+    ]
+}

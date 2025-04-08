@@ -1,0 +1,15 @@
+{
+    "type": "immersiveengineering:bottling_machine",
+    "input": {
+        "item": "minecraft:glass_bottle"
+    },
+    "fluid": {
+        "amount": 250,
+        "tag": "minecraft:lava"
+    },
+    "results": [
+        {
+            "item": "hexerei:lava_bottle"
+        }
+    ]
+}
