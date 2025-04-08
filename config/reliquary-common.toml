@@ -10,9 +10,9 @@ mobDropsEnabled = true
 	#Disable Alkahestry tome and its recipes
 	alkahestryTome = false
 	#Disable the HANDGUN, bullets, magazines, and gun parts
-	handgun = false
+	handgun = true
 	#Disable the POTION system including mortar, altar, potions, tipped arrows, and powder
-	potion = false
+	potion = true
 	#Disable all pedestals
 	pedestal = false
 	#Disable all display-only pedestals
