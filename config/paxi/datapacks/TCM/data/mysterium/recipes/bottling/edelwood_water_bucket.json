@@ -1,0 +1,15 @@
+{
+    "type": "immersiveengineering:bottling_machine",
+    "input": {
+        "item": "forbidden_arcanus:edelwood_bucket"
+    },
+    "fluid": {
+        "amount": 1000,
+        "tag": "minecraft:water"
+    },
+    "results": [
+        {
+            "item": "forbidden_arcanus:edelwood_water_bucket"
+        }
+    ]
+}

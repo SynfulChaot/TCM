@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:shapeless_fluid",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:dusts/wood"
+        },
+        {
+            "tag": "forge:dusts/wood"
+        },
+        {
+            "tag": "forge:dusts/wood"
+        },
+        {
+            "tag": "forge:dusts/wood"
+        },
+        {
+            "tag": "forge:buckets/water"
+        }
+    ],
+    "result": {
+        "item": "minecraft:paper",
+        "count": 2
+    }
+}

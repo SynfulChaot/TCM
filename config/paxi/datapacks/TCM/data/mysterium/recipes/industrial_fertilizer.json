@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:dusts/saltpeter"
+        },
+        {
+            "tag": "forge:slag"
+        },
+        {
+            "tag": "forge:dusts/sulfur"
+        },
+        {
+            "tag": "forge:buckets/water"
+        }
+    ],
+    "result": {
+        "item": "immersiveengineering:fertilizer",
+        "count": 3
+    }
+}
