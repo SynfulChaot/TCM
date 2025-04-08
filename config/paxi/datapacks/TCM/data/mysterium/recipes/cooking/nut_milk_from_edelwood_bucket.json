@@ -1,0 +1,22 @@
+{
+    "container": {
+        "item": "forbidden_arcanus:edelwood_water_bucket"
+    },
+    "cookingtime": 200,
+    "experience": 0.35,
+    "ingredients": [
+        {
+            "tag": "forge:nuts"
+        },
+        {
+            "tag": "forge:nuts"
+        },
+        {
+            "tag": "forge:sugar"
+        }
+    ],
+    "result": {
+        "item": "forbidden_arcanus:edelwood_milk_bucket"
+    },
+    "type": "farmersdelight:cooking"
+}

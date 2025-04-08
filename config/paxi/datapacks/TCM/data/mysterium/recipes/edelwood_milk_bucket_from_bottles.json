@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "forbidden_arcanus:edelwood_bucket"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        }
+    ],
+    "result": {
+        "item": "forbidden_arcanus:edelwood_milk_bucket"
+    }
+}
