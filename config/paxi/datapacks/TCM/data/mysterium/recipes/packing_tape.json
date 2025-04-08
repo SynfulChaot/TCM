@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {
+            "tag": "bookshelf:slime_balls"
+        },
+        {
+            "item": "minecraft:string"
+        },
+        [
+            {
+                "item": "minecraft:paper"
+            },
+            {
+                "item": "create:cardboard"
+            }
+        ]
+    ],
+    "result": {
+        "item": "packingtape:tape"
+    }
+}

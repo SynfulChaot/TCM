@@ -350,7 +350,7 @@
 	Pickarang = false
 	"Seed Pouch" = true
 	"Skull Pikes" = true
-	"Slime In A Bucket" = true
+	"Slime In A Bucket" = false
 	"Torch Arrow" = true
 	Trowel = true
 
