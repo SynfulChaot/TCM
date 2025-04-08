@@ -1,0 +1,53 @@
+{
+    "containers": [
+        {
+            "filled": [
+                "farmersdelight:milk_bottle"
+            ],
+            "empty": "minecraft:glass_bottle",
+            "capacity": "BOTTLE"
+        },
+        {
+            "filled": [
+                "minecraft:milk_bucket"
+            ],
+            "fill_sound": "minecraft:item.bucket.fill",
+            "empty_sound": "minecraft:item.bucket.empty",
+            "empty": "minecraft:bucket",
+            "capacity": "BUCKET"
+        },
+        {
+            "filled": [
+                "blue_skies:ventium_milk_bucket"
+            ],
+            "fill_sound": "minecraft:item.bucket.fill",
+            "empty_sound": "minecraft:item.bucket.empty",
+            "empty": "blue_skies:ventium_bucket",
+            "capacity": "BUCKET"
+        },
+        {
+            "filled": [
+                "forbidden_arcanus:edelwood_milk_bucket"
+            ],
+            "fill_sound": "minecraft:item.bucket.fill",
+            "empty_sound": "minecraft:item.bucket.empty",
+            "empty": "forbidden_arcanus:edelwood_bucket",
+            "capacity": "BUCKET"
+        }
+    ],
+    "equivalent_fluids": [
+        "#forge:milk",
+        "minecraft:milk",
+        "create:milk",
+        "inspirations:milk"
+    ],
+    "flowing_texture": "moonlight:block/soft_fluids/milk_liquid",
+    "food": {
+        "divider": "BUCKET",
+        "item": "minecraft:milk_bucket"
+    },
+    "still_texture": "moonlight:block/soft_fluids/milk_liquid",
+    "tint_method": "no_tint",
+    "translation_key": "fluid.supplementaries.milk",
+    "use_texture_from": "create:milk"
+}
