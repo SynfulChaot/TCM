@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "P": {
+            "item": "reliquary:guardian_spike"
+        },
+        "S": {
+            "tag": "forge:dusts/prismarine"
+        },
+        "T": [
+            {
+                "item": "minecraft:cod"
+            },
+            {
+                "item": "minecraft:salmon"
+            },
+            {
+                "item": "minecraft:tropical_fish"
+            },
+            {
+                "item": "collectorsreap:platinum_bass"
+            },
+            {
+                "item": "undergarden:raw_gwibling"
+            }
+        ]
+    },
+    "pattern": [
+        "PPP",
+        "STS",
+        "PPP"
+    ],
+    "result": {
+        "item": "reliquary:mob_charm_fragment",
+        "nbt": "{entity:\"minecraft:guardian\"}"
+    }
+}

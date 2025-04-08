@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "P": {
+            "item": "reliquary:chelicerae"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "T": {
+            "item": "minecraft:spider_eye"
+        }
+    },
+    "pattern": [
+        "PPP",
+        "STS",
+        "PPP"
+    ],
+    "result": {
+        "item": "reliquary:mob_charm_fragment",
+        "nbt": "{entity:\"minecraft:spider\"}"
+    }
+}
