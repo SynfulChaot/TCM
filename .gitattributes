@@ -15,6 +15,7 @@ config/ae2/common.json text eol=lf
 # GitHub Linguist (language detection) overrides
 *.cfg linguist-detectable
 *.ini linguist-detectable
+*.js linguist-detectable
 *.json linguist-detectable
 *.json5 linguist-detectable linguist-language=JSON
 *.properties linguist-detectable linguist-language=INI
