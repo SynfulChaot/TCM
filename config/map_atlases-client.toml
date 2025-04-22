@@ -3,10 +3,10 @@
 	#Hide minimap when holding the atlas in hand
 	hide_when_in_hand = true
 	#Only display y coordinates if atlas holds some slice maps
-	only_show_y_when_has_slices = true
+	only_show_y_when_has_slices = false
 	#Global scale of entire minimap HUD. Keep at 1 for pixel perfect consistency
 	#Range: 0.0 ~ 20.0
-	scale = 1.0
+	scale = 2.0
 	#If 'true', the Mini-Map of the Active Map will be drawn on the HUD while the Atlas is active.
 	enabled = true
 	#How many maps to display in a single minimap. Essentially zoom. Can be a fraction
@@ -14,16 +14,16 @@
 	zoom_multiplier = 1.0
 	#Controls anchor position of mini-map
 	#Allowed Values: UPPER_LEFT, UPPER_RIGHT, LOWER_LEFT, LOWER_RIGHT
-	anchoring = "UPPER_LEFT"
+	anchoring = "UPPER_RIGHT"
 	#An integer which will offset the mini-map horizontally
 	#Range: -4000 ~ 4000
-	horizontal_offset = 0
+	horizontal_offset = -5
 	#An integer which will offset the mini-map vertically
 	#Range: -4000 ~ 4000
-	vertical_offset = 0
+	vertical_offset = 5
 	#The number of pixels to shift vertically when there's an active effect
 	#Range: -4000 ~ 4000
-	active_potion_effects_vertical_offset = 26
+	active_potion_effects_vertical_offset = 20
 	#When enabled, the player's current Coords will be displayed
 	coordinate_text = true
 	#Displays chunk coordinates
@@ -42,7 +42,7 @@
 	#Allows minimap to follow player movement instead of only displaying current map
 	follow_player = true
 	#When enabled the map will align itself with the player
-	rotate_with_player = true
+	rotate_with_player = false
 	#Draw cardinal directions on minimap
 	cardinal_directions = true
 	#Scale of cardinal directions on minimap
@@ -57,12 +57,12 @@
 	#Plays page turn sound when current active map changes. Works best when paired with no rotation and no player follow
 	map_change_sound = false
 	#Automatically switches to the nearest slice when possible
-	automatic_slice_change = false
+	automatic_slice_change = true
 
 [world_map]
 	crossair = false
 	#Use bigger book like texture for worldmap view. Makes the view a bit bigger. Recommended to ebe used with map scale 1 (you might want to lower lectern one too if buttons dont show)
-	alternative_texture = false
+	alternative_texture = true
 	#Pan smoothly. When off it will pan in map increments instead
 	smooth_panning = true
 	#Makes zooming work smoothly instead of in 2 maps increments
