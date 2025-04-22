@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "11 "
+    ],
+    "key": {
+        "1": {
+            "item": "farmersdelight:canvas"
+        }
+    },
+    "result": {
+        "item": "supplementaries:doormat"
+    }
+}

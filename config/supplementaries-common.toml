@@ -208,8 +208,8 @@
 		trapped_present = true
 
 	[functional.flax]
-		enabled = true
-		wild_flax = true
+		enabled = false
+		wild_flax = false
 
 	[functional.lumisene]
 		enabled = true
