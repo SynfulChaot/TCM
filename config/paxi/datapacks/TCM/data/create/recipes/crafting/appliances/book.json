@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:paper"
+        },
+        {
+            "item": "minecraft:paper"
+        },
+        {
+            "item": "minecraft:paper"
+        },
+        {
+            "tag": "forge:plates/cardboard"
+        }
+    ],
+    "result": {
+        "item": "minecraft:book"
+    }
+}

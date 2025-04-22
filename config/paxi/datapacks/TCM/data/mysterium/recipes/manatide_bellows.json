@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "L": {
+            "tag": "forge:leather"
+        },
+        "R": {
+            "item": "botania:rune_air"
+        },
+        "S": {
+            "item": "botania:livingwood_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        "RL ",
+        "SSS"
+    ],
+    "result": {
+        "item": "botania:bellows"
+    },
+    "show_notification": true
+}
