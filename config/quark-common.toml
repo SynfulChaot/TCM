@@ -189,7 +189,7 @@
 
 	[building.industrial_palette]
 		"Enable Iron Plates" = true
-		"Enable Iron Ladder" = true
+		"Enable Iron Ladder" = false
 
 	[building.japanese_palette]
 		"Enable Paper Blocks" = true
