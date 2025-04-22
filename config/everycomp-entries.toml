@@ -238,7 +238,7 @@
 			cabinet = true
 
 		[entries.wood_type.quark]
-			hollow_log = true
+			hollow_log = false
 			vertical_planks = true
 			post = true
 			trapped_chest = true
