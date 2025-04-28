@@ -192,9 +192,6 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.ashenwheat]
-			blaze = true
-
 #Disables specific entries
 [entries]
 
