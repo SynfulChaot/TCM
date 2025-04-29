@@ -7,5 +7,10 @@
     ],
     "result": {
         "item": "variantvanillablocks:acacia_chest"
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:false"
+        }
+    ]
 }

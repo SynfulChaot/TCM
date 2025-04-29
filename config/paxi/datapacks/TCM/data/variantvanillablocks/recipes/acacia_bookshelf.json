@@ -7,5 +7,10 @@
     ],
     "result": {
         "item": "variantvanillablocks:acacia_bookshelf"
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:false"
+        }
+    ]
 }
