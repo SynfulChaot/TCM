@@ -22,7 +22,7 @@
 #Farming
 [farming]
 	#Which rope should Tomato Vines leave behind when mined by hand?
-	defaultTomatoVineRope = "farmersdelight:rope"
+	defaultTomatoVineRope = "supplementaries:rope"
 	#Should tomato vines be able to climb any rope tagged as farmersdelight:ropes?
 	#Beware: this will convert these blocks into the block specified in defaultTomatoVineRope.
 	enableTomatoVineClimbingTaggedRopes = true
