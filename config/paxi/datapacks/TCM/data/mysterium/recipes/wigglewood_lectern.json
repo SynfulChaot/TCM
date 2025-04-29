@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "everycomp:q/undergarden/wigglewood_bookshelf"
+        },
+        "S": {
+            "item": "undergarden:wigglewood_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "everycomp:vvb/undergarden/wigglewood_lectern"
+    },
+    "show_notification": true
+}

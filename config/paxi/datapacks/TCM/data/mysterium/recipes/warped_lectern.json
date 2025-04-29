@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "quark:warped_bookshelf"
+        },
+        "S": {
+            "item": "minecraft:warped_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "variantvanillablocks:warped_lectern"
+    },
+    "show_notification": true
+}
