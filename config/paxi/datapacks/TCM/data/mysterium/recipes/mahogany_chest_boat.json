@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "chest_boat",
+    "ingredients": [
+        {
+            "item": "hexerei:mahogany_chest"
+        },
+        {
+            "item": "hexerei:mahogany_boat"
+        }
+    ],
+    "result": {
+        "item": "hexerei:mahogany_chest_boat"
+    }
+}
