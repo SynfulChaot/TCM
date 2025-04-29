@@ -15,14 +15,11 @@
 
 		[types.stone_type.quark]
 			soul_sandstone = true
-			midori = true
-			duskbound = true
 			limestone = false
 			jasper = true
 			shale = true
 			myalite = true
 			permafrost = true
-			shingles = true
 
 		[types.stone_type.blue_skies]
 			taratite = true
@@ -49,9 +46,6 @@
 
 		[types.stone_type.forbidden_arcanus]
 			darkstone = true
-
-		[types.stone_type.supplementaries]
-			ash = true
 
 	[types.cake]
 

@@ -1917,6 +1917,10 @@
 		"Influence Power" = 0.125
 		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
 		"Automatically Convert" = true
+		#Set this to true to allow undiscoverable enchantments to be rolled as pieces
+		"Allow Undiscoverable Enchantments" = false
+		#Any undiscoverable enchantment IDs here will be able to appear in matrix enchanting
+		"Undiscoverable Whitelist" = []
 
 	[oddities.pipes]
 		#How long it takes for an item to cross a pipe. Bigger = slower.
