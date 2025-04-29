@@ -1,1 +1,21 @@
-{ "conditions": [ { "type": "forge:false" } ] }
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "quark:acacia_bookshelf"
+        },
+        "S": {
+            "item": "minecraft:acacia_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "variantvanillablocks:acacia_lectern"
+    },
+    "show_notification": true
+}

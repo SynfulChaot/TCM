@@ -1,1 +1,21 @@
-{ "conditions": [ { "type": "forge:false" } ] }
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "quark:crimson_bookshelf"
+        },
+        "S": {
+            "item": "minecraft:crimson_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "variantvanillablocks:crimson_lectern"
+    },
+    "show_notification": true
+}

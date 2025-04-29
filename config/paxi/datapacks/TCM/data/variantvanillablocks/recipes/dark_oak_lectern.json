@@ -1,1 +1,21 @@
-{ "conditions": [ { "type": "forge:false" } ] }
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "quark:dark_oak_bookshelf"
+        },
+        "S": {
+            "item": "minecraft:dark_oak_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "variantvanillablocks:dark_oak_lectern"
+    },
+    "show_notification": true
+}
