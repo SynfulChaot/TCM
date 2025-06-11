@@ -1,0 +1,17 @@
+{
+    "name": "Improved Harvesting",
+    "icon": "minecraft:wheat_seeds",
+    "category": "patchouli:tweaks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Harvesting and then having to replant is $(o)such$() a chore.$(br2)Well no more!$(br2)You can now harvest crops by right-clicking, leaving the seed behind to keep growing!"
+        },
+        {
+			"type": "spotlight",
+            "title": "Hoe Harvesting",
+			"item": "minecraft:iron_hoe",
+			"text": "Even better, if you right-click with a hoe equipped you'll harvest a 3x3 area in this manner. 5x5 if it's a diamond.$(br2)This can even utilize the Fortune effect if the hoe is enchanted with it.$(br2)This $(o)doesn't$() use up any durability."
+        }
+    ]
+}

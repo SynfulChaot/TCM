@@ -1,0 +1,11 @@
+{
+    "name": "Theurgy",
+    "icon": "theurgy:incubator_mercury_vessel",
+    "category": "patchouli:magic",
+    "pages": [
+        {
+			"type": "text",
+			"text": "<insert description here>"
+		}
+    ]
+}

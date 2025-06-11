@@ -1,0 +1,11 @@
+{
+    "name": "Roots Classic",
+    "icon": "rootsclassic:old_root",
+    "category": "patchouli:magic",
+    "pages": [
+        {
+			"type": "text",
+			"text": "<insert description here>"
+		}
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Applied Energistics 2",
+    "icon": "ae2:logic_processor",
+    "category": "patchouli:tech",
+    "pages": [
+        {
+			"type": "text",
+			"text": "<insert description here>"
+		}
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "The Afterdark",
+    "icon": "minecraft:sculk_catalyst",
+    "category": "patchouli:explorations",
+    "pages": [
+		{
+			"type": "text",
+			"text": "<insert description here>"
+		}
+    ]
+}

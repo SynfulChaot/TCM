@@ -1,0 +1,26 @@
+{
+    "name": "Finding out more",
+    "icon": "minecraft:compass",
+    "category": "patchouli:items",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are various useful tools one might run across for exploring.  Here are just a few:"
+        },
+        {
+            "type": "crafting",
+            "recipe": "minecraft:compass",
+            "text": "When in the Overworld, this compass will always point towards the origin.$(br2)When in the Nether, this compass will always point towards the Nether Portal from which you entered."
+        },
+        {
+            "type": "crafting",
+            "recipe": "minecraft:clock",
+            "text": "It tells time."
+        },
+        {
+            "type": "crafting",
+            "recipe": "sereneseasons:calendar",
+            "text": "This handy calendar lets you know what season it is.  Useful for farming."
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "name": "The Undergarden",
+    "category": "patchouli:explorations",
+    "icon": "undergarden:ink_mushroom:",
+    "pages": [
+        {
+			"type": "text",
+			"text": "$(l)\"Deep underground, a forgotten land awaits.\"$()$(br2)The Undergarden is a dark, subterranean world located deep below the bedrock of the Overworld. The flora here have adapted to their conditions and can grow anywhere. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic,$(br)  mysterious realm."
+		},
+        {
+            "type": "multiblock",
+            "name": "Undergarden Portal",
+            "text": "The way in to the Undergarden$(br)This portal can be crafted with $(l:explorations/undergarden#undergarden_blocks)more than one kind of block$(/l)",
+            "enable_visualize": false,
+            "multiblock": {
+                "pattern": [
+                    [ "OOOO" ],
+                    [ "OPPO" ],
+                    [ "OPPO" ],
+                    [ "OPPO" ],
+                    [ "OO0O" ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "#undergarden:portal_frame_blocks",
+                    "O": "#undergarden:portal_frame_blocks",
+                    "P": "AIR"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            }
+        },
+        {
+            "type": "crafting",
+            "title": "The Catalyst",
+            "recipe": "undergarden:catalyst",
+            "text": "The Catalyst is used to 'light' the portal, similar to how one opens up a portal to the Nether."
+        },
+        {
+            "type": "multiblock",
+            "name": "Activating the Portal",
+            "text": "The way in to the Undergarden",
+            "enable_visualize": false,
+            "multiblock": {
+                "pattern": [
+                    [ "OOOO" ],
+                    [ "OPPO" ],
+                    [ "OPPO" ],
+                    [ "OPPO" ],
+                    [ "OO0O" ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "#undergarden:portal_frame_blocks",
+                    "O": "#undergarden:portal_frame_blocks",
+                    "P": "undergarden:undergarden_portal[axis=z]"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            }
+        }, 
+        {
+            "type": "spotlight",
+            "anchor": "undergarden_blocks",
+            "title": "The Frame",
+            "text": "Many blocks can be used to craft the frame of the portal.  Make it as pretty or plain as you desire.$(br2)$(br2)$(br2)You can also view this list in JEI by searching for$(br)  $(l)$(6)$portal_frame_blocks$().",
+            "item": "tag:undergarden:portal_frame_blocks"
+        }
+    ]
+}
