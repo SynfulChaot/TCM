@@ -10,9 +10,11 @@
 /shaderpacks/
 /botaniavars.dat
 /crafttweaker.log
+/hs_err_pid*.log
 /options.txt
 /patchouli_data.json
 /realms_persistence.json
+/replay_pid*.log
 /usercache.json
 /usernamecache.json
 
