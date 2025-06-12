@@ -1,20 +1,6 @@
 {
-    "replace": true,
-    "values": [
-        "minecraft:apple",
-        "minecraft:beetroot",
-        "minecraft:carrot",
-        "minecraft:chorus_fruit",
-        "minecraft:glow_berries",
-        "minecraft:melon_slice",
-        "minecraft:potato",
-        "minecraft:sweet_berries",
-        "farmersdelight:pumpkin_slice",
-        "farmersdelight:rotten_tomato",
-        "farmersdelight:rice_panicle",
-        "twilightforest:torchberries",
-        "veggiesdelight:cauliflower",
-        "veggiesdelight:sweet_potato",
-        "veggiesdelight:garlic"
+    "values": [ ],
+    "remove": [
+        "veggiesdelight:bellpepper"
     ]
 }

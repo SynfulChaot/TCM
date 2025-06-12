@@ -1,4 +1,6 @@
 {
-    "replace": true,
-    "values": [ ]
+    "values": [ ],
+    "remove": [
+        "veggiesdelight:bellpepper_seeds"
+    ]
 }

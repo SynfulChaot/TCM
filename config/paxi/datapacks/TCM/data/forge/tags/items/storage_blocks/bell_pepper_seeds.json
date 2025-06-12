@@ -1,4 +1,6 @@
 {
-    "replace": true,
-    "values": [ ]
+    "values": [ ],
+    "remove": [
+        "rusticdelight:bell_pepper_seeds_bag"
+    ]
 }

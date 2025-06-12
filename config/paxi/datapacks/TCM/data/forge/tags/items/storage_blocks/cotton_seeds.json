@@ -1,4 +1,6 @@
 {
-    "replace": true,
-    "values": [ ]
+    "values": [ ],
+    "remove": [
+        "rusticdelight:cotton_seeds_bag"
+    ]
 }

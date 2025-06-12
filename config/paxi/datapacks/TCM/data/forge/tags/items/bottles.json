@@ -1,4 +1,6 @@
 {
-    "replace": true,
-    "values": [ ]
+    "values": [ "#forge:bottles/milk" ],
+    "remove": [
+        "neapolitan:milk_bottle"
+    ]
 }

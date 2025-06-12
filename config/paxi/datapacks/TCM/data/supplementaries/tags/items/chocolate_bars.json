@@ -1,25 +1,6 @@
 {
-    "replace": true,
-    "values": [
-        {
-            "id" :"neapolitan:chocolate_bar",
-            "required": false
-        },
-        {
-            "id" :"fluffy_farmer:chocolate_bar",
-            "required": false
-        },
-        {
-            "id" :"xercamod:item_chocolate",
-            "required": false
-        },
-        {
-            "id" :"simplefarming:chocolate",
-            "required": false
-        },
-        {
-            "id" :"vanillacookbook:chocolate",
-            "required": false
-        }
+    "values": [ ],
+    "remove": [
+        "create:bar_of_chocolate"
     ]
 }

@@ -1,28 +1,6 @@
 {
-    "replace": true,
-    "values": [
-        "minecraft:beetroot_seeds",
-        "minecraft:carrot",
-        "minecraft:pitcher_pod",
-        "minecraft:potato",
-        "minecraft:torchflower_seeds",
-        "minecraft:wheat_seeds",
-        "blue_skies:cryo_root",
-        "blue_skies:fiery_bean_seeds",
-        "blue_skies:pine_fruit_seeds",
-        "blue_skies:scalefruit_seeds",
-        "blue_skies:solnut",
-        "blue_skies:winter_leaf_seeds",
-        "farmersdelight:cabbage_seeds",
-        "farmersdelight:onion",
-        "farmersdelight:tomato_seeds",
-        "rusticdelight:bell_pepper_seeds",
-        "rusticdelight:coffee_beans",
-        "rusticdelight:cotton_seeds",
-        "supplementaries:flax_seeds",
-        "undergarden:gloomgourd_seeds",
-        "veggiesdelight:cauliflower_seeds",
-        "veggiesdelight:garlic_seeds",
-        "veggiesdelight:sweet_potato"
+    "values": [ ],
+    "remove": [
+        "veggiesdelight:bellpepper_seeds"
     ]
 }

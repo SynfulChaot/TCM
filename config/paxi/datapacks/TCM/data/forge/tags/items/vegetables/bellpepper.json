@@ -1,6 +1,8 @@
 {
-    "replace": true,
     "values": [
         "#forge:crops/pepper"
+    ],
+    "remove": [
+        "veggiesdelight:bellpepper"
     ]
 }

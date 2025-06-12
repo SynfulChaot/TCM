@@ -1,6 +1,6 @@
 {
-    "replace": true,
-    "values": [
-        "neapolitan:ice_cubes"
+    "values": [ ],
+    "remove": [
+        "simplytea:ice_cube"
     ]
 }
