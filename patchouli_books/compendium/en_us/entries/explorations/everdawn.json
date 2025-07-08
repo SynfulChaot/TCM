@@ -1,0 +1,64 @@
+{
+    "name": "The Everdawn",
+    "icon": "blue_skies:lunar_grass_block",
+    "category": "patchouli:explorations",
+    "pages": [
+        {
+			"type": "text",
+			"text": "<insert description here>"
+		},
+        {
+            "type": "multiblock",
+            "name": "Everdawn Portal!",
+            "text": "This portal frame can be any size but this is the minimum size required.",
+            "enable_visualize": false,
+            "multiblock": {
+                "pattern": [
+                    [ "SSSS" ],
+                    [ "SPPS" ],
+                    [ "SPPS" ],
+                    [ "SPPS" ],
+                    [ "SS0S" ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "blue_skies:lunar_stonebrick",
+                    "S": "blue_skies:lunar_stonebrick",
+                    "P": "AIR"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            }
+        }, 
+        {
+            "type": "spotlight",
+            "title": "Light it up!",
+            "text": "Just set a top face of one of the bottom stone blocks on fire and you got yourself a gateway.$(br2)Whilst you $(o)can$() craft a Zeal Lighter, the materials needed are on the other side of the portal. You might find it easier to buy one off the Gatekeeper.",
+            "item": "blue_skies:zeal_lighter"
+        },
+		{
+			"type": "multiblock",
+			"name": "The Result!",
+			"enable_visualize": false,
+			"multiblock": {
+				"pattern": [
+                    [ "SSSS" ],
+                    [ "SPPS" ],
+                    [ "SPPS" ],
+                    [ "SPPS" ],
+                    [ "SS0S" ]
+				],
+				"mapping": {
+					" ": "ANY",
+                    "0": "blue_skies:lunar_stonebrick",
+                    "S": "blue_skies:lunar_stonebrick",
+					"P": "blue_skies:everdawn_portal[axis=z]"
+			},
+			"symmetrical": true,
+			"offset"     : [0, 0, 0],
+			"view_offset": [0, 0, 0]
+			}
+		}
+	]
+}

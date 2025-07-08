@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "forge:bread"
+        },
+        {
+            "tag": "mysterium:burger_patty"
+        },
+        {
+            "tag": "forge:cooked_eggs"
+        }
+    ],
+    "result": {
+        "item": "moredelight:hamburger_with_egg"
+    }
+}

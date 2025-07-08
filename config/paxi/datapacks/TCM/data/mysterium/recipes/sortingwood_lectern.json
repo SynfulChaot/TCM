@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "everycomp:q/twilightforest/sorting_bookshelf"
+        },
+        "S": {
+            "item": "twilightforest:sorting_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "everycomp:vvb/twilightforest/sorting_lectern"
+    },
+    "show_notification": true
+}

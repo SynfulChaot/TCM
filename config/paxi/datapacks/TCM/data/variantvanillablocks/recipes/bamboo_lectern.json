@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "quark:bamboo_bookshelf"
+        },
+        "S": {
+            "item": "minecraft:bamboo_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "variantvanillablocks:bamboo_lectern"
+    },
+    "show_notification": true
+}

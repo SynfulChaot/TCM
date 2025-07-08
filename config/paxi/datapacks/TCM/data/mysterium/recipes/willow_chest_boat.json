@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "chest_boat",
+    "ingredients": [
+        {
+            "item": "hexerei:willow_chest"
+        },
+        {
+            "item": "hexerei:willow_boat"
+        }
+    ],
+    "result": {
+        "item": "hexerei:willow_chest_boat"
+    }
+}

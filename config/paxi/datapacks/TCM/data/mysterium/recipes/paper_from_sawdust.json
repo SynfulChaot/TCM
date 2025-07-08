@@ -15,11 +15,11 @@
             "tag": "forge:dusts/wood"
         },
         {
-            "tag": "forge:water"
+            "tag": "forge:buckets/water"
         }
     ],
     "result": {
-        "count": 2,
-        "item": "minecraft:paper"
+        "item": "minecraft:paper",
+        "count": 2
     }
 }

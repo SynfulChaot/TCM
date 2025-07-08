@@ -1,0 +1,22 @@
+# How things should be
+* text eol=auto
+
+# Stop trying to diff ZIP line endings!
+*.zip -text
+
+# Files that insist on writing with only LF, even on Windows
+config/attributefix.json text eol=lf
+config/enchdesc.json text eol=lf
+config/modernfix-mixins.properties text eol=lf
+config/xenon-options.json text eol=lf
+config/ae2/client.json text eol=lf
+config/ae2/common.json text eol=lf
+
+# GitHub Linguist (language detection) overrides
+*.cfg linguist-detectable
+*.ini linguist-detectable
+*.js linguist-detectable
+*.json linguist-detectable
+*.json5 linguist-detectable linguist-language=JSON
+*.properties linguist-detectable linguist-language=INI
+*.toml linguist-detectable

@@ -1,0 +1,47 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "delightful:enabled",
+                    "value": "cactus_chili"
+                },
+                {
+                    "type": "delightful:enabled",
+                    "value": "cactus_flesh"
+                },
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vegandelight"
+                }
+            ],
+            "recipe": {
+                "type": "farmersdelight:cooking",
+                "container": {
+                    "item": "minecraft:bowl"
+                },
+                "cookingtime": 200,
+                "experience": 1.0,
+                "ingredients": [
+                    {
+                        "item": "vegandelight:smoked_tofu_slices"
+                    },
+                    {
+                        "item": "farmersdelight:tomato_sauce"
+                    },
+                    {
+                        "item": "delightful:cactus_flesh"
+                    },
+                    {
+                        "tag": "forge:vegetables/onion"
+                    }
+                ],
+                "recipe_book_tab": "meals",
+                "result": {
+                    "item": "delightful:cactus_chili"
+                }
+            }
+        }
+    ]
+}

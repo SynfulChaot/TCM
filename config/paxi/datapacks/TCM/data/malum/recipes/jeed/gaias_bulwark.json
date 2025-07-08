@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jeed"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "malum:gaias_bulwark"
+  },
+  "providers": [
+    {
+      "item": "malum:runewood_totem_base"
+    }
+  ]
+}

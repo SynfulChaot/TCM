@@ -1,0 +1,11 @@
+{
+    "name": "Reliquary",
+    "icon": "reliquary:holy_hand_grenade",
+    "category": "patchouli:magic",
+    "pages": [
+        {
+			"type": "text",
+			"text": "<insert description here>"
+		}
+    ]
+}

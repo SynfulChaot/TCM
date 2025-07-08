@@ -1,0 +1,7 @@
+{
+    "values": [
+        { "id": "vegandelight:cooked_smoked_tofu_slices" , "required": false },
+        { "id": "vegandelight:cooked_tofu_slices" , "required": false },
+        { "id": "vegandelight:tofu_patty" , "required": false }
+    ]
+}

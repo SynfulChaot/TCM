@@ -1,0 +1,11 @@
+{
+    "name": "Blood Moons",
+    "icon": "forbidden_arcanus:crescent_moon",
+    "category": "patchouli:explorations",
+    "pages": [
+        {
+            "type": "text",
+            "text": "<insert description here>"
+        }
+    ]
+}

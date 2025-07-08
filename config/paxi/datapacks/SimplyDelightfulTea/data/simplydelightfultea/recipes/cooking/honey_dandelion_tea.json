@@ -1,0 +1,31 @@
+{
+    "type": "farmersdelight:cooking",
+    "recipe_book_tab": "drinks",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "type": "forge:partial_nbt",
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:water\"}"
+        },
+        {
+            "item": "minecraft:dandelion"
+        },
+        {
+            "item": "minecraft:dandelion"
+        },
+        {
+            "item": "minecraft:honey_bottle"
+        }
+    ],
+    "container": {
+        "item": "simplytea:cup"
+    },
+    "result": {
+        "item": "simplytea:cup_tea_floral",
+        "nbt": {
+            "with_honey": 1
+        }
+    }
+}

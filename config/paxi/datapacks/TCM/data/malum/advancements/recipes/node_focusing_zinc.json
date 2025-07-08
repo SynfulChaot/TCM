@@ -1,0 +1,18 @@
+{
+    "advancements": [
+        {
+            "advancement": {
+                "criteria": {
+                    "disabled": {
+                        "trigger": "minecraft:impossible"
+                    }
+                }
+            },
+            "conditions": [
+                {
+                    "type": "forge:false"
+                }
+            ]
+        }
+    ]
+}

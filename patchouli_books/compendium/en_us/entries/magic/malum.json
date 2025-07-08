@@ -1,0 +1,11 @@
+{
+    "name": "Malum",
+    "icon": "malum:twisted_iridescent_ether_brazier",
+    "category": "patchouli:magic",
+    "pages": [
+        {
+			"type": "text",
+			"text": "<insert description here>"
+		}
+    ]
+}

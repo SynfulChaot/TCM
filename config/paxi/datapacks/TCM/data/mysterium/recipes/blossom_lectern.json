@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "quark:blossom_bookshelf"
+        },
+        "S": {
+            "item": "quark:blossom_planks_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "everycomp:vvb/quark/blossom_lectern"
+    },
+    "show_notification": true
+}

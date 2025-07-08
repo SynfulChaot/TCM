@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "everycomp:q/hexerei/mahogany_bookshelf"
+        },
+        "S": {
+            "item": "hexerei:mahogany_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "everycomp:vvb/hexerei/mahogany_lectern"
+    },
+    "show_notification": true
+}

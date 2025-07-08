@@ -15,7 +15,7 @@
             "condition": {
                 "type": "modonomicon:none"
             },
-            "item": {
+                "item": {
                 "item": "theurgy:caloric_flux_emitter"
             },
             "text": "book.theurgy.the_hermetica.apparatus.caloric_flux_emitter.intro.text",
@@ -50,7 +50,7 @@
                 "type": "modonomicon:none"
             },
             "recipe_id_1": "theurgy:crafting/shaped/caloric_flux_emitter_from_campfire",
-            "recipe_id_2": "mysterium:caloric_flux_emitter_from_lava_bucket",
+            "recipe_id_2": "mysterium:caloric_flux_emitter",
             "text": "",
             "title1": "",
             "title2": ""
@@ -58,10 +58,10 @@
     ],
     "parents": [
         {
-        "draw_arrow": true,
-        "entry": "theurgy:apparatus/mercury_flux",
-        "line_enabled": true,
-        "line_reversed": false
+            "draw_arrow": true,
+            "entry": "theurgy:apparatus/mercury_flux",
+            "line_enabled": true,
+            "line_reversed": false
         }
     ],
     "show_when_any_parent_unlocked": false,

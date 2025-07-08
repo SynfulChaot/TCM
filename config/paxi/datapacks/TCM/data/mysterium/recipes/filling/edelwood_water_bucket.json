@@ -1,0 +1,17 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "forbidden_arcanus:edelwood_bucket"
+        },
+        {
+            "amount": 1000,
+            "fluid": "minecraft:water"
+        }
+    ],
+    "results": [
+        {
+            "item": "forbidden_arcanus:edelwood_water_bucket"
+        }
+    ]
+}

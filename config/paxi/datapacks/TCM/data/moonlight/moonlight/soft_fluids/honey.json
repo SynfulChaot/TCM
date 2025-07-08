@@ -1,0 +1,50 @@
+{
+    "containers": [
+        {
+        "filled": [
+                "minecraft:honey_bottle"
+            ],
+            "fill_sound": "minecraft:block.honey_block.place",
+            "empty_sound": "minecraft:block.honey_block.break",
+            "empty": "minecraft:glass_bottle",
+            "capacity": "BOTTLE"
+        },
+        {
+            "filled": [
+                "create:honey_bucket"
+            ],
+            "fill_sound": "minecraft:item.bucket.fill",
+            "empty_sound": "minecraft:item.bucket.empty",
+            "empty": "minecraft:bucket",
+            "capacity": "BUCKET"
+        },
+        {
+            "filled": [
+                "minecraft:honey_block"
+            ],
+            "fill_sound": "minecraft:block.honey_block.place",
+            "empty_sound": "minecraft:block.honey_block.break",
+            "empty": "minecraft:air",
+            "capacity": "BLOCK"
+        }
+    ],
+    "equivalent_fluids": [
+        "the_bumblezone:honey_fluid",
+        "the_bumblezone:honey_fluid_still",
+        "create:honey",
+        "minecraft:honey",
+        "#forge:honey",
+        "cyclic:honey",
+        "brewing_and_chewing:honey",
+        "inspirations:honey"
+    ],
+    "flowing_texture": "moonlight:block/soft_fluids/honey_liquid",
+    "food": {
+        "divider": "BOTTLE",
+        "item": "minecraft:honey_bottle"
+    },
+    "still_texture": "moonlight:block/soft_fluids/honey_liquid",
+    "tint_method": "no_tint",
+    "translation_key": "fluid.supplementaries.honey",
+    "use_texture_from": "create:honey"
+}

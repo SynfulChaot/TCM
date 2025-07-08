@@ -1,0 +1,10 @@
+{
+    "values": [
+        "rusticdelight:bell_pepper_green",
+        "rusticdelight:bell_pepper_red",
+        "rusticdelight:bell_pepper_yellow"
+    ],
+    "remove": [
+        "veggiesdelight:bellpepper"
+    ]
+}

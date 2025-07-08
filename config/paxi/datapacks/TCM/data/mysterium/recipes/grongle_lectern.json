@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "everycomp:q/undergarden/grongle_bookshelf"
+        },
+        "S": {
+            "item": "undergarden:grongle_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "everycomp:vvb/undergarden/grongle_lectern"
+    },
+    "show_notification": true
+}

@@ -1,4 +1,5 @@
 {
+    "type": "minecraft:crafting_shaped",
     "category": "misc",
     "key": {
         "B": {
@@ -7,7 +8,7 @@
         "C": {
             "item": "reliquary:infernal_claw"
         },
-        "F": {
+            "F": {
             "item": "reliquary:fertile_essence"
         },
         "G": {
@@ -22,6 +23,5 @@
     "result": {
         "item": "reliquary:angelheart_vial"
     },
-    "show_notification": true,
-    "type": "minecraft:crafting_shaped"
+    "show_notification": true
 }

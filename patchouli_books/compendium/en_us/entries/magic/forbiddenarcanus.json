@@ -1,0 +1,11 @@
+{
+    "name": "Forbidden & Arcanus",
+    "icon": "forbidden_arcanus:draco_arcanus_scepter",
+    "category": "patchouli:magic",
+    "pages": [
+        {
+			"type": "text",
+			"text": "<insert description here>"
+		}
+    ]
+}

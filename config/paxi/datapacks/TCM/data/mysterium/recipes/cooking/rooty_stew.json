@@ -1,0 +1,20 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+        "item": "minecraft:bowl"
+    },
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "tag": "forge:crops/wheat"
+        },
+        {
+            "item": "rootsclassic:old_root"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "item": "rootsclassic:rooty_stew"
+    }
+}

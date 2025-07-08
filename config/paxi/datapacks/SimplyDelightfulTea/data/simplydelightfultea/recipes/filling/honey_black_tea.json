@@ -1,0 +1,20 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "simplytea:cup_tea_black"
+        },
+        {
+            "amount": 250,
+            "fluid": "create:honey"
+        }
+    ],
+    "results": [
+        {
+            "item": "simplytea:cup_tea_black",
+            "nbt": {
+                "with_honey": 1
+            }
+        }
+    ]
+}

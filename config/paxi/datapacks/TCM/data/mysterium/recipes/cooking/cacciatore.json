@@ -1,0 +1,69 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vegandelight"
+                }
+            ],
+            "recipe": {
+                "type": "farmersdelight:cooking",
+                "cookingtime": 200,
+                "experience": 2.0,
+                "container": {
+                    "item": "minecraft:bowl"
+                },
+                "ingredients": [
+                    {
+                        "tag": "forge:crops/pepper"
+                    },
+                    [
+                        {
+                            "tag": "forge:cooked_chicken"
+                        },
+                        {
+                            "item": "vegandelight:cooked_tofu_slices"
+                        }
+                    ],
+                    {
+                        "item": "farmersdelight:tomato"
+                    }
+                ],
+                "result": {
+                    "item": "veggiesdelight:cacciatore"
+                }
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:true"
+                }
+            ],
+            "recipe": {
+                "type": "farmersdelight:cooking",
+                "cookingtime": 200,
+                "experience": 2.0,
+                "container": {
+                    "item": "minecraft:bowl"
+                },
+                "ingredients": [
+                    {
+                        "tag": "forge:crops/pepper"
+                    },
+                    {
+                        "tag": "forge:cooked_chicken"
+                    },
+                    {
+                        "item": "farmersdelight:tomato"
+                    }
+                ],
+                "result": {
+                    "item": "veggiesdelight:cacciatore"
+                }
+            }
+        }
+    ]
+}

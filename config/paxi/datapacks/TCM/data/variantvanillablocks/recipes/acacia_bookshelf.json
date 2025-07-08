@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "variantvanillablocks:acacia_bookshelf"
+        }
+    ],
+    "result": {
+        "item": "variantvanillablocks:acacia_bookshelf"
+    },
+    "conditions": [
+        {
+            "type": "forge:false"
+        }
+    ]
+}

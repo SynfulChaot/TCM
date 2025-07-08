@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "quark:ancient_bookshelf"
+        },
+        "S": {
+            "item": "quark:ancient_planks_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "everycomp:vvb/quark/ancient_lectern"
+    },
+    "show_notification": true
+}

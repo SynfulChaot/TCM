@@ -1,3 +1,6 @@
 {
-  "loadOrder": [ "TCM" ]
+  "loadOrder": [
+    "SimplyDelightfulTea",
+    "TCM"
+  ]
 }

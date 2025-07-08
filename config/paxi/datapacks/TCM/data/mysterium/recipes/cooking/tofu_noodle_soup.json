@@ -1,0 +1,36 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vegandelight"
+                }
+            ],
+            "recipe": {
+                "type": "farmersdelight:cooking",
+                "cookingtime": 200,
+                "experience": 1.0,
+                "ingredients": [
+                    {
+                        "tag": "forge:pasta"
+                    },
+                    {
+                        "tag": "forge:cooked_eggs"
+                    },
+                    {
+                        "item": "minecraft:dried_kelp"
+                    },
+                    {
+                        "item": "vegandelight:smoked_tofu_slices"
+                    }
+                ],
+                "recipe_book_tab": "meals",
+                "result": {
+                    "item": "farmersdelight:noodle_soup"
+                }
+            }
+        }
+    ]
+}

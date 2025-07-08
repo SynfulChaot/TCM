@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "everycomp:q/malum/soulwood_bookshelf"
+        },
+        "S": {
+            "item": "malum:soulwood_planks_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "everycomp:vvb/malum/soulwood_lectern"
+    },
+    "show_notification": true
+}

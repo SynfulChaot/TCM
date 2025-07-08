@@ -1,0 +1,11 @@
+{
+    "name": "Hexerei",
+    "icon": "hexerei:witch_hazel_broom",
+    "category": "patchouli:magic",
+    "pages": [
+        {
+			"type": "text",
+			"text": "<insert description here>"
+		}
+    ]
+}

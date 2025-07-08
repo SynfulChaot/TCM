@@ -14,6 +14,10 @@
 		#Allows notice board displayed text to be centered instead of being left aligned
 		centered_text = true
 
+	[blocks.bunting]
+		#Makes buntings use normal block models with no animation for faster performance. When off this is only active when viewed from a distance
+		fast_buntings = false
+
 	[blocks.clock_block]
 		#Display 24h time format. False for 12h format
 		24h_format = true
@@ -115,10 +119,6 @@
 		#Range: 0.01 ~ 200.0
 		wobbling_period = 12.0
 
-	[blocks.bunting]
-		#Makes buntings use normal block models with no animation for faster performance. When off this is only active when viewed from a distance
-		fast_buntings = false
-
 #Particle parameters
 [particles]
 
@@ -133,6 +133,10 @@
 [general]
 	#Disables Optifine warn screen
 	no_optifine_warn_screen = false
+	#Disables Amendments suggestion screen
+	no_amendments_screen = false
+	#Disable incompatible mods warning screen
+	no_incompatible_mods_screen = false
 	#Enable Quark style config button on main menu. Needs Configured installed to work
 	config_button = false
 	#Config button Y offset
@@ -153,24 +157,19 @@
 	#ignore this
 	#Range: -10.0 ~ 10.0
 	test3 = 0.0
-	#Disables Amendments suggestion screen
-	no_amendments_screen = false
 
 #Game tweaks
 [tweaks]
-	#Colors the brewing stand potion texture depending on the potions it's brewing.
-	#If using a resource pack add tint index from 0 to 3 to the 3 potion layers
-	brewing_stand_colors = true
-	#Makes tipped arrows show their colors when loaded with a crossbow
-	crossbows_colors = true
 	#Allow to right click with a clock to display current time in numerical form
 	clock_right_click = true
+	#Adds an overlay to projectile weapons in gui displaying currently selected ammo
+	projectile_weapon_overlay = true
 	#Allow to right click with a compass to display current coordinates in numerical form
 	compass_right_click = false
 	#Renders an enchantment glint on placeable enchanted booksNote that turning this on will make book piles use tile renderer instead of baked models making them slower to render
 	placeable_books_glint = false
 	#Placeable books random colors
-	placeable_books_random_colors = ["brown", "orange", "yellow", "red", "dark_green", "lime", "teal", "blue", "purple"]
+	placeable_books_random_colors = ["brown", "orange", "yellow", "red", "green", "lime", "cyan", "blue", "purple"]
 	#Enables banner pattern tooltip image preview
 	banner_pattern_tooltip = true
 	#Enables paintings tooltip image preview
@@ -196,15 +195,19 @@
 [items]
 
 	[items.slingshot]
-		#Adds an overlay to slingshots in gui displaying currently selected block
+		#Adds an overlay to slingshots in gui displaying currently selected ammo
 		overlay = true
 		#Render the block outline for distant blocks that are reachable with a slingshot enchanted with Stasis
 		stasis_block_outline = true
 		#An RGBA color for the block outline in hex format, for example 0x00000066 for vanilla outline colors
-		block_outline_color = "#FFFFFF66"
+		block_outline_color = "#FFFFFFFF"
 		#How big should a slingshot projectile look
 		#Range: 0.0 ~ 1.0
 		projectile_scale = 0.5
+
+	[items.lunch_basket]
+		#Adds an overlay to lunch boxes in gui displaying currently selected food
+		overlay = true
 
 	[items.altimeter]
 		#Click action for depth meter which displays current depth
@@ -215,6 +218,10 @@
 		#Increasing this to be more than 1 will result in delth meter display image to be shown in float amounts instead of pixel perfect ones
 		#Range: 1 ~ 10
 		texture_precision_multiplier = 1
+
+	[items.cannonball]
+		#Render cannonballs as 3D models
+		3d_model = true
 
 	[items.quiver]
 		#Z offset for quiver render when wearing armor. Useful for when you have custom armor bigger than vanilla to void clipping. Leave at -1 for automatic offset

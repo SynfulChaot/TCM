@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "everycomp:q/forbidden_arcanus/fungyss_bookshelf"
+        },
+        "S": {
+            "item": "forbidden_arcanus:fungyss_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "everycomp:vvb/forbidden_arcanus/fungyss_lectern"
+    },
+    "show_notification": true
+}

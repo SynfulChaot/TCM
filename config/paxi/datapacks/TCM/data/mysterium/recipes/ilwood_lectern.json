@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "everycomp:q/eidolon/illwood_bookshelf"
+        },
+        "S": {
+            "item": "eidolon:illwood_planks_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "everycomp:vvb/eidolon/illwood_lectern"
+    },
+    "show_notification": true
+}

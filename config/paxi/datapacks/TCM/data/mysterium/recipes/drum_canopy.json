@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "H": {
+            "item": "botania:horn_leaves"
+        },
+        "L": {
+            "tag": "forge:leather"
+        },
+        "W": {
+            "tag": "botania:livingwood_logs"
+        }
+    },
+    "pattern": [
+        "WLW",
+        "WHW",
+        "WLW"
+    ],
+    "result": {
+        "item": "botania:drum_canopy"
+    },
+    "show_notification": true
+}

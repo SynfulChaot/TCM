@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "B": {
+            "item": "twilightforest:canopy_bookshelf"
+        },
+        "S": {
+            "item": "twilightforest:canopy_slab"
+        }
+    },
+    "pattern": [
+        "SSS",
+        " B ",
+        " S "
+    ],
+    "result": {
+        "item": "everycomp:vvb/twilightforest/canopy_lectern"
+    },
+    "show_notification": true
+}

@@ -8,7 +8,7 @@ mobDropsEnabled = true
 #Disable sections of the mod
 [disable]
 	#Disable Alkahestry tome and its recipes
-	alkahestryTome = true
+	alkahestryTome = false
 	#Disable the HANDGUN, bullets, magazines, and gun parts
 	handgun = true
 	#Disable the POTION system including mortar, altar, potions, tipped arrows, and powder
@@ -18,7 +18,7 @@ mobDropsEnabled = true
 	#Disable all display-only pedestals
 	passivePedestal = false
 	#Disable recipes to craft spawn eggs from fragments
-	disableSpawnEggRecipes = true
+	disableSpawnEggRecipes = false
 
 #Potions related settings
 [potions]
