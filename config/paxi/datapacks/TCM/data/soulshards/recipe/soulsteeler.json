@@ -1,0 +1,15 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "enderio"
+        }
+    ],
+    "type": "enderio:enchanting",
+    "enchantment": "soulshards:soul_stealer",
+    "input": {
+        "item": "soulshards:corrupted_ingot"
+    },
+    "amount": 1,
+    "cost_multiplier": 1
+}

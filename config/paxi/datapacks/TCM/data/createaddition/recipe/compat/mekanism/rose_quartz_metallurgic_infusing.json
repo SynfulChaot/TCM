@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ],
+	"type":"mekanism:metallurgic_infusing",
+	"itemInput":{
+		"ingredient":{
+			"tag":"forge:gems/quartz"
+		}
+	},
+	"chemicalInput":{
+		"amount":80,
+		"tag":"mekanism:redstone"
+	},
+	"output":{
+		"id": "create:rose_quartz"
+	}
+}
