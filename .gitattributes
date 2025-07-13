@@ -7,10 +7,11 @@
 # Files that insist on writing with only LF, even on Windows
 config/attributefix.json text eol=lf
 config/enchdesc.json text eol=lf
+config/eternal_starlight.json text eol=lf
+config/gildedsherds.json text eol=lf
 config/modernfix-mixins.properties text eol=lf
-config/xenon-options.json text eol=lf
-config/ae2/client.json text eol=lf
-config/ae2/common.json text eol=lf
+config/nerb/*.yaml text eol=lf
+config/sodium-options.json text eol=lf
 
 # GitHub Linguist (language detection) overrides
 *.cfg linguist-detectable
