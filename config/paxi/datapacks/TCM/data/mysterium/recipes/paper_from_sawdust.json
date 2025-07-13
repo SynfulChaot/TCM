@@ -3,23 +3,23 @@
     "category": "misc",
     "ingredients": [
         {
-            "tag": "forge:dusts/wood"
+            "tag": "c:dusts/wood"
         },
         {
-            "tag": "forge:dusts/wood"
+            "tag": "c:dusts/wood"
         },
         {
-            "tag": "forge:dusts/wood"
+            "tag": "c:dusts/wood"
         },
         {
-            "tag": "forge:dusts/wood"
+            "tag": "c:dusts/wood"
         },
         {
-            "tag": "forge:buckets/water"
+            "tag": "c:buckets/water"
         }
     ],
     "result": {
-        "item": "minecraft:paper",
+        "id": "minecraft:paper",
         "count": 2
     }
 }

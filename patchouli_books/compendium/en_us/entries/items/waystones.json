@@ -23,9 +23,15 @@
             "text": "If you're in a bit more of a hurry, a return scroll can be used to instantly return to the last waystone to which you've attuned.$(br2)One-use item"
         },
         {
+            "type": "spotlight",
+            "item": "waystones:bound_scroll",
+            "text": "An alternate version of the Return Scroll, the Bound Scroll will instead return you to the waystone to which its bound.$(br2) $(br2) $(br2)One-use item"
+        },
+        {
             "type": "crafting",
-            "recipe": "waystones:bound_scroll",
-            "text": "An alternate version of the Return Scroll, the Bound Scroll will instead return you to the waystone to which its bound.$(br2) $(br)One-use item"
+            "title": "Blank Scroll",
+            "recipe": "waystones:blank_scroll",
+            "text": "Use a Blank Scroll on any waystone to convert it a Bound Scroll."
         },
         {
             "type": "crafting",

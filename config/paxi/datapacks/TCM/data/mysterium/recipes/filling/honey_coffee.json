@@ -5,13 +5,14 @@
             "item": "rusticdelight:coffee"
         },
         {
-            "amount": 250,
-            "fluid": "create:honey"
+            "type": "fluid_tag",
+            "fluid_tag": "c:honey",
+            "amount": 250
         }
     ],
     "results": [
         {
-            "item": "rusticdelight:honey_coffee"
+            "id": "rusticdelight:honey_coffee"
         }
     ]
 }

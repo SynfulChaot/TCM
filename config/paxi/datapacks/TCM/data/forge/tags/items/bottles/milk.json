@@ -1,8 +1,7 @@
 {
     "values": [
-        "#forge:milk/milk_bottle"
-    ],
-    "remove": [
-        "neapolitan:milk_bottle"
+        "farmersdelight:milk_bottle",
+        "hearthandharvest:goat_milk_bottle",
+        "vanillacookbook:milk_bottle"
     ]
 }

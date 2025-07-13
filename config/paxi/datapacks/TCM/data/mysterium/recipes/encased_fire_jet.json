@@ -9,10 +9,10 @@
             "item": "twilightforest:fire_jet"
         },
         "u": {
-            "tag": "forge:buckets/lava"
+            "tag": "c:buckets/lava"
         },
         "∴": {
-            "tag": "forge:dusts/redstone"
+            "tag": "c:dusts/redstone"
         }
     },
     "pattern": [
@@ -21,7 +21,7 @@
         "uuu"
     ],
     "result": {
-        "item": "twilightforest:encased_fire_jet"
+        "id": "twilightforest:encased_fire_jet"
     },
     "show_notification": true
 }

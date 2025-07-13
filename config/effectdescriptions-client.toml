@@ -1,21 +1,38 @@
-#Add the internal id of an effect to effect widget tooltips.
-add_internal_id_to_widget_tooltips = false
-#Add the effect name and duration to every effect widget tooltip, even if the widget already contains both.
-always_add_effect_name_to_tooltips = true
 #Amount of spaces to add at the beginning of an effect description.
-#Range: > 0
+#Default Value: 0
+# Default: 0
+# Range: 0 ~ 24
 description_indentation = 0
-#Items that should support descriptions for the effects on their inventory tooltip.
-#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
-effect_description_items_raw = ["minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:tipped_arrow", "minecraft:suspicious_stew"]
-#Only reveal effect descriptions for items while any shift key is held.
-hold_shift_for_item_descriptions = false
-#Add effect descriptions to effect widget tooltips in the survival and creative inventory screens.
-add_descriptions_to_widget_tooltips = true
-#Add the name of the mod that added an effect to effect widget tooltips.
-add_mod_name_to_widget_tooltips = false
-#Add attributes granted by an effect to effect widget tooltips.
-add_attributes_to_widget_tooltips = true
-#Add effect descriptions to item tooltips.
-add_descriptions_to_item_tooltips = true
 
+[items]
+	#Add effect description to item tooltips.
+	#Default Value: true
+	description = true
+	#Items that should support descriptions for the effects on their inventory tooltip.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
+	#Default Value: [minecraft:potion, minecraft:splash_potion, minecraft:lingering_potion, minecraft:tipped_arrow, minecraft:suspicious_stew]
+	supported_items = ["minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:tipped_arrow", "minecraft:suspicious_stew"]
+	#Add effects to food tooltips.
+	#Default Value: true
+	food_effects = true
+	#Only reveal effect description for items while any shift key is held.
+	#Default Value: false
+	shift_to_reveal = false
+
+[widgets]
+	#Add the effect name and duration to large effect widget tooltips, even though the widget already contains both.
+	#Default Value: NAME_AND_DURATION
+	#Allowed Values: NAME_ONLY, NAME_AND_DURATION, NONE
+	name_and_duration = "NAME_AND_DURATION"
+	#Add the name of the mod that added an effect to effect widget tooltips.
+	#Default Value: false
+	mod_name = false
+	#Add attributes granted by an effect to effect widget tooltips.
+	#Default Value: true
+	attributes = true
+	#Add effect description to effect widget tooltips in the survival and creative inventory screens.
+	#Default Value: true
+	description = true
+	#Add the internal id of an effect to effect widget tooltips.
+	#Default Value: false
+	internal_id = false

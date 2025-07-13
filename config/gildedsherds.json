@@ -1,0 +1,31 @@
+{
+  "can_craft": {
+    "//": "Allows players to craft gilded sherds using a crafting table if enabled.",
+    "//default": true,
+    "value": true
+  },
+  "can_ungild": {
+    "//": [
+      "Allows players to remove gilding from a sherd by putting it in the furnace. The ",
+      "gold will be lost.                                                              "
+    ],
+    "//default": true,
+    "value": true
+  },
+  "can_recycle": {
+    "//": [
+      "Allows players to recover the gold from a gilded sherd by putting it in a blast ",
+      "furnace. The sherd will be lost.                                                "
+    ],
+    "//default": true,
+    "value": true
+  },
+  "grant_advancement": {
+    "//": [
+      "Enables the touch of gold advancement which is granted when the player collects ",
+      "any gilded sherd.                                                               "
+    ],
+    "//default": true,
+    "value": true
+  }
+}

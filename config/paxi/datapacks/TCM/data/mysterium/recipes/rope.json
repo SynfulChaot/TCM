@@ -12,7 +12,7 @@
         "s"
     ],
     "result": {
-        "item": "supplementaries:rope",
+        "id": "supplementaries:rope",
         "count": 4
     },
     "show_notification": true

@@ -2,12 +2,12 @@
     "type": "create:splashing",
     "ingredients": [
         {
-            "tag": "forge:flour/wheat"
+            "tag": "c:flours/wheat"
         }
     ],
     "results": [
         {
-            "item": "farmersdelight:wheat_dough"
+            "id": "farmersdelight:wheat_dough"
         }
     ]
 }

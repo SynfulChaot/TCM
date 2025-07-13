@@ -1,4 +1,3 @@
-
 [general]
 	#Whether crops are affected by seasons.
 	seasonal_crops = true
@@ -11,4 +10,3 @@
 	underground_fertility_level = 48
 	#Whether to include tooltips on crops listing which seasons they're fertile in. Note: This only applies to listed crops.
 	crop_tooltips = true
-

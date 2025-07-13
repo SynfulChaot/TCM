@@ -1,6 +1,3 @@
-
-["Traveler's Titles"]
-
 	###########################################################################################################
 	## Biome Title settings.
 	###########################################################################################################
@@ -213,4 +210,3 @@
 		# The Waystones mod must be installed for this to have any effect.
 		# Default: 1.0
 		"Waystone Sound Effect Pitch" = 1.0
-

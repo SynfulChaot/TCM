@@ -17,7 +17,9 @@
         "PPP"
     ],
     "result": {
-        "item": "reliquary:mob_charm_fragment",
-        "nbt": "{entity:\"minecraft:spider\"}"
+        "id": "reliquary:mob_charm_fragment",
+        "components": {
+            "reliquary:entity_name": "minecraft:spider"
+        }
     }
 }

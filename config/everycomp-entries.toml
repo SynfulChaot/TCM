@@ -1,8 +1,10 @@
-
 #Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
 [types]
 
-	[types.stone_type]
+		[types.stone_type.arts_and_crafts]
+			gypsum = true
+			white_chalk = true
+			soapstone = true
 
 		[types.stone_type.create]
 			limestone = true
@@ -13,90 +15,70 @@
 			scoria = true
 			scorchia = true
 
-		[types.stone_type.quark]
-			soul_sandstone = true
-			limestone = false
-			jasper = true
-			shale = true
-			myalite = true
-			permafrost = true
+		
 
-		[types.stone_type.blue_skies]
-			taratite = true
-			rimestone = true
-			brumble = true
-			umber = true
-			cinderstone = true
-			blinding_stone = true
-			nature_stone = true
-			poison_stone = true
-			aquatic_stone = true
-			life_stone = true
-			turquoise_stone = true
-			lunar_stone = true
+		[types.stone_type.eternal_starlight]
+			grimstone = true
+			voidstone = true
+			radianite = true
+			stellagmite = true
+			abysslate = true
+			thermabysslate = true
+			cryobysslate = true
+			toxite = true
+			springstone = true
+		
+		[types.stone_type.opalescence]
+			opal = true
 
-		[types.stone_type.botania]
-			livingrock = true
-			shimmerrock = true
+		[types.stone_type.twilightforest]
+			mazestone = true
+			deadrock = true
 
 		[types.stone_type.undergarden]
 			depthrock = true
-			shiverstone = true
-			tremblecrust = true
 
 		[types.stone_type.forbidden_arcanus]
 			darkstone = true
 
-	[types.cake]
-
-		[types.cake.blue_skies]
-			comet_berry_pie = true
-
-		[types.cake.neapolitan]
-			vanilla_cake = true
-			chocolate_cake = true
-			strawberry_cake = true
-			banana_cake = true
-			mint_cake = true
-			adzuki_cake = true
-
-		[types.cake.collectorsreap]
-			lime_cake = true
-			pomegranate_cake = true
-
-		[types.cake.seasonals]
-			pumpkin_cake = true
-			sweet_berry_cake = true
-			beetroot_cake = true
+		[types.mud_type.eternal_starlight]
+			nightfall_mud = true
 
 		[types.cake.createaddition]
 			chocolate_cake = true
 			honey_cake = true
 
-		[types.cake.veggiesdelight]
+		[types.cake.creategarnished]
+			pound_cake = true
+
+		[types.cake.vanillacookbook]
+			berry_cake = true
 			carrot_cake = true
+			cheesecake = true
+			chocolate_cake = true
+			ice_cream_cake = true
+			rose_cake = true
+			chorus_cake = true
+			glow_berry_cake = true
 
-	[types.wood_type]
+		[types.wood_type.arts_and_crafts]
+			cork = true
 
-		[types.wood_type.blue_skies]
-			crystallized = true
-			bluebright = true
-			starlit = true
-			frostbright = true
+		[types.wood_type.eternal_starlight]
 			lunar = true
-			dusk = true
-			maple = true
-			comet = true
-
-		[types.wood_type.quark]
-			azalea = true
-			ancient = true
-			blossom = true
+			northland = true
+			starlight_mangrove = true
+			scarlet = true
+			torreya = true
+			jinglestem = true
 
 		[types.wood_type.hexerei]
 			mahogany = true
 			willow = true
 			witch_hazel = true
+
+		[types.wood_type.naturesaura]
+			ancient = true
 
 		[types.wood_type.twilightforest]
 			twilight_oak = true
@@ -108,17 +90,14 @@
 			mining = true
 			sorting = true
 
-		[types.wood_type.botania]
-			livingwood = true
-			dreamwood = true
-
 		[types.wood_type.undergarden]
+			ancient_root = true
 			smogstem = true
 			wigglewood = true
 			grongle = true
 
-		[types.wood_type.eidolon]
-			illwood = true
+		[types.wood_type.vanillabackport]
+			pale_oak = true
 
 		[types.wood_type.forbidden_arcanus]
 			fungyss = true
@@ -129,18 +108,21 @@
 			runewood = true
 			soulwood = true
 
-	[types.leaves_type]
+		[types.leaves_type.arts_and_crafts]
+			cork = true
 
-		[types.leaves_type.blue_skies]
-			crystallized = true
-			crescent_fruit = true
-			bluebright = true
-			starlit = true
-			frostbright = true
+		[types.leaves_type.creategarnished]
+			pine_nut = true
+			hazelnut = true
+			almond = true
+			blossoming_almond = true
+
+		[types.leaves_type.eternal_starlight]
 			lunar = true
-			dusk = true
-			maple = true
-			comet = true
+			northland = true
+			starlight_mangrove = true
+			scarlet = true
+			torreya = true
 
 		[types.leaves_type.twilightforest]
 			beanstalk = true
@@ -160,13 +142,17 @@
 			willow = true
 			witch_hazel = true
 
+		[types.leaves_type.naturesaura]
+			ancient = true
+			golden = true
+
 		[types.leaves_type.undergarden]
 			smogstem = true
 			wigglewood = true
 			grongle = true
 
-		[types.leaves_type.eidolon]
-			illwood = true
+		[types.leaves_type.vanillabackport]
+			pale_oak = true
 
 		[types.leaves_type.forbidden_arcanus]
 			aurum = true
@@ -176,35 +162,22 @@
 			runewood = true
 			azure_runewood = true
 			soulwood = true
-			budding_soulwood = true
-
-		[types.leaves_type.quark]
-			ancient = true
-			blue_blossom = true
-			lavender_blossom = true
-			orange_blossom = true
-			yellow_blossom = true
-			red_blossom = true
 
 #Disables specific entries
 [entries]
 
-	[entries.wood_type]
-
-		[entries.wood_type.variantvanillablocks]
-			fletching_table = true
-			lectern = true
-			smithing_table = true
-			bookshelf = false
-			crafting_table = true
-			smoker = true
-			cartography_table = true
-			beehive = true
-			composter = true
-			chiseled_bookshelf = true
-			grindstone = true
-			barrel = true
-			chest = false
+		[entries.wood_type.bibliocraft]
+			fancy_crafter = true
+			grandfather_clock = true
+			potion_shelf = true
+			table = true
+			bookcase = true
+			tool_rack = true
+			fancy_sign = true
+			label = true
+			fancy_clock = true
+			shelf = true
+			fancy_armor_stand = true
 
 		[entries.wood_type.twilightforest]
 			hollow_log_horizontal = true
@@ -227,27 +200,8 @@
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
-
-		[entries.wood_type.quark]
-			hollow_log = false
-			vertical_planks = true
-			post = true
-			trapped_chest = true
-			bookshelf = true
-			chest = true
-			stripped_post = true
-			ladder = true
-			vertical_slab = false
-
-	[entries.leaves_type]
-
-		[entries.leaves_type.quark]
-			hedge = true
-			leaf_carpet = true
-
-	[entries.stone_type]
-
-		[entries.stone_type.stoneworks]
+			
+			[entries.stone_type.stoneworks]
 			tile_stairs = true
 			plate_slab = true
 			shingle_wall = true
@@ -287,15 +241,4 @@
 			polished_cut_wall = true
 			cut_slab = true
 
-		[entries.stone_type.quark]
-			polished_vertical_slab = false
-			pillar = true
-			vertical_slab = false
-
-	[entries.mud_type]
-
-		[entries.mud_type.quark]
-			carved_bricks = true
-			pillar = true
-			brick_lattice = true
 

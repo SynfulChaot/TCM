@@ -42,15 +42,6 @@
             "type": "crafting",
             "recipe":  "minecraft:granite",
             "recipe2": "minecraft:polished_granite"
-        },
-		{
-			"type": "spotlight",
-			"item": "quark:jasper",
-			"text": "Jasper"
-        },
-        {
-            "type": "crafting",
-            "recipe": "quark:jasper"
         }
     ]
 }

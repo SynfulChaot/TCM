@@ -1,3 +1,5 @@
+#Special book shaders toggle
+book_shaders_toggle = true
 #Dynamic light toggle
 dynamic_light_toggle = false
 #Light level an entity should emit when dynamic lights are on
@@ -10,4 +12,3 @@ item_lights = ["hexerei:moon_dust=8", "minecraft:redstone_torch=10", "minecraft:
 ["List of Extra Fonts"]
 	#list of fonts that can be used, mainly for the book of shadows
 	font_list = ["minecraft:default", "hexerei:fancy", "hexerei:bloody", "hexerei:earth", "hexerei:seattle", "hexerei:medieval", "hexerei:augusta"]
-

@@ -5,13 +5,14 @@
             "item": "forbidden_arcanus:edelwood_bucket"
         },
         {
-            "amount": 1000,
-            "fluid": "minecraft:lava"
+            "type": "fluid_stack",
+            "fluid": "minecraft:lava",
+            "amount": 1000
         }
     ],
     "results": [
         {
-            "item": "forbidden_arcanus:edelwood_lava_bucket"
+            "id": "forbidden_arcanus:edelwood_lava_bucket"
         }
     ]
 }

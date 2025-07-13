@@ -1,4 +1,3 @@
-
 #Recipe Settings
 [recipes]
 	#A mapping of sulfur source to origin block. The key is the sulfur source, the value is the block.
@@ -12,4 +11,3 @@
 	#When adding a sulfur that is not in the 'theurgy' or 'kubejs' namespace, the namespace needs to be added to this list in order for the tooltip to show.
 	#Format is: ["<my_mod_namespace>", "<my_modpack_namespace>", ...]
 	additionalTooltipHandlerNamespaces = []
-

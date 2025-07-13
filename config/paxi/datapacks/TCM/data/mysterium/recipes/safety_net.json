@@ -11,7 +11,7 @@
         "rr"
     ],
     "result": {
-        "item": "farmersdelight:safety_net"
+        "id": "farmersdelight:safety_net"
     },
     "show_notification": true
 }

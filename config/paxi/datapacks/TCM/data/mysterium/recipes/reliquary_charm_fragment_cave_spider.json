@@ -8,10 +8,13 @@
             "item": "minecraft:string"
         },
         "T": {
-            "type": "forge:nbt",
-            "count": 1,
-            "item": "minecraft:potion",
-            "nbt": "{Potion:\"minecraft:poison\"}"
+            "type": "neoforge:components",
+            "items": "minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:poison"
+                }
+            }
         }
     },
     "pattern": [
@@ -20,7 +23,9 @@
         "PPP"
     ],
     "result": {
-        "item": "reliquary:mob_charm_fragment",
-        "nbt": "{entity:\"minecraft:cave_spider\"}"
+        "id": "reliquary:mob_charm_fragment",
+        "components": {
+            "reliquary:entity_name": "minecraft:cave_spider"
+        }
     }
 }

@@ -11,6 +11,7 @@
     "armor_stand": true,
     "fluid_storage.detailed": false,
     "energy_storage": true,
+    "energy_storage.style": "PROGRESS_BAR",
     "entity_armor.max_for_render": 40,
     "breaking_progress": true,
     "tnt_stability": true,
@@ -26,7 +27,7 @@
     "mob_spawner": true,
     "redstone": true,
     "fluid_storage": true,
-    "chicken_egg": true,
+    "fluid_storage.style": "PROGRESS_BAR",
     "jukebox": true,
     "brewing_stand": true,
     "energy_storage.detailed": false,
@@ -34,7 +35,6 @@
     "beehive": true,
     "item_storage.detailed_amount": 54,
     "player_head": true,
-    "block_states": false,
     "lectern": true,
     "entity_armor": true,
     "harvest_tool.creative": false,
@@ -46,30 +46,17 @@
     "villager_profession": true,
     "mob_breeding": true,
     "entity_health.icons_per_line": 10,
+    "next_entity_drop": true,
     "total_enchantment_power": true,
     "potion_effects": true,
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "endercrop": {
-    "endercrop": true,
-    "endstone": true
-  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
-  "collectorsreap": {
-    "crop_progress": true
-  },
-  "balm": {
-    "jade": true
-  },
-  "delightful": {
-    "crop_progress": true,
-    "pie_icons": true,
-    "mushroom_colony": true
-  },
   "twilightforest": {
+    "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
   },
   "reliquary": {
@@ -80,14 +67,43 @@
   },
   "supplementaries": {
     "hat_stand": true
-  },
-  "jade": {
+  },"jade": {
     "coordinates.rel": false,
     "distance": false,
+    "block_properties": false,
+    "block_states": false,
     "block_face": false,
     "coordinates": false,
     "registry_name": "OFF",
+    "registry_name.special": false,
     "mod_name": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  
+  "balm": {
+    "jade": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
   },
   "waystones": {
     "waystone": true

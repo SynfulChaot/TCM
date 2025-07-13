@@ -5,13 +5,14 @@
             "item": "minecraft:glass_bottle"
         },
         {
-            "amount": 250,
-            "fluid": "minecraft:lava"
+            "type": "fluid_stack",
+            "fluid": "minecraft:lava",
+            "amount": 250
         }
     ],
     "results": [
         {
-            "item": "hexerei:lava_bottle"
+            "id": "hexerei:lava_bottle"
         }
     ]
 }

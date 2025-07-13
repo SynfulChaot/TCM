@@ -1,8 +1,0 @@
-{
-    "values": [
-        "farmersdelight:beef_patty",
-        { "id": "vegandelight:tofu_patty" , "required": false },
-        { "id": "veggiesdelight:cooked_cauliflower_patty" , "required": false },
-        { "id": "collectorsreap:baked_portobello_cap" , "required": false }
-    ]
-}

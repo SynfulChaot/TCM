@@ -1,27 +1,25 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "misc",
-    "key": {
-        "B": {
-            "tag": "forge:buckets/milk"
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
         },
-        "C": {
+        {
+            "tag": "c:buckets/milk"
+        },
+        {
             "item": "reliquary:infernal_claw"
         },
-            "F": {
+        {
             "item": "reliquary:fertile_essence"
         },
-        "G": {
-            "tag": "forge:glass_panes"
+        {
+            "item": "reliquary:fertile_essence"
         }
-    },
-    "pattern": [
-        "GBG",
-        "GCG",
-        "FGF"
     ],
     "result": {
-        "item": "reliquary:angelheart_vial"
+        "id": "reliquary:angelheart_vial"
     },
     "show_notification": true
 }

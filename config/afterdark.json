@@ -12,7 +12,7 @@
   "canReturnWithoutCatalyst": true,
   "shouldGrassBurn": false,
   "GrassBlocks": [
-    "minecraft:grass",
+    "minecraft:short_grass",
     "minecraft:tall_grass"
   ],
   "SafeTeleportCheckRadius": 20,

@@ -3,7 +3,7 @@
     "category": "building",
     "key": {
         "#": {
-            "tag": "forge:rods/wooden"
+            "tag": "c:rods/wooden"
         },
         "X": {
             "item": "forbidden_arcanus:fungyss_planks"
@@ -14,7 +14,7 @@
         "#X#"
     ],
     "result": {
-        "item": "forbidden_arcanus:fungyss_fence_gate"
+        "id": "forbidden_arcanus:fungyss_fence_gate"
     },
     "show_notification": true
 }

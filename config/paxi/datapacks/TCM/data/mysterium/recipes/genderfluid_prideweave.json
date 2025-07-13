@@ -6,10 +6,10 @@
             "item": "malum:esoteric_spool"
         },
         {
-            "tag": "forge:buckets/water"
+            "tag": "c:buckets/water"
         }
     ],
     "result": {
-        "item": "malum:genderfluid_prideweave"
+        "id": "malum:genderfluid_prideweave"
     }
 }

@@ -1,21 +1,11 @@
 {
     "type": "farmersdelight:cooking",
     "container": {
-        "item": "minecraft:glass_bottle"
+        "id": "minecraft:glass_bottle"
     },
     "cookingtime": 200,
     "experience": 1.0,
     "ingredients": [
-        [
-            {
-                "type": "forge:partial_nbt",
-                "item": "minecraft:potion",
-                "nbt": "{Potion:\"minecraft:water\"}"
-            },
-            {
-                "tag": "forge:water"
-            }
-        ],
         {
             "tag": "rusticdelight:coffee_ingredients"
         },
@@ -28,6 +18,6 @@
     ],
     "recipe_book_tab": "drinks",
     "result": {
-        "item": "rusticdelight:coffee"
+        "id": "rusticdelight:coffee"
     }
 }

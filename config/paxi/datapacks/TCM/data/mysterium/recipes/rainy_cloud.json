@@ -3,7 +3,7 @@
     "category": "building",
     "key": {
         "b": {
-            "tag": "forge:buckets/water"
+            "tag": "c:buckets/water"
         },
         "c": {
             "item": "twilightforest:fluffy_cloud"
@@ -16,7 +16,7 @@
     ],
     "result": {
         "count": 8,
-        "item": "twilightforest:rainy_cloud"
+        "id": "twilightforest:rainy_cloud"
     },
     "show_notification": true
 }

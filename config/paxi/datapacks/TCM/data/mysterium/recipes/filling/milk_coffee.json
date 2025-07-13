@@ -5,13 +5,14 @@
             "item": "rusticdelight:coffee"
         },
         {
-            "amount": 250,
-            "fluidTag": "forge:milk"
+            "type": "fluid_stack",
+            "fluid": "minecraft:milk",
+            "amount": 250
         }
     ],
     "results": [
         {
-            "item": "rusticdelight:milk_coffee"
+            "id": "rusticdelight:milk_coffee"
         }
     ]
 }

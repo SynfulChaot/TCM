@@ -1,7 +1,0 @@
-{
-    "values": [
-        { "id": "vegandelight:minced_tofu" , "required": false },
-        { "id": "vegandelight:smoked_tofu_slices" , "required": false },
-        { "id": "vegandelight:tofu_slices" , "required": false }
-    ]
-}

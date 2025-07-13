@@ -4,16 +4,16 @@
     "group": "ie_concrete",
     "key": {
         "b": {
-            "tag": "forge:water"
+            "tag": "c:buckets/water"
         },
         "c": {
-            "tag": "forge:clay"
+            "tag": "c:clay"
         },
         "g": {
-            "tag": "forge:gravel"
+            "tag": "c:gravels"
         },
         "s": {
-            "tag": "forge:sand"
+            "tag": "c:sands"
         }
     },
     "pattern": [
@@ -24,7 +24,7 @@
     "quarter_turn": true,
     "result": {
         "count": 8,
-        "item": "immersiveengineering:concrete"
+        "id": "immersiveengineering:concrete"
     },
     "show_notification": true
 }

@@ -1,7 +1,7 @@
 {
     "name": "The Undergarden",
     "category": "patchouli:explorations",
-    "icon": "undergarden:ink_mushroom:",
+    "icon": "undergarden:ink_mushroom",
     "pages": [
         {
 			"type": "text",

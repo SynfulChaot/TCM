@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "g": {
-            "tag": "forge:ingots/gold"
+            "tag": "c:ingots/gold"
         },
         "h": {
-            "tag": "forge:buckets/lava"
+            "tag": "c:buckets/lava"
         },
         "m": {
             "tag": "theurgy:alchemical_mercuries"
         },
         "s": {
-            "tag": "forge:stone"
+            "tag": "c:stones"
         }
     },
     "pattern": [
@@ -20,6 +20,6 @@
         "sss"
     ],
     "result": {
-        "item": "theurgy:caloric_flux_emitter"
+        "id": "theurgy:caloric_flux_emitter"
     }
 }

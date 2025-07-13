@@ -1,6 +1,6 @@
 {
-    "values": [
-        "blue_skies:ventium_water_bucket",
+    "values": [ ],
+    "remove": [
         "forbidden_arcanus:edelwood_water_bucket"
     ]
 }

@@ -5,13 +5,14 @@
             "item": "rusticdelight:coffee"
         },
         {
-            "amount": 250,
-            "fluid": "create:chocolate"
+            "type": "fluid_stack",
+            "fluid": "create:chocolate",
+            "amount": 250
         }
     ],
     "results": [
         {
-            "item": "rusticdelight:chocolate_coffee"
+            "id": "rusticdelight:chocolate_coffee"
         }
     ]
 }

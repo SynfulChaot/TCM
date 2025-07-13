@@ -1,4 +1,3 @@
-
 [General]
 	#The number of item stacks held in a basic unit of storage.
 	#1x1 drawers hold 8 units, 1x2 drawers hold 4 units, 2x2 drawers hold 2 units.
@@ -7,14 +6,16 @@
 	#Controller range defines how far away a drawer can be connected
 	#on X, Y, or Z planes.  The default value of 50 gives the controller a very
 	#large range, but not beyond the chunk load distance.
-	#Range: 1 ~ 75
+	# Default: 50
+	# Range: 1 ~ 75
 	controllerRange = 50
 	#Whether redstone upgrades should emit an analog redstone signal, requiring
-	#the use of a comparator to read it.  This will default to true starting with MC 1.21.
+	#the use of a comparator to read it.
 	enableAnalogRedstone = false
 	enableUI = true
 	enableSidedInput = true
 	enableSidedOutput = true
+	enableItemConversion = true
 	enableExtraCompactingRules = true
 	#Allows drawers to be pulled from their block and inserted into another block.
 	enableDetachedDrawers = true
@@ -23,18 +24,14 @@
 	#Drawers can still only be inserted into a block with enough capacity for the items held.
 	forceDetachedDrawersMaxCapacityCheck = false
 	debugTrace = false
-	#List of rules in format "domain:item1, domain:item2, n".
-	#Creates a compacting drawer rule to convert 1 of item1 into n of item2.
 	compactingRules = ["minecraft:clay, minecraft:clay_ball, 4"]
-	#If enabled, carrying filled drawers in your inventory gives slowness debuff, unless a Portability Upgrade is used.
+	#If enabled, carrying filled drawers in your inventory gives slowness debuff,
+	#unless a Portability Upgrade is used.
 	heavyDrawers = false
 	#If enabled, players can lock drawer interactions to just themselves.
 	enablePersonalKey = true
 
 [StorageUpgrades]
-	#Storage upgrades multiply storage capacity by the given amount.
-	#When multiple storage upgrades are used together, their multipliers are added before being applied.
-	#Storage upgrades start at the level 2 multiplier.  The resistance upgrade uses level 1.
 	level1Mult = 2
 	level2Mult = 4
 	level3Mult = 8
@@ -84,10 +81,7 @@
 	itemEquivalenceGroups = []
 
 [Integration]
-	#Add CoFH Core specific features if the mod is loaded
-	enableCoFHIntegration = true
 	#When true, shows quantity as NxS + R (by stack size) rather than count
 	wailaStackRemainder = true
 	#When true, does not show current quantities unless quantify key was used
 	wailaRespectQuantifyKey = false
-

@@ -1,4 +1,3 @@
-
 [lectern]
 	#Improved lectern screen allowing to edit font of a book while on it
 	improved_screen = true
@@ -15,16 +14,19 @@
 	#Allows dying cauldron water bedrock style and mixing them too
 	dye_water = true
 	#Max amount of items that 1 cauldron layer can recolor.This is a multiplier on top of vanilla crafting recipe amount
-	#Range: 1 ~ 64
+	# Default: 4
+	# Range: 1 ~ 64
 	dye_recipes_per_layer = 4
 	#Max amount of items that 1 cauldron layer can craft with potions.This is a multiplier on top of vanilla crafting recipe amount
-	#Range: 1 ~ 64
+	# Default: 2
+	# Range: 1 ~ 64
 	potion_recipes_per_layer = 2
 	#Allows mixin potions in cauldrons
 	#Allowed Values: OFF, ONLY_BOILING, ON
 	potions_mixing = "OFF"
 	#Max amount of effects allowed in a mixed potion
-	#Range: 1 ~ 64
+	# Default: 8
+	# Range: 1 ~ 64
 	potion_mixing_limit = 8
 	#Makes cauldrons connect to fences
 	connect_to_fences = true
@@ -76,7 +78,7 @@
 	#Gives high priority to wall lantern placement. Enable to override other wall lanterns placements, disable if it causes issues with other mods that use lower priority block click events
 	high_priority = true
 	#Mod ids of mods that have lantern block that extend the base lantern class but don't look like one
-	mod_blacklist = ["bbb", "extlights", "betterendforge", "spelunkery", "galosphere", "tconstruct", "enigmaticlegacy", "beautify", "candlelight"]
+	mod_blacklist = ["bbb", "extlights", "betterendforge", "spelunkery", "galosphere", "tconstruct", "enigmaticlegacy", "beautify"]
 	#Ids of blocks that are not detected as lanterns but should be
 	id_whitelist = ["enlightened_end:xenon_lantern"]
 	#Allows ceiling lanterns to fall if their support is broken.Additionally if they fall from high enough they will break creating a fire where they land
@@ -87,7 +89,8 @@
 	#Ring a bell by clicking on a chain that's connected to it
 	chain_ringing = true
 	#Max chain length that allows a bell to ring
-	#Range: 0 ~ 256
+	# Default: 16
+	# Range: 0 ~ 256
 	chain_length = 16
 
 [banners]
@@ -104,10 +107,10 @@
 	#Allows torches to set entities on fire when held in offhand given you are attacking with a sword
 	torch_fire_offhand = false
 	#Duration of the on fire effect applied by torches. In seconds
-	#Range: 1 ~ 60
+	# Default: 2
+	# Range: 1 ~ 60
 	torch_fire_duration = 2
 
 [lily_pad]
 	#Allows lilypads to have any block placed ontop
 	better_lilypads = true
-

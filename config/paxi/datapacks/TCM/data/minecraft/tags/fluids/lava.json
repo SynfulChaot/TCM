@@ -1,7 +1,7 @@
 {
     "values": [ ],
     "remove": [
-        "hexerei:quicksilver_flowing",
-        "hexerei:quicksilver_fluid"
+        "hexerei:quicksilver_fluid",
+        "hexerei:quicksilver_flowing"
     ]
 }

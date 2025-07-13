@@ -1,0 +1,4 @@
+#DO NOT CHANGE. Used for tracking config updates.
+# Default: 1
+# Range: > 1
+config_version = 1

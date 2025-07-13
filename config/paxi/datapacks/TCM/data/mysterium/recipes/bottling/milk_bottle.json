@@ -5,11 +5,11 @@
     },
     "fluid": {
         "amount": 250,
-        "tag": "forge:milk"
+        "tag": "c:milk"
     },
     "results": [
         {
-            "item": "farmersdelight:milk_bottle"
+            "id": "farmersdelight:milk_bottle"
         }
     ]
 }

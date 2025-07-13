@@ -10,11 +10,11 @@
             "tag": "minecraft:wooden_slabs"
         },
         "1": {
-            "tag": "forge:leather"
+            "tag": "c:leathers"
         }
     },
     "result": {
-        "item": "supplementaries:bellows",
+        "id": "supplementaries:bellows",
         "count": 1
     },
     "conditions": [

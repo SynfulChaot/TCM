@@ -5,13 +5,14 @@
             "item": "forbidden_arcanus:edelwood_bucket"
         },
         {
-            "amount": 1000,
-            "fluid": "minecraft:milk"
+            "type": "fluid_stack",
+            "fluid": "minecraft:milk",
+            "amount": 1000
         }
     ],
     "results": [
         {
-            "item": "forbidden_arcanus:edelwood_milk_bucket"
+            "id": "forbidden_arcanus:edelwood_milk_bucket"
         }
     ]
 }

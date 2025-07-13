@@ -1,7 +1,8 @@
 {
     "type": "hexerei:mixingcauldron",
-    "liquid": {
-        "fluid": "minecraft:water"
+    "fluid": {
+        "id": "minecraft:water",
+        "amount": 500
     },
     "ingredients": [
         {
@@ -11,7 +12,7 @@
             "item": "minecraft:string"
         },
         {
-            "tag": "forge:leather"
+            "tag": "c:leathers"
         },
         {
             "item": "minecraft:string"
@@ -23,17 +24,13 @@
             "item": "minecraft:string"
         },
         {
-            "tag": "forge:leather"
+            "tag": "c:leathers"
         },
         {
             "item": "minecraft:string"
         }
     ],
     "output": {
-        "item": "hexerei:large_satchel"
-    },
-    "liquidOutput": {
-        "fluid": "minecraft:water"
-    },
-    "fluidLevelsConsumed": 500
+        "id": "hexerei:large_satchel"
+    }
 }

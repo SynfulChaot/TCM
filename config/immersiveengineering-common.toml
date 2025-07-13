@@ -9,8 +9,6 @@ importantInfo = true
 #This affects the ores dug by the excavator, as well as those crushing recipes that don't have associated IE items. This list is in oreder of priority.
 preferredOres = ["immersiveengineering", "minecraft"]
 
-[debug]
-
 	[debug.wires]
 		#Enable detailed logging for the wire network. This can be useful for developers to track down issues related to wires.
 		enableWireLogger = false
@@ -21,6 +19,5 @@ preferredOres = ["immersiveengineering", "minecraft"]
 #Setting any of these to false disables the respective compat
 [compat]
 	theoneprobe = true
-	curios = true
+	create = true
 	computercraft = true
-

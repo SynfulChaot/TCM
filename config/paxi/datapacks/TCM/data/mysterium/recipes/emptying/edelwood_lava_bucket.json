@@ -7,11 +7,11 @@
     ],
     "results": [
         {
-            "item": "forbidden_arcanus:edelwood_bucket"
+            "id": "forbidden_arcanus:edelwood_bucket"
         },
         {
-            "amount": 1000,
-            "fluid": "minecraft:lava"
+            "id": "minecraft:lava",
+            "amount": 1000
         }
     ]
 }

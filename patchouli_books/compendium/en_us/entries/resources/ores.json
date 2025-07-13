@@ -25,12 +25,12 @@
         },
         {
 			"type": "spotlight",
-			"item": "embers:lead_ore",
+			"item": "immersiveengineering:ore_lead",
 			"text": "Lead"
         },
         {
 			"type": "spotlight",
-			"item": "embers:silver_ore",
+			"item": "immersiveengineering:ore_silver",
 			"text": "Silver"
         },
         {

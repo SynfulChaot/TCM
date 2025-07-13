@@ -7,12 +7,14 @@ enable_wandering_trader_trades = true
 #Should players be able to brew Rustic Delight potions?
 enable_potions = true
 #Chance of generating clusters. Smaller value = more frequent. Provide zero to disable generation.
-#Range: > 0
+# Default: 32
+# Range: > 0
 wild_cotton_chance = 96
 #Chance of generating clusters. Smaller value = more frequent. Provide zero to disable generation.
-#Range: > 0
+# Default: 15
+# Range: > 0
 wild_bell_peppers_chance = 15
 #Chance of generating clusters. Smaller value = more frequent. Provide zero to disable generation.
-#Range: > 0
+# Default: 15
+# Range: > 0
 wild_coffee_chance = 15
-

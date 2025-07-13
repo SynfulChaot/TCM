@@ -3,20 +3,20 @@
     "category": "misc",
     "ingredients": [
         {
-            "tag": "forge:dusts/saltpeter"
+            "tag": "c:dusts/saltpeter"
         },
         {
-            "tag": "forge:slag"
+            "tag": "c:slag"
         },
         {
-            "tag": "forge:dusts/sulfur"
+            "tag": "c:dusts/sulfur"
         },
         {
-            "tag": "forge:buckets/water"
+            "tag": "c:buckets/water"
         }
     ],
     "result": {
-        "item": "immersiveengineering:fertilizer",
+        "id": "immersiveengineering:fertilizer",
         "count": 3
     }
 }

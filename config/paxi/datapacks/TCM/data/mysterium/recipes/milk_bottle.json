@@ -3,7 +3,7 @@
     "category": "misc",
     "ingredients": [
         {
-            "tag": "forge:buckets/milk"
+            "tag": "c:buckets/milk"
         },
         {
             "item": "minecraft:glass_bottle"
@@ -20,6 +20,6 @@
     ],
     "result": {
         "count": 4,
-        "item": "farmersdelight:milk_bottle"
+        "id": "farmersdelight:milk_bottle"
     }
 }

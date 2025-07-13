@@ -3,13 +3,13 @@
     "category": "misc",
     "key": {
         "b": {
-            "tag": "forge:buckets/water"
+            "tag": "c:buckets/water"
         },
         "c": {
-            "tag": "forge:plates/constantan"
+            "tag": "c:plates/constantan"
         },
         "i": {
-            "tag": "forge:sheetmetals/steel"
+            "tag": "c:sheetmetals/steel"
         }
     },
     "pattern": [
@@ -19,8 +19,8 @@
     ],
     "quarter_turn": true,
     "result": {
-        "count": 4,
-        "item": "immersiveengineering:radiator"
+        "id": "immersiveengineering:radiator",
+        "count": 4
     },
     "show_notification": true
 }

@@ -1,6 +1,0 @@
-{
-    "values": [
-        { "id": "vegandelight:tofish" , "required": false },
-        { "id": "vegandelight:smoked_tofish" , "required": false }
-    ]
-}
