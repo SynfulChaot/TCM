@@ -14,7 +14,7 @@ description_indentation = 0
 	supported_items = ["minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:tipped_arrow", "minecraft:suspicious_stew"]
 	#Add effects to food tooltips.
 	#Default Value: true
-	food_effects = true
+	food_effects = false
 	#Only reveal effect description for items while any shift key is held.
 	#Default Value: false
 	shift_to_reveal = false
