@@ -1,5 +1,5 @@
 {
-  "loadOrder": [
-    "TCM"
-  ]
+	"loadOrder": [
+		"datapacks/TCM"
+	]
 }
