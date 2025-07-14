@@ -1,3 +1,7 @@
 {
-  "loadOrder": []
+    "loadOrder": [
+        "resourcepacks/Visual Titles 1.1.zip",
+        "resourcepacks/Opalescence Lighter Grout.zip",
+        "resourcepacks/TCM"
+    ]
 }
