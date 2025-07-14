@@ -1,0 +1,20 @@
+{
+    "containers": [
+        {
+            "filled": [
+                "vanillacookbook:berry_milk"
+            ],
+            "empty": "minecraft:glass_bottle",
+            "capacity": "BOTTLE"
+        }
+    ],
+    "food": {
+        "divider": "BOTTLE",
+        "item": "vanillacookbook:berry_milk"
+    },
+    "flowing_texture": "moonlight:block/soft_fluids/milk_liquid",
+    "still_texture": "moonlight:block/soft_fluids/milk_liquid",
+    "color": "#B52746",
+    "from_mod": "hearthandharvest",
+    "translation_key": "item.vanillacookbook.berry_milk"
+}

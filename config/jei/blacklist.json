@@ -22,5 +22,6 @@
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"hexerei:milk_bottle"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"reliquary:glowing_bread"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"rusticdelight:bell_pepper_seeds_bag"},"type":"item_stack"}},
-  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"rusticdelight:cotton_seeds_bag"},"type":"item_stack"}}
+  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"rusticdelight:cotton_seeds_bag"},"type":"item_stack"}},
+  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"vanillacookbook:milk_bottle"},"type":"item_stack"}}
 ]

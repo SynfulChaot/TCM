@@ -1,7 +1,7 @@
 {
     "type": "farmersdelight:cooking",
     "container": {
-        "id": "forbidden_arcanus:edelwood_water_bucket"
+        "id": "minecraft:water_bucket"
     },
     "cookingtime": 200,
     "experience": 0.35,
@@ -18,6 +18,6 @@
     ],
     "recipe_book_tab": "drinks",
     "result": {
-        "id": "forbidden_arcanus:edelwood_milk_bucket"
+        "id": "minecraft:milk_bucket"
     }
 }

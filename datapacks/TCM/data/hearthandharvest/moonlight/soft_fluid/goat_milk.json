@@ -1,0 +1,20 @@
+{
+    "containers": [
+        {
+            "filled": [
+                "hearthandharvest:goat_milk_bottle"
+            ],
+            "empty": "minecraft:glass_bottle",
+            "capacity": "BOTTLE"
+        }
+    ],
+    "food": {
+        "divider": "BOTTLE",
+        "item": "hearthandharvest:goat_milk_bottle"
+    },
+    "flowing_texture": "moonlight:block/soft_fluids/milk_liquid",
+    "still_texture": "moonlight:block/soft_fluids/milk_liquid",
+    "color": "#EFECE3",
+    "from_mod": "hearthandharvest",
+    "translation_key": "soft_fluid.hearthandharvest.goat_milk"
+}

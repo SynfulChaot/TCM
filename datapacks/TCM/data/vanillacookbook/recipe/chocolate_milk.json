@@ -1,0 +1,19 @@
+  {
+    "type": "vanillacookbook:set_remainder",
+    "ingredients": [
+         {
+            "tag": "c:bottles/milk"
+        },
+        {
+            "item": "minecraft:cocoa_beans"
+        },
+        {
+            "item": "minecraft:cocoa_beans"
+        }
+    ],
+    "contained": [ ],
+    "container": [ ],
+    "result": {
+        "id": "vanillacookbook:chocolate_milk"
+    }
+}
