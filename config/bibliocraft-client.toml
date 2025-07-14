@@ -3,7 +3,7 @@
 	#Whether to enable pride-themed cosmetics during pride month or not.
 	enable_pride = true
 	#Whether to enable pride-themed cosmetics all year or only during pride month. Does nothing if enable_pride is false.
-	enable_pride_always = false
+	enable_pride_always = true
 
 	#Contains compatibility options.
 	[cosmetic.compatibility]

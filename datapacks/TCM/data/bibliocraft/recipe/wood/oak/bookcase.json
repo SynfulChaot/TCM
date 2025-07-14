@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:false"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "bibliocraft:bookcases",
+    "key": {
+        "P": {
+            "item": "minecraft:oak_planks"
+        },
+        "S": {
+            "item": "minecraft:oak_slab"
+        }
+    },
+    "pattern": [
+        "PSP",
+        "PSP",
+        "PSP"
+    ],
+    "result": {
+        "id": "bibliocraft:oak_bookcase"
+    }
+}
