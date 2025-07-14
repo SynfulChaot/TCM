@@ -1,0 +1,7 @@
+{
+    "values": [ ],
+    "remove": [
+        "bibliocraft:cookie_jar",
+        "bibliocraft:desk_bell"
+    ]
+}

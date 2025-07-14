@@ -1,6 +1,7 @@
 {
     "values": [ ],
     "remove": [
+        "bibliocraft:big_book",
         "bibliocraft:redstone_book"
     ]
 }
