@@ -1,0 +1,21 @@
+{
+    "name": "Saving your experience",
+    "icon": "xpbook:xp_tome",
+    "category": "patchouli:items",
+    "pages": [
+        {
+            "type": "text",
+            "text": "<insert description here>"
+        },
+        {
+            "type": "crafting",
+            "recipe": "xpbook:xp_tome",
+            "text": "<insert description here>"
+        },
+        {
+            "type": "crafting",
+            "recipe": "reliquary:hero_medallion",
+            "text": "<insert description here>"
+        }
+    ]
+}

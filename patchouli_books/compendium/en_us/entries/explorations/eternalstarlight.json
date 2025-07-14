@@ -1,0 +1,11 @@
+{
+    "name": "Eternal Starlight",
+    "icon": "eternal_starlight:starlight_flower",
+    "category": "patchouli:explorations",
+    "pages": [
+		{
+			"type": "text",
+			"text": "<insert description here>"
+		}
+    ]
+}

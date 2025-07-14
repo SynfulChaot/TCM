@@ -1,0 +1,21 @@
+{
+    "name": "Keeping things running",
+    "icon": "chickenchunks:chunk_loader",
+    "category": "patchouli:items",
+    "pages": [
+        {
+            "type": "text",
+            "text": "<insert description here>"
+        },
+        {
+            "type": "crafting",
+            "recipe": "chickenchunks:chunk_loader",
+            "text": "<insert description here>"
+        },
+        {
+            "type": "crafting",
+            "recipe": "chickenchunks:spot_loader",
+            "text": "<insert description here>"
+        }
+    ]
+}
