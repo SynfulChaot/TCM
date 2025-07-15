@@ -1,0 +1,30 @@
+  {
+    "type": "vanillacookbook:set_remainder",
+    "ingredients": [
+        {
+            "item": "rusticdelight:coffee"
+        },
+        {
+            "tag": "c:bottles/milk"
+        },
+        {
+            "item": "minecraft:cocoa_beans"
+        },
+        {
+            "item": "minecraft:cocoa_beans"
+        }
+    ],
+    "contained": [
+        {
+            "id": "rusticdelight:coffee"
+        }
+    ],
+    "container": [
+        {
+            "id": "minecraft:glass_bottle"
+        }
+    ],
+    "result": {
+        "id": "rusticdelight:chocolate_coffee"
+    }
+}

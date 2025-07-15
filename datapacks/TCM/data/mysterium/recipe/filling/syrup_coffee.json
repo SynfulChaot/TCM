@@ -6,13 +6,13 @@
         },
         {
             "type": "fluid_tag",
-            "fluid_tag": "c:honey",
+            "fluid_tag": "c:syrup",
             "amount": 250
         }
     ],
     "results": [
         {
-            "id": "rusticdelight:honey_coffee"
+            "id": "rusticdelight:syrup_coffee"
         }
     ]
 }
