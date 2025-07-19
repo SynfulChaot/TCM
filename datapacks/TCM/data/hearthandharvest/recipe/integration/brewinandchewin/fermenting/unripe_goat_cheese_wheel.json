@@ -1,0 +1,28 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "category": "meals",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "hearthandharvest:goat_milk_bottle"
+    },
+    {
+      "item": "hearthandharvest:goat_milk_bottle"
+    },
+    {
+      "item": "hearthandharvest:salt"
+    },
+    []
+  ],
+  "result": {
+    "count": 1,
+    "id": "hearthandharvest:unripe_goat_cheese_wheel"
+  },
+  "temperature": 5
+}

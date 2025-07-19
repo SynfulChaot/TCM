@@ -1,17 +1,22 @@
 {
-    "neoforge:conditions": [
+	"type": "createaddition:charging",
+	"ingredients": [
         {
-            "type": "neoforge:mod_loaded",
-            "modid": "ae2"
+            "item": "ae2:certus_quartz_crystal"
         }
     ],
-	"type":"createaddition:charging",
+	"results": [
+        {
+            "count": 1,
+            "id": "ae2:charged_certus_quartz_crystal"
+        }
+    ],
 	"energy": 10000,
-	"max_charge_rate": 1000,
-    "ingredient": {
-      	"item": "ae2:certus_quartz_crystal"
-	},
-	"result": {
-		"id": "ae2:charged_certus_quartz_crystal"
-	}
+	"max_charge_rate": 200,
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "ae2"
+		}
+	]
 }
