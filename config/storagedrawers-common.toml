@@ -30,6 +30,8 @@
 	heavyDrawers = false
 	#If enabled, players can lock drawer interactions to just themselves.
 	enablePersonalKey = true
+	#If enabled, limits framing materials to solid, opaque blocks [by best effort]
+	restrictFramingMaterials = true
 
 [StorageUpgrades]
 	level1Mult = 2
