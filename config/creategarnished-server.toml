@@ -31,6 +31,14 @@
 	#.
 	#Controls whether or not Sappy Birch Logs require Birch Logs above and below the block to generate Birch Sap.
 	requireLogsForSapGeneration = false
+	#.
+	#Controls whether or not Birch Sap can be extracted from Sappy Birch Logs with fluid pipes.
+	allowSapFluidExtraction = true
+	#.
+	#The amount of Birch Sap extracted from Sappy Birch Logs assuming that fluid extraction is allowed.
+	# Default: 250
+	# Range: 1 ~ 1000
+	sapFluidExtractionAmount = 250
 
 #.
 #Control certain properties of items within Create: Garnished Reworked
@@ -60,3 +68,514 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 64.0
 	elvenSweetBerryBushPrickDamageAmount = 0.5
+	#.
+	#Allows for Guardians to be haunted into Elder Guardians.
+	enableElderGuardianConversion = false
+	#.
+	#Allows for Cows to be haunted into Mooshrooms.
+	enableMooshroomConversion = true
+
+#.
+#Control how hatchets interact with loot drops or how the hatchet itself is handled
+[hatchet]
+	#.
+	#.
+	#Disables special drops provided by hatchets.
+	disableHatchetDrops = false
+	#.
+	#Disables special drops provided by hatchets from groups of mobs.
+	disableGlobalHatchetDrops = false
+	#.
+	#Amount of free Pressurised Hatchet actions provided by one filled Copper Backtank. Set to 0 makes Pressurised Hatchets unbreakable
+	# Default: 2000
+	# Range: > 0
+	maxPressurisedHatchetActions = 2000
+	#.
+	#Allows additional or unique drops to also be obtained through baby variant mobs. (how DARE you)
+	allowDropsFromBabyMobs = true
+	#.
+	#Allows for extra... 'functionality', if you will
+	allowShotgunAxe = false
+
+	#.
+	#Controls drops from the mobs tagged as zombies.
+	[hatchet.zombies]
+		#.
+		#Disables the special item drops from mobs tagged as zombies upon defeat.
+		disableZombieDrops = false
+		#.
+		#The chance to drop leather upon defeat.
+		# Default: 65
+		# Range: 1 ~ 100
+		chanceToDropLeather = 65
+		#.
+		#Max count for leather to drop upon defeat.
+		# Default: 2
+		# Range: > 1
+		leatherMaxCount = 2
+
+		#.
+		#Controls drops from the Husk mob.
+		[hatchet.zombies.husk]
+			#.
+			#Disables the special item drops from husks upon defeat.
+			disableHuskDrops = false
+			#.
+			#The chance to drop gold nuggets upon defeat.
+			# Default: 5
+			# Range: 1 ~ 100
+			chanceToDropGoldNugget = 5
+			#.
+			#Max count for gold nuggets to drop upon defeat.
+			# Default: 3
+			# Range: > 1
+			goldNuggetMaxCount = 3
+
+		#.
+		#Controls drops from the Drowned mob.
+		[hatchet.zombies.drowned]
+			#.
+			#Disables the special item drops from drowned upon defeat.
+			disableDrownedDrops = false
+			#.
+			#The chance to drop copper nuggets upon defeat.
+			# Default: 5
+			# Range: 1 ~ 100
+			chanceToDropCopperNugget = 5
+			#.
+			#Max count for copper nuggets to drop upon defeat.
+			# Default: 3
+			# Range: > 1
+			copperNuggetMaxCount = 3
+
+	#.
+	#Controls drops from the mobs tagged as skeletons.
+	[hatchet.skeletons]
+		#.
+		#Disables the special item drops from mobs tagged as skeletons upon defeat.
+		disableSkeletonDrops = false
+		#.
+		#The chance to drop bone meal upon defeat.
+		# Default: 45
+		# Range: 1 ~ 100
+		chanceToDropBoneMeal = 45
+		#.
+		#Max count for bone meal to drop upon defeat.
+		# Default: 2
+		# Range: > 1
+		boneMealMaxCount = 2
+
+		#.
+		#Controls drops from the Bogged mob.
+		[hatchet.skeletons.bogged]
+			#.
+			#Disables the special item drops from bogged upon defeat.
+			disableBoggedDrops = false
+			#.
+			#The chance to drop moss blocks upon defeat.
+			# Default: 20
+			# Range: 1 ~ 100
+			chanceToDropMossBlock = 20
+			#.
+			#Max count for moss blocks to drop upon defeat.
+			# Default: 3
+			# Range: > 1
+			mossBlockMaxCount = 3
+
+		#.
+		#Controls drops from the Stray mob.
+		[hatchet.skeletons.stray]
+			#.
+			#Disables the special item drops from strays upon defeat.
+			disableStrayDrops = false
+
+		#.
+		#Controls drops from the Wither Skeleton mob.
+		[hatchet.skeletons.witherSkeleton]
+			#.
+			#Disables the special item drops from wither skeletons upon defeat.
+			disableWitherSkeletonDrops = false
+			#.
+			#The chance to drop extra coal upon defeat.
+			# Default: 20
+			# Range: 1 ~ 100
+			chanceToDropExtraCoal = 20
+			#.
+			#Max count for extra coal to drop upon defeat.
+			# Default: 2
+			# Range: > 1
+			extraCoalMaxCount = 2
+
+	#.
+	#Controls drops from mobs tagged as gelatinous creatures.
+	[hatchet.gelatinousCreatures]
+		#.
+		#Disables the special item drops from mobs tagged as gelatinous creatures upon defeat.
+		disableGelatinousCreatureDrops = false
+		#.
+		#The chance to drop elastic strands upon defeat. This includes fiery elastic strands.
+		# Default: 25
+		# Range: 1 ~ 100
+		chanceToDropElasticStrand = 25
+		#.
+		#Max count for elastic strands to drop upon defeat. This includes fiery elastic strands.
+		# Default: 2
+		# Range: > 1
+		elasticStrandMaxCount = 2
+
+		#.
+		#Controls drops from the Slime mob.
+		[hatchet.gelatinousCreatures.slime]
+			#.
+			#Disables the special item drops from slimes upon defeat.
+			disableSlimeDrops = false
+			#.
+			#The chance to drop extra slime balls upon defeat.
+			# Default: 15
+			# Range: 1 ~ 100
+			chanceToDropSlimeBall = 15
+			#.
+			#Max count for extra slime balls to drop upon defeat.
+			# Default: 2
+			# Range: > 1
+			slimeBallMaxCount = 2
+
+		#.
+		#Controls drops from the Magma Cube mob.
+		[hatchet.gelatinousCreatures.magmaCube]
+			#.
+			#Disables the special item drops from magma cubes upon defeat.
+			disableMagmaCubeDrops = false
+			#.
+			#The chance to drop extra magma cream upon defeat.
+			# Default: 15
+			# Range: 1 ~ 100
+			chanceToDropExtraMagmaCream = 15
+			#.
+			#Max count for extra magma cream to drop upon defeat.
+			# Default: 2
+			# Range: > 1
+			magmaCreamMaxCount = 2
+
+	#.
+	#Controls drops from the Shulker mob.
+	[hatchet.shulker]
+		#.
+		#Disables the special item drops from shulkers upon defeat.
+		disableShulkerDrops = false
+		#.
+		#The chance to drop extra shulker shells upon defeat.
+		# Default: 15
+		# Range: 1 ~ 100
+		chanceToDropExtraShulkerShells = 15
+		#.
+		#Max count for extra shulker shells to drop upon defeat.
+		# Default: 1
+		# Range: > 1
+		shulkerShellMaxCount = 1
+
+	#.
+	#Controls drops from the Witch mob.
+	[hatchet.witch]
+		#.
+		#Disables the special item drops from witches upon defeat.
+		disableWitchDrops = false
+		#.
+		#The chance to drop extra glowstone dust upon defeat.
+		# Default: 15
+		# Range: 1 ~ 100
+		chanceToDropExtraGlowstoneDust = 15
+		#.
+		#Max count for extra glowstone dust to drop upon defeat.
+		# Default: 2
+		# Range: > 1
+		glowstoneDustMaxCount = 2
+		#.
+		#The chance to drop extra redstone dust upon defeat.
+		# Default: 0
+		# Range: 1 ~ 100
+		chanceToDropExtraRedstoneDust = 1
+		#.
+		#Max count for extra redstone dust to drop upon defeat.
+		# Default: 1
+		# Range: > 1
+		redstoneDustMaxCount = 1
+		#.
+		#The chance to drop nether wart upon defeat.
+		# Default: 0
+		# Range: 1 ~ 100
+		chanceToDropNetherWart = 1
+		#.
+		#Max count for nether wart to drop upon defeat.
+		# Default: 1
+		# Range: > 1
+		netherWartMaxCount = 1
+
+	#.
+	#Controls drops from the Phantom mob.
+	[hatchet.phantom]
+		#.
+		#Disables the special item drops from phantoms upon defeat.
+		disablePhantomDrops = false
+		#.
+		#The chance to drop extra phantom membranes upon defeat.
+		# Default: 25
+		# Range: 1 ~ 100
+		chanceToDropExtraPhantomMembranes = 25
+		#.
+		#Max count for extra phantom membranes to drop upon defeat.
+		# Default: 1
+		# Range: > 1
+		phantomMembraneMaxCount = 1
+
+	#.
+	#Controls drops from the Ravager mob.
+	[hatchet.ravager]
+		#.
+		#Disables the special item drops from ravagers upon defeat.
+		disableRavagerDrops = false
+		#.
+		#The chance to drop zinc nuggets upon defeat.
+		# Default: 15
+		# Range: 1 ~ 100
+		chanceToDropZincNugget = 15
+		#.
+		#Max count for zinc nuggets to drop upon defeat.
+		# Default: 1
+		# Range: > 1
+		zincNuggetMaxCount = 1
+
+	#.
+	#Controls drops from the Sniffer mob.
+	[hatchet.sniffer]
+		#.
+		#Disables the special item drops from sniffers upon defeat.
+		disableSnifferDrops = false
+		#.
+		#The chance to drop sniffer fluff upon defeat.
+		# Default: 80
+		# Range: 1 ~ 100
+		chanceToDropSnifferFluff = 80
+		#.
+		#Max count for sniffer fluff to drop upon defeat.
+		# Default: 4
+		# Range: > 1
+		snifferFluffMaxCount = 4
+
+	#.
+	#Controls drops from mobs tagged as guardians.
+	[hatchet.guardians]
+		#.
+		#The chance to drop extra prismarine shards upon defeat.
+		# Default: 40
+		# Range: 1 ~ 100
+		chanceToDropExtraPrismarineShards = 40
+		#.
+		#Max count for extra prismarine shards to drop upon defeat.
+		# Default: 4
+		# Range: > 1
+		prismarineShardMaxCount = 4
+		#.
+		#The chance to drop extra prismarine crystals upon defeat.
+		# Default: 25
+		# Range: 1 ~ 100
+		chanceToDropExtraPrismarineCrystals = 25
+		#.
+		#Max count for extra prismarine crystals to drop upon defeat.
+		# Default: 2
+		# Range: > 1
+		prismarineCrystalsMaxCount = 2
+		#.
+		#Disables the special item drops from mobs tagged as some variation of a guardian upon defeat.
+		disableGuardianDrops = false
+
+		#.
+		#Controls drops from the regular Guardian mob.
+		[hatchet.guardians.lesserGuardian]
+			#.
+			#Disables the special item drops from regular guardians upon defeat.
+			disableLesserGuardianDrops = false
+			#.
+			#The chance to drop guardian spikes upon defeat.
+			# Default: 70
+			# Range: 1 ~ 100
+			chanceToDropGuardianSpike = 70
+			#.
+			#Max count for guardian spikes to drop upon defeat.
+			# Default: 2
+			# Range: > 1
+			guardianSpikeMaxCount = 2
+
+		#.
+		#Controls drops from the Elder Guardian mob.
+		[hatchet.guardians.elderGuardian]
+			#.
+			#Disables the special item drops from elder guardians upon defeat.
+			disableElderGuardianDrops = false
+			#.
+			#The chance to drop elder guardian spikes upon defeat.
+			# Default: 70
+			# Range: 1 ~ 100
+			chanceToDropElderGuardianSpike = 70
+			#.
+			#Max count for elder guardian spikes to drop upon defeat.
+			# Default: 2
+			# Range: > 1
+			elderGuardianSpikeMaxCount = 2
+
+	#.
+	#Controls drops from the Creeper mob.
+	[hatchet.creeper]
+		#.
+		#Disables the special item drops from creepers upon defeat.
+		disableCreeperDrops = false
+		#.
+		#The chance to drop extra gunpowder upon defeat.
+		# Default: 40
+		# Range: 1 ~ 100
+		chanceToDropGunpowder = 40
+		#.
+		#Max count for extra gunpowder to drop upon defeat.
+		# Default: 4
+		# Range: > 1
+		gunpowderMaxCount = 4
+
+	#.
+	#Controls drops from the Ghast mob.
+	[hatchet.ghast]
+		#.
+		#Disables the special item drops from ghasts upon defeat.
+		disableGhastDrops = false
+		#.
+		#The chance to drop extra ghast tears upon defeat.
+		# Default: 40
+		# Range: 1 ~ 100
+		chanceToDropGhastTear = 40
+		#.
+		#Max count for extra ghast tears to drop upon defeat.
+		# Default: 1
+		# Range: > 1
+		ghastTearMaxCount = 1
+
+	#.
+	#Controls drops from the Breeze mob.
+	[hatchet.breeze]
+		#.
+		#Disables the special item drops from breezes upon defeat.
+		disableBreezeDrops = false
+		#.
+		#The chance to drop extra breeze rods upon defeat.
+		# Default: 40
+		# Range: 1 ~ 100
+		chanceToDropExtraBreezeRod = 40
+		#.
+		#Max count for extra breeze rods to drop upon defeat.
+		# Default: 1
+		# Range: > 1
+		extraBreezeRodMaxCount = 1
+
+	#.
+	#Controls drops from the Blaze mob.
+	[hatchet.blaze]
+		#.
+		#Disables the special item drops from blazes upon defeat.
+		disableBlazeDrops = false
+		#.
+		#The chance to drop extra ghast tears upon defeat.
+		# Default: 40
+		# Range: 1 ~ 100
+		chanceToDropExtraBlazeRod = 40
+		#.
+		#Max count for extra ghast tears to drop upon defeat.
+		# Default: 1
+		# Range: > 1
+		extraBlazeRodMaxCount = 1
+
+	#.
+	#Controls drops from the Enderman mob.
+	[hatchet.enderman]
+		#.
+		#Disables the special item drops from endermen upon defeat.
+		disableEndermanDrops = false
+		#.
+		#The chance to drop extra ghast tears upon defeat.
+		# Default: 40
+		# Range: 1 ~ 100
+		chanceToDropExtraEnderPearl = 40
+		#.
+		#Max count for extra ghast tears to drop upon defeat.
+		# Default: 1
+		# Range: > 1
+		extraEnderPearlMaxCount = 1
+
+	#.
+	#Controls drops from squid mobs.
+	[hatchet.allSquids]
+		#.
+		#Disables the special item drops from all squids upon defeat.
+		disableAllSquidDrops = false
+
+		#.
+		#Controls drops from the Squid mob.
+		[hatchet.allSquids.squid]
+			#.
+			#Disables the special item drops from squids upon defeat.
+			disableSquidDrops = false
+			#.
+			#The chance to drop extra ink sacs upon defeat.
+			# Default: 40
+			# Range: 1 ~ 100
+			chanceToDropExtraInkSac = 40
+			#.
+			#Max count for extra ink sacs to drop upon defeat.
+			# Default: 4
+			# Range: > 1
+			extraInkSacMaxCount = 4
+
+		#.
+		#Controls drops from the Glow Squid mob.
+		[hatchet.allSquids.glowSquid]
+			#.
+			#Disables the special item drops from glow squids upon defeat.
+			disableGlowSquidDrops = false
+			#.
+			#The chance to drop extra glow ink sacs upon defeat.
+			# Default: 40
+			# Range: 1 ~ 100
+			chanceToDropExtraGlowInkSac = 40
+			#.
+			#Max count for extra glow ink sacs to drop upon defeat.
+			# Default: 1
+			# Range: > 1
+			extraGlowInkSacMaxCount = 1
+
+	#.
+	#Controls drops from all spider mobs.
+	[hatchet.allSpiders]
+		#.
+		#Disables the special item drops from mobs tagged as spiders upon defeat.
+		disableAllSpiderDrops = false
+		#.
+		#The chance to drop extra string upon defeat.
+		# Default: 40
+		# Range: 1 ~ 100
+		chanceToDropExtraString = 40
+		#.
+		#Max count for extra string to drop upon defeat.
+		# Default: 4
+		# Range: > 1
+		extraStringMaxCount = 4
+
+		#.
+		#Controls drops from the Spider mob.
+		[hatchet.allSpiders.spider]
+			#.
+			#Disables the special item drops from spiders upon defeat.
+			disableSpiderDrops = false
+
+		#.
+		#Controls drops from the Cave Spider mob.
+		[hatchet.allSpiders.caveSpider]
+			#.
+			#Disables the special item drops from cave spiders upon defeat.
+			disableCaveSpiderDrops = false
