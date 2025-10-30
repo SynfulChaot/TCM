@@ -1,4 +1,5 @@
 /.mixin.out/
+/config/jei/world/
 /crash-reports/
 /downloads/
 /logs/
@@ -17,6 +18,11 @@
 /replay_pid*.log
 /usercache.json
 /usernamecache.json
+*.toml.bak
+
+# Supplementaries Dynamic Assets Caching
+/dynamic-data-pack-cache/
+/dynamic-resource-pack-cache/
 
 # KubeJS
 /kubejs/README.txt

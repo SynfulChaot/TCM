@@ -1,6 +1,6 @@
 [general]
-	#If true, farmers will plant crops on dirt blocks by tilling them. Valid blocks are controlled by farmer_tillable tag
-	plant_on_dirt = false
+	#If true, farmers will plant crops on tillable blocks (like dirt) by first tilling them. Valid blocks are controlled by farmer_tillable tag
+	plant_on_tillable = false
 	#If true, villagers will pick up food items from the regardless of mob griefing gamerule. Needed since with mob griefing on they wont be able to breed.
 	pickup_food_override = true
 	#If true, villagers will eat food items they pick up. Eating food will heal them

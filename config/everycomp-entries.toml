@@ -15,8 +15,6 @@
 			scoria = true
 			scorchia = true
 
-		
-
 		[types.stone_type.eternal_starlight]
 			grimstone = true
 			voidstone = true
@@ -27,9 +25,8 @@
 			cryobysslate = true
 			toxite = true
 			springstone = true
-		
-		[types.stone_type.opalescence]
-			opal = true
+			nebulaite = true
+			flowglaze = true
 
 		[types.stone_type.twilightforest]
 			mazestone = true
@@ -37,16 +34,15 @@
 
 		[types.stone_type.undergarden]
 			depthrock = true
+			shiverstone = true
+			dreadrock = true
+			tremblecrust = true
 
 		[types.stone_type.forbidden_arcanus]
 			darkstone = true
 
 		[types.mud_type.eternal_starlight]
 			nightfall_mud = true
-
-		[types.cake.createaddition]
-			chocolate_cake = true
-			honey_cake = true
 
 		[types.cake.creategarnished]
 			pound_cake = true
@@ -71,6 +67,7 @@
 			scarlet = true
 			torreya = true
 			jinglestem = true
+			cradlewood = true
 
 		[types.wood_type.hexerei]
 			mahogany = true
@@ -91,7 +88,6 @@
 			sorting = true
 
 		[types.wood_type.undergarden]
-			ancient_root = true
 			smogstem = true
 			wigglewood = true
 			grongle = true
@@ -123,6 +119,7 @@
 			starlight_mangrove = true
 			scarlet = true
 			torreya = true
+			cradlewood = true
 
 		[types.leaves_type.twilightforest]
 			beanstalk = true
@@ -200,8 +197,8 @@
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
-			
-			[entries.stone_type.stoneworks]
+
+		[entries.stone_type.stoneworks]
 			tile_stairs = true
 			plate_slab = true
 			shingle_wall = true
@@ -241,4 +238,5 @@
 			polished_cut_wall = true
 			cut_slab = true
 
-
+		[entries.stone_type.waystones]
+			waystone = true
