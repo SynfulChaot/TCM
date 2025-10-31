@@ -57,6 +57,14 @@
 			chorus_cake = true
 			glow_berry_cake = true
 
+		[types.cake.neapolitan]
+			vanilla_cake = true
+			chocolate_cake = true
+			strawberry_cake = true
+			banana_cake = true
+			mint_cake = true
+			adzuki_cake = true
+
 		[types.wood_type.arts_and_crafts]
 			cork = true
 
@@ -198,6 +206,15 @@
 		[entries.wood_type.farmersdelight]
 			cabinet = true
 
+		[entries.wood_type.woodworks]
+			trapped_chest = true
+			boards = true
+			chest = true
+			beehive = true
+			bookshelf = true
+			chiseled_bookshelf = true
+			ladder = true
+
 		[entries.stone_type.stoneworks]
 			tile_stairs = true
 			plate_slab = true
@@ -240,3 +257,6 @@
 
 		[entries.stone_type.waystones]
 			waystone = true
+
+		[entries.leaves_type.woodworks]
+			leaf_pile = true
