@@ -76,7 +76,7 @@
 		#Default Value: 5
 		# Default: 5
 		# Range: 1 ~ 255
-		max_columns = 5
+		max_columns = 8
 		#Space between individual effect widgets on y-axis.
 		#Default Value: 1
 		# Default: 1
@@ -116,7 +116,7 @@
 		#Default Value: 3
 		# Default: 3
 		# Range: > 0
-		offset_x = 3
+		offset_x = 1
 		#Effect renderer to be used.
 		#This setting might not be respected when not enough screen space is available. To force this setting disable "allow_fallback".
 		#Default Value: gui_compact_widget
@@ -126,7 +126,7 @@
 		#Default Value: 3
 		# Default: 3
 		# Range: > 0
-		offset_y = 3
+		offset_y = 1
 
 	[widgets.inventory_compact]
 		#Effect amplifier color. Setting this to "EFFECT" will use potion color.

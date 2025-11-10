@@ -31,7 +31,7 @@
 	# Range: -4000 ~ 4000
 	active_potion_effects_vertical_offset = 20
 	#When enabled, the player's current Coords will be displayed
-	coordinate_text = true
+	coordinate_text = false
 	#Displays chunk coordinates
 	chunk_coordinate_text = false
 	#When enabled, the player's current Biome will be displayed
