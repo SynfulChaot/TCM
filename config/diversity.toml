@@ -1,0 +1,135 @@
+[entity]
+
+# Group: Others
+"9 lives cat" = false
+
+# Group: Nametag
+"Baby nametag" = false
+"Brushable parrot/chicken" = true
+"Chicken egg try hatch on despawn" = true
+
+# Group: Sniffer
+"Explosive sniffer" = false
+
+# Group: Fox
+"Fox auto breed from berries" = false
+"Fox bury items" = true
+
+# Group: Tameable mobs
+"Horse can seat on boat" = true
+"Pat you pets" = true
+"Piglin treats golden trimmed armor as golden armor" = true
+"No saddled mobs wandering" = true
+"Rabbit breed after eats carrot crops" = false
+"Random size fishes/squid" = false
+"Silent nametag" = false
+"Smaller bee" = true
+"Sniffer sniff moss block" = true
+"Snow Golem produces powder snow" = true
+"Wandering trader announcer" = false
+
+[general]
+
+# Group: Others
+"Banner trophies" = true
+"Beacon extended" = false
+
+# Group: Enchantments
+"Bigger radius bookshelf for enchanting table" = false
+
+# Group: Bonemeal
+"Bonemeal coral fan/block" = true
+"Bonemeal small flowers" = true
+"Bundle's Enchantment" = true
+"Wash filled map with Cauldron" = true
+
+# Group: Item frame/Sign
+"Click through sign/itemframe" = false
+"1 tick delay copper bulb" = false
+
+# Group: Day counter
+"Day counter" = 0			# Display day counter message per <Day counter value> day(s) passed. Set to 0 to disable this.
+"Message tick speed" = 3			# Change the delay between each letter when printing the message. Smaller value, faster the message.
+"Ticks per day" = 24000			# Change daytime total tick; Only change if you know what you are doing.
+"Deepslate generator" = true
+"Faster minecart" = true
+"Faster oxidization" = true
+"Glow berry gives glow effect" = true
+"Invisible item frame" = true
+"Backup Enchantments" = false
+
+# Group: Agriculture
+"Mud support sugarcane" = false
+"No level limit anvil" = false
+"Prevent farmland trampling" = true
+"No set spawn on sleep" = false
+"Shulker label" = true
+"Sleep doesn't skip weather" = "RAIN_ONLY"			# [DISABLE, RAIN_ONLY, ALL_WEATHER]
+"Sneak through sweet berry" = false
+"Torch burns target" = false
+"Usable suspicious block" = false
+"Wet sponge dry in warm biome" = true
+"XP crops" = true
+
+[client]
+
+# Group: Others
+"Block day counter message" = true			# This one doesn't affect server-side. Look for Day counter section to change this module server-side.
+
+[item]
+
+# Group: Others
+"Bundle place function" = true
+
+# Group: Item: Clock
+"Check Villagers schedule" = false
+"Clock shows current time" = false
+"Hoe harvests crops" = "ALL"
+"Mace rotate blocks" = false
+
+# Group: Item: Shear
+"Shear can pickpocket villager" = false
+"Shear can defuse TNT" = true
+"Shear prevents plant from growing" = false
+"Slime chunk detector" = false
+
+# Group: Item: Spyglass
+"Spyglass what is that?" = "DISABLE"			# [ALL, BLOCK_ONLY, ENTITY_ONLY, DISABLE]
+"Normal inspect range" = 5
+"Normal mode: Show block's name" = true
+"Normal mode: Show block's direction" = true
+"Normal mode: Show distance" = false
+"Normal mode: Show hidden infos" = true
+"Inspect range when zooming" = 32
+"Zoom mode: Show block's name" = true
+"Zoom mode: Show block's direction" = true
+"Zoom mode: Show distance" = true
+"Zoom mode: Show hidden infos" = true
+"Trident can call thunder storm" = false
+"Waxed copper indicator" = false
+
+[recipe]
+
+# Group: Others
+"Bundle recipe" = true
+"Suspicious sand/gravel recipe" = false
+
+[compatibility]
+
+# Group: Others
+"EasyShulkerBoxes Compatibility Layer" = true
+"Enchancement Compatibility Layer" = true
+
+[command]
+
+# Group: Others
+"Emote commands" = false
+"Enable permission system" = false
+
+[cursed]
+
+# Group: Others
+"End stone is cheese" = false
+"Hydrophobic elytra" = false
+"Reverse phantom spawn condition" = false
+
