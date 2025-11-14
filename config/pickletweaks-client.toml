@@ -1,0 +1,14 @@
+#General configuration options
+[General]
+	#Here you can specify a list of tools that shouldn't have tool info tooltips.
+	#Ex. ["minecraft:iron_pickaxe", "minecraft:iron_axe"]
+	#You can use tags for tools by doing tag:<tag-id>.
+	#Ex: ["tag:minecraft:tools"]
+	#You can also blacklist entire mods by doing <mod-id>:*
+	#Ex. ["pickletweaks:*"]
+	toolInfoTooltipBlacklist = ["silentgear:*"]
+
+#Disable features.
+[Features]
+	#Tool Information Tooltips enabled?
+	toolInfoTooltip = true
