@@ -84,7 +84,7 @@
 # Group: Item: Clock
 "Check Villagers schedule" = false
 "Clock shows current time" = false
-"Hoe harvests crops" = "ALL"
+"Hoe harvests crops" = "DISABLE"
 "Mace rotate blocks" = false
 
 # Group: Item: Shear
