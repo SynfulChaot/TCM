@@ -16,6 +16,7 @@
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"bibliocraft:redstone_book"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"bibliocraft:spruce_bookcase"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"bibliocraft:warped_bookcase"},"type":"item_stack"}},
+  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"craftingslots:inventory_crafting"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"create:bar_of_chocolate"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"create:dough"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"farmersdelight:rope"},"type":"item_stack"}},

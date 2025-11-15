@@ -1,0 +1,6 @@
+{
+    "values": [ ],
+    "remove": [
+        "craftingslots:inventory_crafting"
+    ]
+}
