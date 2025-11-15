@@ -1,0 +1,7 @@
+{
+    "values": [ ],
+    "remove": [
+        "storagedrawers:personal_key_cofh",
+        "storagedrawers:personal_key_ftb"
+    ]
+}

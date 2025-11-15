@@ -337,7 +337,7 @@
 		enable = true
 		# 
 		# Enables recipe to obtain key from another supported personal key in crafting grid.
-		enableCycleRecipe = true
+		enableCycleRecipe = false
 
 	# Configuration around the WAILA/HWYLA/Jade family of block inspection mods.
 	[Integration.WAILA]
