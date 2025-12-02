@@ -17,6 +17,10 @@
 	server_assets_generation_mode = "ALWAYS"
 	#Allow the item_search or searchBar to be visible.
 	tab_item_search = true
+	#If set to true, then all of the generated items will not be put into the mod's tab.
+	no_mod_creative_tab = false
+	#Generate blocktype tags for every block type. This will be applied to all the mods that use the system not just EC. Can make pack a bit faster if its off. Turn off if you dont need it
+	generate_blocktype_tags = true
 
 	[general.tooltips]
 		#Enabled tooltips showing which mod an EC item is from

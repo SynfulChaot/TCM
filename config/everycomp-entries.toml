@@ -65,6 +65,10 @@
 			mint_cake = true
 			adzuki_cake = true
 
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
+
 		[types.wood_type.arts_and_crafts]
 			cork = true
 
@@ -125,7 +129,7 @@
 			lunar = true
 			northland = true
 			starlight_mangrove = true
-			scarlet = true
+			scarlet = false
 			torreya = true
 			cradlewood = true
 
