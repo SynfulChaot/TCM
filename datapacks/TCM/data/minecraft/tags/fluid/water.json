@@ -1,10 +1,6 @@
 {
     "values": [ ],
     "remove": [
-        "createaddition:bioethanol",
-        "createaddition:flowing_bioethanol",
-        "createaddition:seed_oil",
-        "createaddition:flowing_seed_oil",
         "hexerei:blood_fluid",
         "hexerei:blood_flowing",
         "hexerei:tallow_fluid",

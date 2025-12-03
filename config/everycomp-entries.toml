@@ -65,10 +65,6 @@
 			mint_cake = true
 			adzuki_cake = true
 
-		[types.cake.createaddition]
-			chocolate_cake = true
-			honey_cake = true
-
 		[types.wood_type.arts_and_crafts]
 			cork = true
 
