@@ -1,7 +1,20 @@
-#Should the Wandering Trader sell the mods crops?
-wanderingTraderCrops = true
 #Base chance (0.0 - 1.0) per random tick for a Tree Tapper to increase sap when on a tappable block.
 #Higher values make sap fill faster.
 # Default: 0.5
 # Range: 0.0 ~ 1.0
 treeTapperBaseChance = 0.5
+#Amount of crops that need to be in an area for a crow to spawn nearby. Used alongside the crowSpawnRadius config to control crow spawning.
+#Setting to 0 would prevent crow spawning
+# Default: 8
+# Range: 0 ~ 192
+crowCropRequirement = 0
+#Radius that crows check for crops to be in when trying to spawn. Larger radius means higher changes of spawning.
+#Setting to 0 would prevent crow spawning
+# Default: 8
+# Range: 0 ~ 64
+crowSpawnRadius = 0
+#Radius that players, villgers, and repelling blocks will be effective towards scaring wild crows.
+#Setting to 0 would prevent crows from being scared
+# Default: 6
+# Range: 0 ~ 192
+crowScareRadius = 6
