@@ -100,9 +100,6 @@
 			wigglewood = true
 			grongle = true
 
-		[types.wood_type.vanillabackport]
-			pale_oak = true
-
 		[types.wood_type.forbidden_arcanus]
 			fungyss = true
 			aurum = true
@@ -155,9 +152,6 @@
 			smogstem = true
 			wigglewood = true
 			grongle = true
-
-		[types.leaves_type.vanillabackport]
-			pale_oak = true
 
 		[types.leaves_type.forbidden_arcanus]
 			aurum = true

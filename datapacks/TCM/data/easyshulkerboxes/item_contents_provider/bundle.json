@@ -1,0 +1,6 @@
+{
+    "type": "iteminteractions:bundle",
+    "capacity_multiplier": 1,
+    "disallowed_item_contents": [],
+    "supported_items": "minecraft:bundle"
+}

@@ -40,7 +40,7 @@
 # Group: Bonemeal
 "Bonemeal coral fan/block" = true
 "Bonemeal small flowers" = true
-"Bundle's Enchantment" = true
+"Bundle's Enchantment" = false
 "Wash filled map with Cauldron" = true
 
 # Group: Item frame/Sign
@@ -79,7 +79,7 @@
 [item]
 
 # Group: Others
-"Bundle place function" = true
+"Bundle place function" = false
 
 # Group: Item: Clock
 "Check Villagers schedule" = false
@@ -111,7 +111,7 @@
 [recipe]
 
 # Group: Others
-"Bundle recipe" = true
+"Bundle recipe" = false
 "Suspicious sand/gravel recipe" = false
 
 [compatibility]
