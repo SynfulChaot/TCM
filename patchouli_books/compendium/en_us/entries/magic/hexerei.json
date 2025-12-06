@@ -5,7 +5,17 @@
     "pages": [
         {
 			"type": "text",
-			"text": "<insert description here>"
-		}
+			"text": "         $(l)$(d)Witchcraft!$()$(br2)For those seeking the path of the witch, you need not look further.$(br2)Tame crows to do your bidding. Deliver messages by owl. Ride your very own broom. Eschew that brewing stand and use a cauldron like a $(o)proper$() witch!$(br2)Become the witch of your$(br)  dreams!"
+		},
+        {
+            "type": "crafting",
+            "recipe": "hexerei:book_of_shadows",
+            "text": "The Book of Shadows will guide your way through the magical world of Hexerei, helping you uncover the secrets and powers of witchcraft."
+        },
+        {
+			"type": "spotlight",
+			"item": "hexerei:sage_seed",
+			"text": "Sage seeds can be found occasionally when breaking grass. Sage is a very useful herb in witchery as it is used to cleanse the area of evil spirits. The seeds are need as well to craft the Book of Shadows."
+        }
     ]
 }

@@ -1,11 +1,21 @@
 {
-    "name": "Roots Classic",
+    "name": "Roots",
     "icon": "rootsclassic:old_root",
     "category": "patchouli:magic",
     "pages": [
         {
 			"type": "text",
-			"text": "<insert description here>"
-		}
+			"text": "      $(l)$(a)Druidic Practices$()$(br2)A lesser taken path of natural magic is that of the druid. Draw upon nature as you cast spells such as those to heal yourself or attune yourself with nature as you perform rituals such as calling down the rain or banishing it back into the skies.$(br2)And, most importantly, look like$(br)  a druid while doing it."
+		},
+        {
+            "type": "crafting",
+            "recipe": "rootsclassic:runic_tablet",
+            "text": "The Runic Tablet will be your invaluable guide to the many spells and rituals in a proper druid's repertoire."
+        },
+        {
+			"type": "spotlight",
+			"item": "rootsclassic:old_root",
+			"text": "Old roots can be found occasionally when breaking grass. They are needed for a lot of early magic, as well as the crafting of the Runic Tablet.  They can also be eaten to restore a very small amount of hunger."
+        }
     ]
 }

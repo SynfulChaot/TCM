@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:book"
+        },
+        {
+            "tag": "minecraft:saplings"
+        }
+    ],
+    "result": {
+        "id": "patchouli:guide_book",
+        "components": {
+            "patchouli:book": "naturesaura:book"
+        }
+    },
+    "show_notification": true
+}

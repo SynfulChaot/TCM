@@ -5,7 +5,12 @@
     "pages": [
         {
 			"type": "text",
-			"text": "<insert description here>"
-		}
+			"text": "       $(l)$(2)Magical Botany$()$(br2)Botanists might find that some plants have magical properties. They might find that other, related things might $(o)also$() contain this same magical property, Aura, which can be utilized for many things such as:$(li)The production of materials.$(li)The creation of new ideas$(li)The harnessing of the world$(br)   itself!"
+		},
+        {
+            "type": "crafting",
+            "recipe": "mysterium:naturesaura_book",
+            "text": "The Book of Natural Aura is a guide for all botanists through harnessing the power of the Aura of the world."
+        }
     ]
 }

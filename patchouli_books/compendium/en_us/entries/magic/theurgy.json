@@ -5,7 +5,12 @@
     "pages": [
         {
 			"type": "text",
-			"text": "<insert description here>"
-		}
+			"text": "$(l)$(6)The Ancient Art of Alchemy$()$(br2)Alchemy is the noble art of transformation, not just of the elements but of a great many other resources as well.$(br2)Also of refinement, getting more from the raw resources you find in the world.$(br2)Lastly of divination, finding said resources in the first$(br)  place."
+		},
+        {
+            "type": "crafting",
+            "recipe": "theurgy:crafting/shapeless/the_hermetica",
+            "text": "The Hermetica contains everything the budding alchemist needs learn and hone their craft."
+        }
     ]
 }

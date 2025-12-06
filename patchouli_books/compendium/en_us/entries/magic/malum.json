@@ -5,7 +5,23 @@
     "pages": [
         {
 			"type": "text",
-			"text": "<insert description here>"
-		}
+			"text": "         $(l)$(5)Soul Magic$()$(br2)Within our world, every living being has a soul, that soul contains energy, and that energy can be harnessed for such things as crafting spirit trinkets, forging arcane pacts, practicing totemic rites, performing magical rituals, and much, much more.$(br2)"
+		},
+        {
+            "type": "crafting",
+            "recipe": "malum:encyclopedia_arcana",
+            "text": "The Encyclopedia Arcana contains all the research you will need to study soul magic."
+        },
+        {
+			"type": "spotlight",
+			"item": "malum:soulstone_ore",
+			"text": "Soulstone is an magical ore you can find when mining. In its refined form it has many uses in $(o)many$() of the practices of soul magic. Refined Soulstone is needed as well to craft the Encyclopedia Arcana."
+        },
+        {
+            "type": "smelting",
+            "recipe": "malum:soulstone_from_smelting",
+            "recipe2": "malum:soulstone_from_raw_smelting",
+            "text": "Soulstone can be refined simply by smelting Soulstone Ore or Raw Soulstone in a Furnace or Blast Furnace."
+        }
     ]
 }
