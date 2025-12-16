@@ -1,0 +1,18 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "fluid": {
+    "amount": 500,
+    "id": "hearthandharvest:hard_cider"
+  },
+  "output": {
+    "count": 1,
+    "id": "hearthandharvest:hard_cider"
+  },
+  "unit": "millibuckets"
+}
