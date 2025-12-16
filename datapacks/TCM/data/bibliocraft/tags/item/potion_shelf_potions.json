@@ -1,7 +1,5 @@
 {
     "values": [
-        "#c:bottles/milk",
-        "vanillacookbook:berry_milk",
-        "vanillacookbook:chocolate_milk"
+        "#c:bottles/milk"
     ]
 }

@@ -47,16 +47,6 @@
 		[types.cake.creategarnished]
 			pound_cake = true
 
-		[types.cake.vanillacookbook]
-			berry_cake = true
-			carrot_cake = true
-			cheesecake = true
-			chocolate_cake = true
-			ice_cream_cake = true
-			rose_cake = true
-			chorus_cake = true
-			glow_berry_cake = true
-
 		[types.cake.neapolitan]
 			vanilla_cake = true
 			chocolate_cake = true

@@ -1,45 +1,18 @@
-  {
-    "type": "vanillacookbook:set_remainder",
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
     "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
         {
             "item": "rusticdelight:coffee"
         },
         {
-            "tag": "c:bottles/syrup"
+            "tag": "c:bottles/milk"
         },
         {
-            "type":"neoforge:compound",
-		    "children":
-            [
-                {
-                    "item": "farmersdelight:milk_bottle"
-                },
-                {
-                    "item": "hearthandharvest:goat_milk_bottle"
-                }
-            ]
-	    }
-    ],
-    "contained": [
-        {
-            "id": "rusticdelight:coffee"
-        },
-        {
-            "id": "farmersdelight:milk_bottle"
-        },
-        {
-            "id": "hearthandharvest:goat_milk_bottle"
-        }
-    ],
-    "container": [
-        {
-            "id": "minecraft:glass_bottle"
-        },
-        {
-            "id": "minecraft:glass_bottle"
-        },
-        {
-            "id": "minecraft:glass_bottle"
+            "tag": "rusticdelight:syrup"
         }
     ],
     "result": {

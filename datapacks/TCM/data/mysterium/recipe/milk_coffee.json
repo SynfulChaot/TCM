@@ -1,21 +1,15 @@
-  {
-    "type": "vanillacookbook:set_remainder",
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
     "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
         {
             "item": "rusticdelight:coffee"
         },
         {
             "tag": "c:bottles/milk"
-        }
-    ],
-    "contained": [
-        {
-            "id": "rusticdelight:coffee"
-        }
-    ],
-    "container": [
-        {
-            "id": "minecraft:glass_bottle"
         }
     ],
     "result": {
