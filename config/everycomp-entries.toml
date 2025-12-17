@@ -99,6 +99,9 @@
 			runewood = true
 			soulwood = true
 
+		[types.wood_type.eidolon_repraised]
+			illwood = true
+
 		[types.leaves_type.arts_and_crafts]
 			cork = true
 
@@ -151,6 +154,9 @@
 			runewood = true
 			azure_runewood = true
 			soulwood = true
+
+		[types.leaves_type.eidolon_repraised]
+			illwood = true
 
 #Disables specific entries
 [entries]
