@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "s": {
+            "item": "minecraft:stick"
+        },
+        "i": {
+            "tag": "c:ice_cubes"
+        },
+        "c": {
+            "tag": "c:foods/chocolate"
+        }
+    },
+    "pattern": [
+        " cc",
+        "icc",
+        "si "
+    ],
+    "result": {
+        "id": "moredelight:chocolate_popsicle"
+    }
+}

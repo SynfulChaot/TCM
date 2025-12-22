@@ -6,5 +6,9 @@
         "rusticdelight:honey_coffee",
         "rusticdelight:milk_coffee",
         "rusticdelight:syrup_coffee"
+    ],
+    "remove": [
+        "create:bar_of_chocolate",
+        "hearthandharvest:chocolate_bar"
     ]
 }

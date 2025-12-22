@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "c:foods/chocolate"
+        },
+        {
+            "item": "moredelight:toast"
+        }
+    ],
+    "result": {
+        "id": "moredelight:toast_with_chocolate"
+    }
+}
