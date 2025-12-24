@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cooking",
+    "container": {
+        "id": "hearthandharvest:jar"
+    },
+    "cookingtime": 400,
+    "experience": 1.0,
+    "ingredients": [
+        {
+        "item": "hearthandharvest:roasted_peanuts"
+        },
+        {
+        "item": "hearthandharvest:roasted_peanuts"
+        },
+        {
+        "item": "hearthandharvest:roasted_peanuts"
+        },
+        {
+        "tag": "c:dusts/salt"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "id": "hearthandharvest:peanut_butter"
+    }
+}

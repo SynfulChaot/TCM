@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "c:crops/peanut"
+        },
+        {
+            "item": "hearthandharvest:raisins"
+        },
+        {
+            "item": "minecraft:cocoa_beans"
+        },
+        {
+            "tag": "c:seeds"
+        }
+    ],
+    "result": {
+        "id": "hearthandharvest:trail_mix"
+    }
+}

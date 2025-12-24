@@ -1,7 +1,6 @@
 {
     "values": [
-        "#c:bottles/milk",
-        "#c:bottles/peanut_butter"
+        "hearthandharvest:peanut_butter"
     ],
     "remove": [
         "creategarnished:peanut_butter_bottle"

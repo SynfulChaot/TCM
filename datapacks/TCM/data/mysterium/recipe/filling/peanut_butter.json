@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "hearthandharvest:jar"
+        },
+        {
+            "type": "fluid_stack",
+            "fluid": "creategarnished:peanut_butter",
+            "amount": 250
+        }
+    ],
+    "results": [
+        {
+            "id": "hearthandharvest:peanut_butter"
+        }
+    ]
+}

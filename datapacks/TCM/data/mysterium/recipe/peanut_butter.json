@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "c:buckets/peanut_butter"
+        },
+        {
+            "item": "hearthandharvest:jar"
+        },
+        {
+            "item": "hearthandharvest:jar"
+        },
+        {
+            "item": "hearthandharvest:jar"
+        },
+        {
+            "item": "hearthandharvest:jar"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "id": "hearthandharvest:peanut_butter"
+    }
+}

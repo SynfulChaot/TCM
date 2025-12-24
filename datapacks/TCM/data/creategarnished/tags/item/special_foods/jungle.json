@@ -1,0 +1,10 @@
+{
+    "values": [
+        "hearthandharvest:peanut_butter",
+        "hearthandharvest:peanut_butter_cookie"
+    ],
+    "remove": [
+        "creategarnished:peanut_butter_bottle",
+        "creategarnished:peanut_butter_cookie"
+    ]
+}

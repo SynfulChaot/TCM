@@ -9,6 +9,9 @@
     ],
     "remove": [
         "create:bar_of_chocolate",
-        "hearthandharvest:chocolate_bar"
+        "creategarnished:peanut_butter_bottle",
+        "creategarnished:peanut_butter_cookie",
+        "hearthandharvest:chocolate_bar",
+        "hearthandharvest:peanut"
     ]
 }

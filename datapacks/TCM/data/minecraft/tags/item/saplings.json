@@ -1,0 +1,8 @@
+{
+    "values": [ ],
+    "remove": [
+        "creategarnished:almond",
+        "creategarnished:hazelnut",
+        "creategarnished:pine_nut"
+    ]
+}

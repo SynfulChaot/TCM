@@ -1,0 +1,17 @@
+{
+    "type": "create:emptying",
+    "ingredients": [
+        {
+            "item": "hearthandharvest:peanut_butter"
+        }
+    ],
+    "results": [
+        {
+            "id": "hearthandharvest:jar"
+        },
+        {
+            "id": "creategarnished:peanut_butter",
+            "amount": 250
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 3200,
+    "input": {
+        "item": "creategarnished:pine_nut"
+    },
+   "result": {
+        "id": "creategarnished:pine_nut_flour",
+        "count": 3
+    },
+    "secondaries": [
+        {
+            "chance": 0.15,
+            "output": {
+                "id": "creategarnished:pine_nut_flour"
+            
+            }
+        }
+    ]
+}

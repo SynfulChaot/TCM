@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+        {
+            "item": "hearthandharvest:roasted_peanuts"
+        },
+        {
+            "item": "hearthandharvest:roasted_peanuts"
+        },
+        {
+            "item": "hearthandharvest:roasted_peanuts"
+        },
+        {
+            "tag": "c:dusts/salt"
+        }
+    ],
+    "results": [
+        {
+            "amount": 250,
+            "id": "creategarnished:peanut_butter"
+        }
+    ]
+}

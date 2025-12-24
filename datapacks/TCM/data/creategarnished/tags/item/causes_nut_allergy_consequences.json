@@ -1,0 +1,15 @@
+{
+    "values": [
+        "hearthandharvest:peanut_butter",
+        "hearthandharvest:peanut_butter_and_jelly_sandwich",
+        "hearthandharvest:peanut_butter_cookie",
+        "hearthandharvest:peanut_butter_pie",
+        "hearthandharvest:peanut_butter_pie_slice",
+        "hearthandharvest:roasted_peanuts",
+        "hearthandharvest:trail_mix"
+    ],
+    "remove": [
+        "creategarnished:peanut_butter_bottle",
+        "creategarnished:peanut_butter_cookie"
+    ]
+}

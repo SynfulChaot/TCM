@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 3200,
+    "input": {
+        "item": "creategarnished:hazelnut"
+    },
+   "result": {
+        "id": "creategarnished:crushed_hazelnut_powder",
+        "count": 3
+    },
+    "secondaries": [
+        {
+            "chance": 0.15,
+            "output": {
+                "id": "creategarnished:crushed_hazelnut_powder"
+            
+            }
+        }
+    ]
+}
