@@ -19,8 +19,8 @@
 	tab_item_search = true
 	#If set to true, then all of the generated items will not be put into the mod's tab.
 	no_mod_creative_tab = false
-	#Generate blocktype tags for every block type. This will be applied to all the mods that use the system not just EC. Can make pack a bit faster if its off. Turn off if you dont need it
-	generate_blocktype_tags = true
+	#Generate blocktype tags for every block type. This will be applied to all the mods that use the system, not just Every Compat. Can make pack a bit faster if its off. Turn off if you dont need it
+	generate_blocktype_tags = false
 
 	[general.tooltips]
 		#Enabled tooltips showing which mod an EC item is from
@@ -29,3 +29,8 @@
 		block_type_enabled = true
 		#Only show on advanced settings
 		show_on_advanced_tooltips = false
+		#Enable Every-Compat to base textures off external Resource Packs rather than mod's default textures.
+		#ATTENTION: There are some Resource Packs that won't work well with Every-Compat, which is why this
+		#option is off by default. Disable if there are missing textures for blocks.
+		#
+		use_external_resource_pack = false
