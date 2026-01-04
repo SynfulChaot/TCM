@@ -110,6 +110,7 @@
 			hazelnut = true
 			almond = true
 			blossoming_almond = true
+			chestnut = true
 
 		[types.leaves_type.eternal_starlight]
 			lunar = true

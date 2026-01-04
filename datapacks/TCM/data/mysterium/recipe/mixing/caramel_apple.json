@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "item": "minecraft:apple"
+        },
+        {
+            "type": "fluid_stack",
+            "fluid": "creategarnished:caramel",
+            "amount": 750
+        }
+    ],
+    "results": [
+        {
+            "id": "hearthandharvest:caramel_apple"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "farmersdelight:cutting",
+    "tool": {
+        "tag": "c:tools/knife"
+    },
+    "ingredients": [
+        {
+            "item": "creategarnished:candy_cane"
+        }
+    ],
+    "result": [
+        {
+            "item": {
+                "id": "creategarnished:peppermint_bark",
+                "count": 6
+            }
+        }
+    ]
+}

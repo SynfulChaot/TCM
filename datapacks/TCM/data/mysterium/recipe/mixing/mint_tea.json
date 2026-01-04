@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+        {
+            "item": "neapolitan:mint_leaves"
+        },
+        {
+            "type": "fluid_stack",
+            "fluid": "minecraft:water",
+            "amount": 150
+        },
+        {
+            "type": "fluid_stack",
+            "fluid": "create:honey",
+            "amount": 100
+        }
+    ],
+    "results": [
+        {
+            "amount": 250,
+            "id": "creategarnished:mint_tea"
+        }
+    ]
+}

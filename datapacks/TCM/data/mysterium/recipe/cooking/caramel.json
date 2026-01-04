@@ -1,0 +1,22 @@
+{
+    "type": "farmersdelight:cooking",
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "hearthandharvest:butter"
+        },
+        {
+            "item": "creategarnished:cream"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "id": "hearthandharvest:caramel"
+    }
+}

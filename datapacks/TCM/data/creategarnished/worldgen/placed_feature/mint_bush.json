@@ -1,0 +1,23 @@
+{
+    "feature": "creategarnished:mint_bush",
+    "placement": [
+        {
+            "count": 0,
+            "type": "minecraft:count"
+        },
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 8
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

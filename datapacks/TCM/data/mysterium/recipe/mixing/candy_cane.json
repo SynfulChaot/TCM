@@ -1,0 +1,30 @@
+{
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+        {
+            "item": "neapolitan:mint_leaves"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "type": "fluid_stack",
+            "fluid": "creategarnished:corn_syrup",
+            "amount": 150
+        },
+        {
+            "type": "fluid_stack",
+            "fluid": "minecraft:water",
+            "amount": 100
+        }
+    ],
+    "results": [
+        {
+            "id": "creategarnished:candy_cane"
+        }
+    ]
+}

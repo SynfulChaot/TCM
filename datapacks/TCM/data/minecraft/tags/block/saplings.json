@@ -1,0 +1,9 @@
+{
+    "values": [ ],
+    "remove": [
+        "creategarnished:almond_sapling",
+        "creategarnished:hazelnut_sapling",
+        "creategarnished:pine_nut_sapling",
+        "creategarnished:chestnut_sapling"
+    ]
+}

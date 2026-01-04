@@ -2,6 +2,7 @@
     "values": [ ],
     "remove": [
         "creategarnished:almond",
+        "creategarnished:chestnut",
         "creategarnished:hazelnut",
         "creategarnished:pine_nut"
     ]

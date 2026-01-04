@@ -19,8 +19,11 @@
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"craftingslots:inventory_crafting"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"create:bar_of_chocolate"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"create:dough"},"type":"item_stack"}},
+  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"creategarnished:caramelised_apple"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"creategarnished:peanut_butter_cookie"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"creategarnished:peanut_butter_bottle"},"type":"item_stack"}},
+  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"creategarnished:wild_mint"},"type":"item_stack"}},
+  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"creategarnished:wild_peppermint"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"farmersdelight:rope"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"hearthandharvest:crow_spawn_egg"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"hearthandharvest:peanut"},"type":"item_stack"}},
@@ -34,6 +37,5 @@
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"rusticdelight:bell_pepper_seeds_bag"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"rusticdelight:cotton_seeds_bag"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"storagedrawers:personal_key_cofh"},"type":"item_stack"}},
-  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"storagedrawers:personal_key_ftb"},"type":"item_stack"}},
   {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"storagedrawers:personal_key_ftb"},"type":"item_stack"}}
 ]

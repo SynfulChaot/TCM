@@ -1,6 +1,8 @@
 {
     "values": [ ],
     "remove": [
+        "creategarnished:wild_mint",
+        "creategarnished:wild_peppermint",
         "hearthandharvest:wild_peanuts"
     ]
 }
