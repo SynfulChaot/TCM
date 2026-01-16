@@ -185,10 +185,10 @@
 	send_chat_on_death = true
 	#Makes enderman and spider heads use vanilla texture. Enable for texture pack support
 	enderman_and_spider_head_texture_pack_support = true
+	#Show a slime overlay when you hit an entity with a slimeball
+	slime_effect_overlay = true
 
 	[tweaks.colored_maps]
-		#Show a slime overlay when you hit an entity with a slimeball
-		slime_effect_overlay = true
 		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors
 		tinted_blocks_on_maps = true
 		#Colors tall grass same color as grass
