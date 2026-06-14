@@ -55,10 +55,6 @@
   "immersiveengineering": {
     "multiblock_icon": true
   },
-  "twilightforest": {
-    "chiseled_bookshelf_spawner": true,
-    "quest_ram_wool": true
-  },
   "reliquary": {
     "pedestal": true,
     "altar": true,
