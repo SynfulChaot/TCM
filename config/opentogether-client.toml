@@ -1,0 +1,22 @@
+#Blocks that may act as double fence gates and can open together.
+#Default Value: [#opentogether:double_fence_gates, #minecraft:fence_gates]
+double_fence_gates = ["#opentogether:double_fence_gates", "#minecraft:fence_gates"]
+#Can double fence gates open together.
+#Default Value: true
+open_double_fence_gates_together = false
+#Can double trapdoors open together.
+#Default Value: true
+open_double_trapdoors_together = true
+#Blocks that may act as double trapdoors and can open together.
+#Default Value: [#opentogether:double_trapdoors, #minecraft:trapdoors]
+double_trapdoors = ["#opentogether:double_trapdoors", "#minecraft:trapdoors"]
+#Blocks that may act as double doors and can open together.
+#Default Value: [#minecraft:doors, #opentogether:double_doors]
+double_doors = ["#minecraft:doors", "#opentogether:double_doors"]
+#Can double doors open together.
+#Default Value: true
+open_double_doors_together = true
+#Use blocks that can be opened from interacting or using redstone together with other blocks of the same kind surrounding them.
+#E.g. this allows double doors to be opened together via all means supported by vanilla.
+#This option only takes effect for yourself playing on a multiplayer server which does not have this mod installed.
+open_all_blocks_together = true
