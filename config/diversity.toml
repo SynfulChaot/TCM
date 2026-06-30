@@ -17,15 +17,15 @@
 
 # Group: Tameable mobs
 "Horse can seat on boat" = true
-"Pat you pets" = true
+"Pat you pets" = false
 "Piglin treats golden trimmed armor as golden armor" = true
 "No saddled mobs wandering" = true
 "Rabbit breed after eats carrot crops" = false
 "Random size fishes/squid" = false
 "Silent nametag" = false
 "Smaller bee" = true
-"Sniffer sniff moss block" = true
-"Snow Golem produces powder snow" = true
+"Sniffer sniff moss block" = false
+"Snow Golem produces powder snow" = false
 "Wandering trader announcer" = false
 
 [general]
@@ -41,7 +41,7 @@
 "Bonemeal coral fan/block" = true
 "Bonemeal small flowers" = true
 "Bundle's Enchantment" = false
-"Wash filled map with Cauldron" = true
+"Wash filled map with Cauldron" = false
 
 # Group: Item frame/Sign
 "Click through sign/itemframe" = false
@@ -55,7 +55,7 @@
 "Faster minecart" = true
 "Faster oxidization" = true
 "Glow berry gives glow effect" = true
-"Invisible item frame" = true
+"Invisible item frame" = false
 "Backup Enchantments" = false
 
 # Group: Agriculture
@@ -63,7 +63,7 @@
 "No level limit anvil" = false
 "Prevent farmland trampling" = true
 "No set spawn on sleep" = false
-"Shulker label" = true
+"Shulker label" = false
 "Sleep doesn't skip weather" = "RAIN_ONLY"			# [DISABLE, RAIN_ONLY, ALL_WEATHER]
 "Sneak through sweet berry" = false
 "Torch burns target" = false
