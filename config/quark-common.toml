@@ -343,11 +343,11 @@
 	"Torch Arrow" = true
 	Trowel = true
 
-	[tools.abacus.highlight_color]
-		A = 0.4
-		R = 0.0
-		G = 0.0
-		B = 0.0
+		[tools.abacus.highlight_color]
+			A = 0.4
+			R = 0.0
+			G = 0.0
+			B = 0.0
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
@@ -1343,8 +1343,8 @@
 	Forgotten = true
 	Foxhound = true
 	Shiba = true
-	Stonelings = true
-	Toretoise = true
+	Stonelings = false
+	Toretoise = false
 	Wraith = true
 
 	[mobs.crabs]
