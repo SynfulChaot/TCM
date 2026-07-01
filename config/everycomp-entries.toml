@@ -59,17 +59,20 @@
 			mint_cake = true
 			adzuki_cake = true
 
+		[types.wood_type.minecraft]
+			pale_oak = true
+
 		[types.wood_type.arts_and_crafts]
 			cork = true
 
 		[types.wood_type.eternal_starlight]
 			lunar = true
 			northland = true
-			starlight_mangrove = true
 			scarlet = true
 			torreya = true
 			jinglestem = true
 			cradlewood = true
+			banyin = true
 
 		[types.wood_type.hexerei]
 			mahogany = true
@@ -114,10 +117,10 @@
 		[types.leaves_type.eternal_starlight]
 			lunar = true
 			northland = true
-			starlight_mangrove = true
 			scarlet = false
 			torreya = true
 			cradlewood = true
+			banyin = true
 
 		[types.leaves_type.hexerei]
 			mahogany = true
@@ -152,6 +155,27 @@
 			orange_blossom = true
 			yellow_blossom = true
 			red_blossom = true
+
+		[types.leaves_type.minecraft]
+			pale_oak = true
+
+		[types.lantern.bibliocraft]
+			gold_lantern = true
+			gold_soul_lantern = true
+
+		[types.lantern.eternal_starlight]
+			eternal_ice_lantern = true
+			haze_ice_lantern = true
+			amaramber_lantern = true
+
+		[types.lantern.forbidden_arcanus]
+			deorum_lantern = true
+			deorum_soul_lantern = true
+
+		[types.lantern.suppsquared]
+			copper_lantern = true
+			brass_lantern = true
+			crimson_lantern = true
 
 #Disables specific entries
 [entries]

@@ -68,6 +68,8 @@
 	map_change_sound = false
 	#Automatically switches to the nearest slice when possible
 	automatic_slice_change = true
+	#Hides minimap when inventory is open
+	hide_when_inventory_is_open = false
 
 [world_map]
 	#Adds a shear button to the atlas screen which allows you to cut maps
@@ -114,6 +116,10 @@
 	compact_slices_indicator = false
 	#Allows minimap to follow player movement instead of only displaying current map
 	follow_player = true
+	#Show filter button on atlas screen, allowing you to filter map decoration by name
+	filter_button = true
+	#Sort bookmarks in atlas screen by distance from map center instead of just by id
+	sort_bookmarks = true
 
 [misc]
 	#Multiplier for all the Atlases sound float

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "enabled": true,
   "avoid_overlapping": true,
   "moved_by_effects": true,
@@ -13,15 +13,19 @@
   "compass_enable": true,
   "compass_vertical_position": 67,
   "compass_horizontal_position_left": false,
+  "compass_direction": false,
+  "compass_direction_text_colour": 16755200,
   "compass_text_colour": 14737632,
-  "compass_x_colour": "Red",
-  "compass_y_colour": "Green",
-  "compass_z_colour": "Blue",
+  "compass_x_colour": 16733525,
+  "compass_y_colour": 5635925,
+  "compass_z_colour": 5592575,
   "compass_x_items": [
     "minecraft:compass",
     "minecraft:recovery_compass"
   ],
   "compass_y_items": [
+    "spelunkery:depth_gauge",
+    "caverns_and_chasms:depth_gauge",
     "supplementaries:altimeter"
   ],
   "compass_z_items": [],
@@ -31,7 +35,7 @@
   "clock_24_hour": true,
   "clock_seasons": true,
   "clock_text_colour": 14737632,
-  "clock_vertical_position": 6,
+  "clock_vertical_position": 20,
   "clock_horizontal_position_left": true,
   "clock_items": [
     "minecraft:clock"
@@ -47,10 +51,11 @@
   "temperature_items": [],
   "compat_xaeros": true,
   "compat_antique_atlas": true,
-  "compat_accessorify": true,
   "compat_oreganized_temperature": true,
   "compat_tough_as_nails_temperature": true,
   "compat_cold_sweat_temperature": true,
+  "compat_legendary_survival_overhaul_temperature": true,
+  "compat_thermoo_temperature": true,
   "biome_enable": false,
   "biome_icons": true,
   "biome_reduced_info": false,
@@ -64,7 +69,8 @@
     "minecraft:empty_map",
     "map_atlases:atlas",
     "map_atlases:end_atlas",
-    "map_atlases:nether_atlas"
+    "map_atlases:nether_atlas",
+    "naturescompass:naturescompass"
   ],
   "season_items": [
     "sereneseasons:calendar",
@@ -72,10 +78,10 @@
     "eclipticseasons:calendar"
   ],
   "speed_enable": true,
-  "speed_vertical_position": 140,
+  "speed_vertical_position": 137,
   "speed_horizontal_position_left": true,
   "speed_colour": 13090689,
-  "speed_items": [],
+  "speed_items": [ ],
   "compat_oreganized_speed": true,
   "compat_jade": false,
   "compat_waila_items": [
@@ -85,5 +91,13 @@
   "compat_map_atlases": false,
   "compat_serene_seasons": true,
   "compat_tfc_seasons": true,
-  "compat_ecliptic_seasons": true
+  "compat_ecliptic_seasons": true,
+  "wind_enable": true,
+  "wind_icons": true,
+  "wind_vertical_position": 90,
+  "wind_horizontal_position_left": true,
+  "wind_colour": 10254644,
+  "compat_breezy": false,
+  "wind_items": [ ],
+  "compat_dead_reckoning": true
 }

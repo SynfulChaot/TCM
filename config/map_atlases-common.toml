@@ -7,10 +7,8 @@
 	accept_paper_for_empty_maps = false
 	#If true, the Atlas is required to have spare Empty Maps stored to expand the Filled Map size
 	require_empty_maps_to_expand = true
-	#If active, when Supplementaries is installed, the atlas will need to be filled with slice maps to be able to create new sliced maps
-	requires_slice_maps = false
 	#Controls how many free Empty Maps you get for 'activating' an Inactive Atlas
-	# Default: 9
+	# Default: 0
 	# Range: 0 ~ 64
 	pity_activation_map_count = 9
 	#If 'true', Atlases will be able to store Empty Maps and auto-fill them as you explore.
@@ -26,13 +24,13 @@
 	light_map = false
 	#Show nearby mobs on minimap. Needs matching client config also set
 	mob_radar = false
+	#If active, when Supplementaries is installed, the atlas will need to be filled with slice maps to be able to create new sliced maps
+	requires_slice_maps = false
 
 [update_logic]
-	#Update maps in simple round robin fashion instead of prioritizing the ones closer. Overrides configs below
-	round_robin = false
 	#Max of maps to update each tick. Increase to make maps update faster
 	# Default: 1
-	# Range: 0 ~ 9
+	# Range: 0 ~ 100
 	map_updates_per_tick = 1
 	#Range multiplier of the map update. Logic affects all maps, atlas or not. Change to make the range smaller or bigger
 	# Default: 1.0
@@ -47,3 +45,6 @@
 	# Default: 10
 	# Range: 1 ~ 200
 	markers_update_period = 10
+	#Update maps in simple round robin fashion instead of prioritizing the ones closer
+	#Allowed Values: SMART, ROUND_ROBIN
+	update_priority = "SMART"

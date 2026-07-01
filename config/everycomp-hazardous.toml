@@ -3,6 +3,8 @@
 #        REASON:
 #    This file is a conditional registration. This is harmless in Singleplayer World,
 #    but harmful in SERVER because you won't able to join.
+#    Only use for personal play.
+#    If you are a modpack maker DO NOT use it!
 #
 #    ══════════════════════════ Detail ═══════════════════════════
 #    This file allow you to exclude WoodTypes, LeavesType, EntrySet, or a Module
@@ -56,6 +58,10 @@
 	#Disable all of Supported Mods on EveryCompat's side. This feature is same as Library-Section which do not have any Wood Modules.
 	#WARNING: If the config between CLIENT & SERVER are not the same, then you won't able to join a server
 	include_all_wood_modules = true
+	#Blacklist all of EveryCompat's supported blocks that may have similar block to Framed Blocks.
+	#This will be applied to all mods, EveryCompat, StoneZone, & GemsRealm.
+	#WARNING: If the config between CLIENT & SERVER are not the same, then you won't able to join a server
+	enable_framed_blocks_blacklist = false
 
 [block]
 	#Exclude a specific WoodType/LeavesType block

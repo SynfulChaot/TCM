@@ -64,7 +64,7 @@
 		screen_side = "LEFT"
 		#Effect renderer to be used.
 		#This setting might not be respected when not enough screen space is available. To force this setting disable "allow_fallback".
-		#Default Value: gui_compact_widget
+		#Default Value: GUI_COMPACT
 		#Allowed Values: NONE, GUI_SMALL, GUI_COMPACT, INVENTORY_COMPACT, INVENTORY_FULL_SIZE
 		renderer_type = "GUI_COMPACT"
 
@@ -119,7 +119,7 @@
 		offset_x = 1
 		#Effect renderer to be used.
 		#This setting might not be respected when not enough screen space is available. To force this setting disable "allow_fallback".
-		#Default Value: gui_compact_widget
+		#Default Value: GUI_COMPACT
 		#Allowed Values: NONE, GUI_SMALL, GUI_COMPACT, INVENTORY_COMPACT, INVENTORY_FULL_SIZE
 		renderer_type = "GUI_COMPACT"
 		#Offset on y-axis.
